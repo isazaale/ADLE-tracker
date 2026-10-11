@@ -1,15 +1,14 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-11T19:08:09.080458+00:00",
-  "last_success": "2026-10-11T19:08:09.080472+00:00",
-  "collection_status": "partial",
+  "last_attempt": "2026-10-11T19:08:45.096617+00:00",
+  "last_success": "2026-10-11T18:52:33.552596+00:00",
+  "collection_status": "offline",
   "sources": [
     {
       "name": "Fiscalía General de la Nación",
       "url": "https://www.fiscalia.gov.co/colombia/feed/",
-      "status": "error",
-      "articles": 0,
-      "error": "<urlopen error timed out>"
+      "status": "ok",
+      "articles": 9
     },
     {
       "name": "Policía Nacional",
@@ -788,6 +787,52 @@
       "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
       "reviewed_by": "Revisión documental asistida: fuentes institucionales",
       "evidence_note": "Cantidad documentada. Se conserva la fecha de publicación y no se inventa la fecha del hecho."
+    },
+    {
+      "operation_id": "penol-franco-benavides-20260906",
+      "reported_date": "2026-09-06",
+      "department": "Nariño",
+      "location": "El Peñol",
+      "title": "Operativo contra el frente Franco Benavides",
+      "metrics": {
+        "bajas": 7,
+        "capturas": 5
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-destaca-golpe-contundente-de-la-Fuerza-Publica-contra-las-disidencias-de-las-Farc-260906.aspx"
+        },
+        {
+          "name": "Agencia EFE (corroboración)",
+          "url": "https://efe.com/mundo/2026-09-06/operativos-disidencias-farc-olombia/"
+        }
+      ],
+      "evidence_note": "Reporte sobre las últimas 24 horas: siete muertes explícitas corroboradas y cinco capturas. La palabra neutralización del titular no se usa por sí sola para inferir fallecimientos.",
+      "reviewed_at": "2026-10-11T19:08:44.301547+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales"
+    },
+    {
+      "operation_id": "gomez-plata-20260919",
+      "reported_date": "2026-09-19",
+      "department": "Antioquia",
+      "location": "Gómez Plata",
+      "title": "Operativo de rescate contra comisión de alias La Mona",
+      "metrics": {
+        "bajas": 2,
+        "capturas": 1,
+        "rescatados": 4,
+        "armas": 6
+      },
+      "sources": [
+        {
+          "name": "Ejército Nacional",
+          "url": "https://www.ejercito.mil.co/operacion-militar-permitio-rescatar-a-cuatro-secuestrados-y-afectar-comision-criminal-de-alias-la-mona-del-gao-r-estructura-36-en-gomez-plata-norte-de-antioquia"
+        }
+      ],
+      "evidence_note": "Dos muertes, una captura, cuatro rescatados, cinco fusiles y una pistola. El balance semanal de cuatro muertes incluye estas dos y no se añade.",
+      "reviewed_at": "2026-10-11T19:08:44.301547+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales"
     }
   ],
   "coverage_notes": [
