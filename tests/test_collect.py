@@ -27,6 +27,8 @@ class ReviewedDataTests(unittest.TestCase):
   rows=[x for x in self.data['events'] if x['operation_id'].startswith('azarias-')]
   self.assertEqual(len(rows),1);self.assertEqual(rows[0]['metrics']['bajas'],24)
  def test_orders_do_not_become_completed_extraditions(self):
-  self.assertEqual(sum(x['metrics'].get('extradiciones',0) for x in self.data['events']+self.data['operation_reports']),1)
+  self.assertEqual(sum(x['metrics'].get('extradiciones',0) for x in self.data['events']+self.data['operation_reports']),9)
+  self.assertTrue(any(b['metric']=='extradiciones' and b['value']==46 for b in self.data['national_balances']))
+  self.assertTrue(any(b['metric']=='extradiciones_activas' and b['value']==4 for b in self.data['national_balances']))
   self.assertTrue(any(b['metric']=='ordenes_extradicion' and b['value']==119 for b in self.data['national_balances']))
 if __name__=='__main__':unittest.main()

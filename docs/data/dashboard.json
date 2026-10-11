@@ -1,15 +1,14 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-11T19:09:32.163734+00:00",
-  "last_success": "2026-10-11T19:09:32.163749+00:00",
-  "collection_status": "partial",
+  "last_attempt": "2026-10-11T23:53:41.106277+00:00",
+  "last_success": "2026-10-11T18:52:33.552596+00:00",
+  "collection_status": "offline",
   "sources": [
     {
       "name": "Fiscalía General de la Nación",
       "url": "https://www.fiscalia.gov.co/colombia/feed/",
-      "status": "error",
-      "articles": 0,
-      "error": "<urlopen error timed out>"
+      "status": "ok",
+      "articles": 9
     },
     {
       "name": "Policía Nacional",
@@ -33,7 +32,7 @@
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 25
+      "articles": 26
     }
   ],
   "events": [
@@ -528,6 +527,28 @@
       "source_name": "Presidencia de la República",
       "note": "Resoluciones firmadas; no demuestra que 119 personas hayan sido entregadas al país requiriente.",
       "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    },
+    {
+      "metric": "extradiciones",
+      "value": 46,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-09-25",
+      "scope": "Colombia",
+      "source_url": "https://www.policia.gov.co/noticia/alias-arana-responsable-inundar-con-cocaina-eeuu-multiples-homicidios-es-enviado-ante",
+      "source_name": "Policía Nacional / DIJIN",
+      "note": "Extradiciones pasivas efectivamente materializadas durante el gobierno: personas entregadas desde Colombia a otros países. Ya incluyen los casos individuales; no se suman a ellos.",
+      "reviewed_at": "2026-10-11T23:53:40.899966+00:00"
+    },
+    {
+      "metric": "extradiciones_activas",
+      "value": 4,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-09-25",
+      "scope": "Colombia",
+      "source_url": "https://www.policia.gov.co/noticia/alias-arana-responsable-inundar-con-cocaina-eeuu-multiples-homicidios-es-enviado-ante",
+      "source_name": "Policía Nacional / DIJIN",
+      "note": "Extradiciones activas: personas recibidas por Colombia desde otros países. Categoría separada de las pasivas.",
+      "reviewed_at": "2026-10-11T23:53:40.899966+00:00"
     }
   ],
   "operation_reports": [
@@ -834,11 +855,127 @@
       "evidence_note": "Dos muertes, una captura, cuatro rescatados, cinco fusiles y una pistola. El balance semanal de cuatro muertes incluye estas dos y no se añade.",
       "reviewed_at": "2026-10-11T19:08:44.301547+00:00",
       "reviewed_by": "Revisión documental asistida: fuentes institucionales"
+    },
+    {
+      "operation_id": "extradiciones-eeuu-austria-20260829",
+      "reported_date": "2026-08-29",
+      "department": "Bogotá D.C.",
+      "location": "Colombia → Estados Unidos y Austria",
+      "title": "Entrega efectiva a Estados Unidos y Austria: al menos ocho personas",
+      "metrics": {
+        "extradiciones": 8
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://oas.policia.gov.co/index.php/noticia/policia-nacional-materializa-extradicion-ocho-ciudadanos-requeridos-por-estados-unidos"
+        }
+      ],
+      "evidence_note": "Se documentan ocho entregas en el título y la relación de casos. El primer párrafo menciona nueve personas; esa novena queda pendiente de conciliación. Se excluye de esta métrica la extradición activa desde España, que es de sentido inverso. Fecha de publicación; fecha exacta de las entregas pendiente.",
+      "reviewed_at": "2026-10-11T23:53:40.899966+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales y agencia de noticias"
+    },
+    {
+      "operation_id": "cauca-tambo-guachene-20260928",
+      "reported_date": "2026-09-28",
+      "department": "Cauca",
+      "location": "El Tambo y Guachené",
+      "title": "Ofensiva en El Tambo y Guachené",
+      "metrics": {
+        "bajas": 4,
+        "capturas": 2
+      },
+      "sources": [
+        {
+          "name": "Ejército Nacional",
+          "url": "https://www.ejercito.mil.co/en-menos-de-24-horas-ofensiva-del-ejercito-nacional-deja-cuatro-muertos-en-operaciones-militares-en-el-cauca"
+        }
+      ],
+      "evidence_note": "Se conserva el balance institucional de cuatro muertos y dos capturados, frente a noticias que señalan cinco. Fecha de actualización institucional; la prensa publicó este mismo operativo el 23 de septiembre. El armamento se excluye por diferencias entre el encabezado y el detalle.",
+      "reviewed_at": "2026-10-11T23:53:40.899966+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales y agencia de noticias"
+    },
+    {
+      "operation_id": "meta-antioquia-primer-parte-20260810",
+      "reported_date": "2026-08-10",
+      "department": "Meta y Antioquia",
+      "location": "Mapiripán y Antioquia",
+      "title": "Primer parte de operaciones en Meta y Antioquia",
+      "metrics": {
+        "bajas": 6
+      },
+      "sources": [
+        {
+          "name": "Agencia EFE",
+          "url": "https://efe.com/mundo/2026-08-10/de-la-espriella-primer-parte-gurpos-armados/"
+        }
+      ],
+      "evidence_note": "Seis fallecidos reportados en operaciones distintas a Amón y Azarías. Balance publicado por EFE el 10 de agosto, anunciado el día anterior. No se inventan cantidades de capturas ni se vuelven a registrar sus cabecillas por separado.",
+      "reviewed_at": "2026-10-11T23:53:40.899966+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales y agencia de noticias"
+    },
+    {
+      "operation_id": "skary-20260909",
+      "reported_date": "2026-09-09",
+      "department": "Bogotá D.C.",
+      "location": "Bogotá, Santa Bárbara",
+      "title": "Captura con fines de extradición de alias Skary",
+      "metrics": {
+        "capturas": 1
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://proton.policia.gov.co/noticia/alianza-entre-colombia-fbi-desarticula-estructura-trafico-transnacional-cocaina"
+        }
+      ],
+      "evidence_note": "Una captura judicial; no se cuenta como entrega efectiva en extradición. Fecha del reporte, día preciso del procedimiento pendiente.",
+      "reviewed_at": "2026-10-11T23:53:40.899966+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales y agencia de noticias"
+    },
+    {
+      "operation_id": "juanca-20260912",
+      "reported_date": "2026-09-12",
+      "department": "Valle del Cauca",
+      "location": "Cali",
+      "title": "Captura con fines de extradición de alias JuanCa",
+      "metrics": {
+        "capturas": 1
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://chat.policia.gov.co/noticia/cae-en-cali-un-profugo-justicia-estados-unidos-requerido-en-extradicion"
+        }
+      ],
+      "evidence_note": "Una captura judicial; no se cuenta como entrega efectiva en extradición. Fecha del reporte, día preciso del procedimiento pendiente.",
+      "reviewed_at": "2026-10-11T23:53:40.899966+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales y agencia de noticias"
+    },
+    {
+      "operation_id": "el-paisa-20260928",
+      "reported_date": "2026-09-28",
+      "department": "Antioquia",
+      "location": "Antioquia",
+      "title": "Captura con fines de extradición de alias El Paisa",
+      "metrics": {
+        "capturas": 1
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://chat.policia.gov.co/noticia/fue-capturado-en-antioquia-con-fines-extradicion-alias-paisa-en-operacion-conjunta-entre"
+        }
+      ],
+      "evidence_note": "Una captura judicial; no se cuenta como entrega efectiva en extradición. Fecha del reporte, día preciso del procedimiento pendiente.",
+      "reviewed_at": "2026-10-11T23:53:40.899966+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales y agencia de noticias"
     }
   ],
   "coverage_notes": [
     "Consulta histórica ampliada el 11 de octubre de 2026. Las cifras nacionales son declaraciones institucionales; los operativos son una muestra documentada y pueden estar incluidos en ellas.",
-    "No existe en esta carga un consolidado nacional de bajas ni de extradiciones efectivamente realizadas.",
+    "Policía reportó 50 extradiciones materializadas al 25 de septiembre: 46 pasivas y 4 activas. Son distintas de las 119 resoluciones firmadas al 8 de octubre. Los cortes no son iguales.",
+    "Las bajas visibles son un mínimo reconstruido de operaciones documentadas, no un consolidado nacional exhaustivo. La fecha del reporte se distingue de la fecha del hecho.",
     "Los estupefacientes se excluyen del balance: Presidencia reportó 135.515 kg el 8 de octubre y 129.526 kg al día siguiente sin aclaración identificada.",
     "Las muertes se describen como reportadas, sin afirmar culpabilidad individual; algunos operativos incluyen menores de edad."
   ]
