@@ -1,0 +1,49 @@
+name: Recolectar y publicar
+on:
+  schedule:
+    - cron: '17 11 * * *' # 06:17 America/Bogota; GitHub puede retrasarlo
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: adle-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests
+      - name: Recolectar noticias
+        id: collect
+        continue-on-error: true
+        run: python scripts/collect.py
+      - name: Conservar historial de datos
+        run: |
+          git config user.name 'ADLE Tracker'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/data/dashboard.json
+          git diff --cached --quiet || git commit -m 'Actualizar noticias y estado de fuentes'
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Publicar dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Reportar fallo de recolección
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo 'La web se publicó con el estado de error y conserva los datos anteriores.'
+          exit 1

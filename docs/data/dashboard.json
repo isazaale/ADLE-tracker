@@ -1,0 +1,35 @@
+{
+  "period_start": "2026-08-07",
+  "last_attempt": "2026-10-11T18:26:59.192877+00:00",
+  "last_success": "2026-10-11T18:26:59.192893+00:00",
+  "collection_status": "ok",
+  "sources": [
+    {
+      "name": "Fiscalía General de la Nación",
+      "url": "https://www.fiscalia.gov.co/colombia/feed/",
+      "status": "ok",
+      "articles": 9
+    },
+    {
+      "name": "Policía Nacional",
+      "url": "https://www.policia.gov.co/rss.xml",
+      "status": "ok",
+      "articles": 10
+    }
+  ],
+  "events": [],
+  "candidates": [
+    {
+      "id": "db552f01d7c78481fad5",
+      "title": "Condenado cabecilla de estructura criminal implicada en ola de homicidios en el oriente del país",
+      "url": "https://www.fiscalia.gov.co/noticias/condenado-cabecilla-de-estructura-criminal-implicada-en-ola-de-homicidios-en-el-oriente-del-pais/",
+      "source": "Fiscalía General de la Nación",
+      "published_raw": "Sat, 10 Oct 2026 15:09:59 +0000",
+      "detected_at": "2026-10-11T18:26:59.191364+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    }
+  ],
+  "official_series": []
+}
