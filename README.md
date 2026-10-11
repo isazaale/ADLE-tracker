@@ -4,7 +4,7 @@ Dashboard independiente de resultados documentados contra el crimen durante el p
 
 ## Estado de esta entrega
 
-La primera consulta a los feeds de Fiscalía y Policía se ejecutó correctamente. No se han publicado eventos revisados ni cifras de ejemplo. La recolección descubre candidatos; la revisión de cantidades, fechas y duplicados es editorial. La recolección diaria **no está activa** hasta que el repositorio exista y se habiliten Actions y Pages. El dashboard usa “sin datos”, no cero, mientras no existan eventos revisados. Esta versión no hace extracción semántica universal de artículos, ni ofrece un censo nacional exhaustivo. Los feeds solo cubren sus noticias recientes, no todo el periodo de gobierno.
+La primera consulta a los feeds de Fiscalía y Policía se ejecutó correctamente. No se han publicado eventos revisados ni cifras de ejemplo. La recolección descubre candidatos; la revisión de cantidades, fechas y duplicados es editorial. El repositorio público y GitHub Pages están activos. La primera ejecución de Actions terminó correctamente el 11 de octubre de 2026; la consulta diaria está programada para las 06:17 de Bogotá. Dashboard: https://isazaale.github.io/ADLE-tracker/. En la primera ejecución alojada la fuente de Fiscalía no respondió y se conservó el historial; la Policía respondió correctamente. El dashboard usa “sin datos”, no cero, mientras no existan eventos revisados. Esta versión no hace extracción semántica universal de artículos, ni ofrece un censo nacional exhaustivo. Los feeds solo cubren sus noticias recientes, no todo el periodo de gobierno.
 
 ## Publicación gratis
 
@@ -57,4 +57,4 @@ Los feeds fueron accesibles en la primera ejecución. Su disponibilidad puede ca
 
 ## Pruebas
 
-Pruebas de separación de captura/extradición, rechazo de balances, no inferencia de fallecidos, restricciones de fuentes y fechas. Se comprobó sintaxis JavaScript y respuesta real de los dos feeds. La entrega inicial no tuvo verificación visual automatizada del navegador.
+Pruebas de separación de captura/extradición, rechazo de balances, no inferencia de fallecidos, restricciones de fuentes y fechas. Se comprobó sintaxis JavaScript y respuesta real de los dos feeds. Tras publicar se verificaron el dashboard, el filtro Hoy y la ventana de noticias pendientes en el navegador.
