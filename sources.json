@@ -1,1 +1,26 @@
-{"period_start":"2026-08-07","feeds":[{"name":"Fiscalía General de la Nación","url":"https://www.fiscalia.gov.co/colombia/feed/"},{"name":"Policía Nacional","url":"https://www.policia.gov.co/rss.xml"}],"official_statistics_url":"https://www.mindefensa.gov.co/defensa-y-seguridad/datos-y-cifras/informacion-estadistica"}
+{
+  "period_start": "2026-08-07",
+  "feeds": [
+    {
+      "name": "Fiscalía General de la Nación",
+      "url": "https://www.fiscalia.gov.co/colombia/feed/"
+    },
+    {
+      "name": "Policía Nacional",
+      "url": "https://www.policia.gov.co/rss.xml"
+    },
+    {
+      "name": "Noticias oficiales — Presidencia",
+      "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419"
+    },
+    {
+      "name": "Noticias oficiales — Fuerzas Militares",
+      "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419"
+    },
+    {
+      "name": "Noticias oficiales — Policía",
+      "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419"
+    }
+  ],
+  "official_statistics_url": "https://www.mindefensa.gov.co/defensa-y-seguridad/datos-y-cifras/informacion-estadistica"
+}

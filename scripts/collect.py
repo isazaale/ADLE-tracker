@@ -10,7 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def norm(s):
  return ''.join(c for c in unicodedata.normalize('NFD',s.lower()) if unicodedata.category(c)!='Mn')
 def safe_url(url):
- p=urlparse(url); return p.scheme=='https' and p.hostname and (p.hostname.endswith('.gov.co') or p.hostname.endswith('.mil.co') or p.hostname in {'news.google.com','justice.gov','www.justice.gov'})
+ p=urlparse(url); return p.scheme=='https' and p.hostname and (p.hostname.endswith('.gov.co') or p.hostname.endswith('.mil.co') or p.hostname in {'news.google.com','justice.gov','www.justice.gov','efe.com'})
 def identify(title):
  t=norm(title)
  if re.search(r'balance|en lo que va|durante el|este ano|este mes|acumulad|%|por ciento',t):return [],'Balance acumulado o porcentaje'
@@ -65,8 +65,15 @@ def main():
   validate_event(e,config['period_start'])
   if e['operation_id'] in seen:raise ValueError('Operativo duplicado: '+e['operation_id'])
   seen.add(e['operation_id']);events.append(e);reviewed_ids.update(e.get('candidate_ids',[]))
+ for report in decisions.get('operation_reports',[]):
+  validate_event(dict(report,event_date=report['reported_date'],sources=report['sources']),config['period_start'])
+  if report['operation_id'] in seen:raise ValueError('Operativo duplicado: '+report['operation_id'])
+  seen.add(report['operation_id'])
+ for balance in decisions.get('national_balances',[]):
+  if balance['period_start']!=config['period_start'] or not safe_url(balance['source_url']) or type(balance['value'])!=int or balance['value']<0:raise ValueError('Balance inválido')
+  datetime.strptime(balance['cutoff'],'%Y-%m-%d')
  rejected=set(decisions.get('rejected_candidate_ids',[]))
- output={'period_start':config['period_start'],'last_attempt':datetime.now(timezone.utc).isoformat(),'last_success':datetime.now(timezone.utc).isoformat() if any(s['status']=='ok' for s in statuses) else prior.get('last_success'),'collection_status':'offline' if args.offline else ('ok' if statuses and all(s['status']=='ok' for s in statuses) else 'partial' if any(s['status']=='ok' for s in statuses) else 'error'),'sources':statuses or prior.get('sources',[]),'events':events,'candidates':list(c for c in candidates.values() if c['id'] not in reviewed_ids|rejected),'official_series':decisions.get('official_series',[])}
+ output={'period_start':config['period_start'],'last_attempt':datetime.now(timezone.utc).isoformat(),'last_success':datetime.now(timezone.utc).isoformat() if any(s['status']=='ok' for s in statuses) else prior.get('last_success'),'collection_status':'offline' if args.offline else ('ok' if statuses and all(s['status']=='ok' for s in statuses) else 'partial' if any(s['status']=='ok' for s in statuses) else 'error'),'sources':statuses or prior.get('sources',[]),'events':events,'candidates':list(c for c in candidates.values() if c['id'] not in reviewed_ids|rejected),'official_series':decisions.get('official_series',[]),'national_balances':decisions.get('national_balances',[]),'operation_reports':decisions.get('operation_reports',[]),'coverage_notes':decisions.get('coverage_notes',[])}
  out.mkdir(parents=True,exist_ok=True);(out/'dashboard.json').write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps({'events':len(events),'pending':len(output['candidates']),'collection_status':output['collection_status']}))
  if not args.offline and output['collection_status']=='error':sys.exit(2)

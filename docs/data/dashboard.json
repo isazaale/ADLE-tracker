@@ -1,21 +1,38 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-11T18:45:56.927675+00:00",
-  "last_success": "2026-10-11T18:45:56.927689+00:00",
-  "collection_status": "partial",
+  "last_attempt": "2026-10-11T18:52:33.552585+00:00",
+  "last_success": "2026-10-11T18:52:33.552596+00:00",
+  "collection_status": "ok",
   "sources": [
     {
       "name": "Fiscalía General de la Nación",
       "url": "https://www.fiscalia.gov.co/colombia/feed/",
-      "status": "error",
-      "articles": 0,
-      "error": "<urlopen error timed out>"
+      "status": "ok",
+      "articles": 9
     },
     {
       "name": "Policía Nacional",
       "url": "https://www.policia.gov.co/rss.xml",
       "status": "ok",
       "articles": 10
+    },
+    {
+      "name": "Noticias oficiales — Presidencia",
+      "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
+      "status": "ok",
+      "articles": 6
+    },
+    {
+      "name": "Noticias oficiales — Fuerzas Militares",
+      "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
+      "status": "ok",
+      "articles": 43
+    },
+    {
+      "name": "Noticias oficiales — Policía",
+      "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
+      "status": "ok",
+      "articles": 26
     }
   ],
   "events": [
@@ -88,77 +105,694 @@
       "reviewed_by": "Revisión documental asistida: fuentes institucionales",
       "date_basis": "Fecha del hecho explícita en la fuente",
       "evidence_note": "La comunicación institucional identifica expresamente el 4 de octubre como fecha del procedimiento."
+    },
+    {
+      "operation_id": "azarias-miraflores-20260831",
+      "event_date": "2026-08-31",
+      "department": "Guaviare",
+      "location": "Miraflores, Lagos del Dorado",
+      "title": "Operación Azarías: balance actualizado",
+      "metrics": {
+        "bajas": 24,
+        "capturas": 6,
+        "armas": 35
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-destaco-que-en-apenas-36-dias-de-Gobierno-260913.aspx"
+        },
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-respalda-acciones-ofensivas-de-la-Fuerza-Publica-y-entrega-balance-bombardeo-260831.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Operación iniciada el 31 de agosto. Se utiliza el balance posterior del 13 de septiembre, que sustituye reportes preliminares de 8, 20 y 23 muertes. Medicina Legal reportó dos menores entre los fallecidos; no se presume responsabilidad penal."
+    },
+    {
+      "operation_id": "amon-retorno-20260827",
+      "event_date": "2026-08-27",
+      "department": "Guaviare",
+      "location": "El Retorno",
+      "title": "Operación Amón: diez fallecidos recibidos por Medicina Legal",
+      "metrics": {
+        "bajas": 10
+      },
+      "sources": [
+        {
+          "name": "Instituto Nacional de Medicina Legal",
+          "url": "https://www.medicinalegal.gov.co/en/inicio/-/asset_publisher/t0LBQNMxVOxe/content/plantilla_comunic-14"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Comunicado del 30 de agosto: diez cuerpos recibidos el 29, correspondientes a acciones del 27 de agosto. Tres de los identificados eran menores. Se cuentan fallecidos reportados; no se les atribuye culpabilidad penal."
     }
   ],
   "candidates": [
     {
-      "id": "42b8cccf5689ae88c560",
-      "title": "Capturada alias La Morocha",
-      "url": "https://www.policia.gov.co/index.php/noticia/capturada-alias-morocha",
-      "source": "Policía Nacional",
-      "published_raw": "2026-10-06 (publicación)",
-      "detected_at": "2026-10-11T18:45:09.139106+00:00",
-      "suggested_metrics": [
-        {
-          "metric": "capturas",
-          "quantity": 3
-        },
-        {
-          "metric": "armas",
-          "quantity": 3
-        }
-      ],
-      "review_reason": "Cantidades documentadas; falta confirmar fecha del hecho. No se incluye en los totales.",
+      "id": "a810063133862d84ee22",
+      "title": "‘Completamos hoy 119 extradiciones en apenas 60 días de Gobierno’: Presidente De La Espriella - www.presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYzJETW1GeThzNUxMcDVVaDBuSHlHeGg1WkFPUUVmY0tmMFJGakhKR1dDNGJ4THIxaVZqWHJyc1ZPaXdQNXdqWmtIem1MS1VBOFBITk1TUHY4OGhqdEFvLWtVY2tXc1M0cHpwVTY1Qnk5VFdBbW03eEk5aElMV1h6Y25QTXVPbG1lbzdzdTdXYkJBdmJvRHdoTEoydXBzNFdIUTliUjRLM2JiR1cwUnhtTUN4QnQ1OW1HRGp6c0hWUl9JSVY4YVVpQ2JnZlM?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Fri, 09 Oct 2026 01:44:43 GMT",
+      "detected_at": "2026-10-11T18:52:25.327468+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
     },
     {
-      "id": "a5ce09952915fc12d9d1",
-      "title": "Seis capturados por abigeato y receptación en Magdalena",
-      "url": "https://www.policia.gov.co/noticia/seis-capturados-por-abigeato-receptacion-en-operacion-simultanea-en-magdalena",
-      "source": "Policía Nacional",
-      "published_raw": "2026-10-09 (publicación)",
-      "detected_at": "2026-10-11T18:45:09.139106+00:00",
+      "id": "bb98ac1a637050446221",
+      "title": "‘¡Sin tregua contra el narcoterrorismo y sus rentas criminales!’: Presidente Abelardo De La Espriella al destacar 29 capturas y nuevos golpes a las economías ilegales - presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUWlzRUxfT2xhMFE5cnN2c3NzdXdZSmVHS3VrTDFhbExGdldHUi1nV05fSGJjZVBBT01wSnBwTF8wN2xKbDJwb2haVWhQTUZDcFVCc2RaX3NEUld2bU9kcE4tcXdBcmFtbWdYUmVlNEx3RzVfU2Y0eDJzNDkwcUVHX3JrWnRwSWluVkE2YzZnVGo0MjQwMEUtRTBobUIxSTFpSnpCaEViNGdkVFhLWEJ0dU9lUHdCejYycVhjUUdkcmg3R01ZVXdROXBvM1g5MEhYWmRXQ0tJemJVWjBvMFB3Mk1MQW5qTFp1NlE?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Fri, 09 Oct 2026 15:51:10 GMT",
+      "detected_at": "2026-10-11T18:52:25.327592+00:00",
       "suggested_metrics": [
         {
           "metric": "capturas",
-          "quantity": 6
+          "quantity": 29
         }
       ],
-      "review_reason": "Cantidades documentadas; falta confirmar fecha del hecho. No se incluye en los totales.",
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
     },
     {
-      "id": "38eb6eb712555f54df9a",
-      "title": "Captura y recuperación de motocicleta en Neiva",
-      "url": "https://www.policia.gov.co/noticia/plan-cazador-policia-nacional-capturo-en-flagrancia-un-hombre-recupero-motocicleta-hurtada",
-      "source": "Policía Nacional",
-      "published_raw": "2026-10-09 (publicación)",
-      "detected_at": "2026-10-11T18:45:09.139106+00:00",
-      "suggested_metrics": [
-        {
-          "metric": "capturas",
-          "quantity": 1
-        }
-      ],
-      "review_reason": "Cantidades documentadas; falta confirmar fecha del hecho. No se incluye en los totales.",
+      "id": "48640e7dfb1bc4aabfaa",
+      "title": "A más de 32 mil ascienden capturas de narcoterroristas y delincuentes durante lo corrido del Gobierno del Presidente De La Espriella - presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMkl0MHFrWnRSb1RPdlRaaHhoejdTRFpEdVNjVGhvM0FnZUhFMUc5VUhrckRsQThHcEFpMWJ0dGJ4bXJsSEZvbEFHYUpNOHdJUTlrNjVwYkhScFB1N0pWa3p2NEtyd2VKQXpsRjZOaDJtSU1KYXVsX2djNHNhZGpkTm5uM21VN0RLYVlaODhFOVc0bTVVeUY4c2JDcVVJQXRUZlpjZ1J4SjAxaVV3V19KbUJfVWo3MTRJb0RNa1lQVjh5Tm5OeWtsOTdwTmdJaWczOTFfallFYWx5YlFVazhwaTRFajdiYkdlZmdvQkpSUTI?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Thu, 08 Oct 2026 18:48:54 GMT",
+      "detected_at": "2026-10-11T18:52:25.327672+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
     },
     {
-      "id": "8fcbae7bf92df2e7d2ea",
-      "title": "Captura por presunta explotación ilícita de yacimiento minero en Neiva",
-      "url": "https://www.policia.gov.co/noticia/plan-cazador-capturada-una-persona-e-incautadas-dos-motobombas-por-presunta-explotacion",
-      "source": "Policía Nacional",
-      "published_raw": "2026-10-08 (publicación)",
-      "detected_at": "2026-10-11T18:45:09.139106+00:00",
+      "id": "3f6163b033207de29444",
+      "title": "Ejército Nacional captura a dos presuntos integrantes del grupo armado organizado residual Estructura 4, Bloque Magdalena Medio en Segovia, Antioquia - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQMG9za2JvalBfUnRYQXUxZnpVTFRTZzNoRnpHVWtFUV9KcHYwbXVBbnF4a0YybXBpQVZUNGZfc3dzX1RpaFJJU0wxd2d5QWp4VVBvTU9Vd2VuVDN4WUxNbVlHUkI1TTk4YWtMMmg1VGRhNW5PM2Ric3IzSk0wbjJMd0NuOFVtUk9ZVDRINHVrR0hTRkN1UnkyVXhIclBoZG9ySTRWN2Ftb29laUZHRnh0T3RkLTJ5TndTNndUNUpVeW45LWQ1Vmw4UjJNRFd6ejZla1ZCbXhMN2JoV2RtUTdfUEJvTFRRT2lhSFZYMm9yX3B0QzZxQkdGdE9uTzJDQVkz?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 08 Oct 2026 16:49:12 GMT",
+      "detected_at": "2026-10-11T18:52:25.447918+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "146dccff36dc2cb05582",
+      "title": "Golpe a las disidencias de las FARC en Vaupés deja cinco capturados y más de una tonelada de marihuana incautada - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdlJEeVM3NGZvYmdmWlVXbDBFXzZxUG44RXd2MWNfOXBnUFlaVXdPRm5NYzFJb0VXeE5QcnY0dFVoT3NlMnFFamZ2alI3UHRBVWJfY0NzTlFjY2hTdmlWbkppV0k5SmxyUFFNc1gyV1VjVGo0am9EdEljZzJFeVFrQnVBQUlreGhfclpmVjdjWFpLdGU5TXRscmV1VVZzaUduaEdySlJYLVRTRDFYUXpPWlNrX0pmVjVaRkp1UHppQzdxS1NaRXlXY3pTVjRvd25zdHc?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 08 Oct 2026 19:24:57 GMT",
+      "detected_at": "2026-10-11T18:52:25.448069+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7cd83c96ce2600827cdb",
+      "title": "Capturados cinco presuntos integrantes del GAO-r Estructura 33 en La Gabarra, Norte de Santander - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQTBGNmxmRVFDZVBFZWh3SFJvTlY3MWVWMHNjUWxzWEtwWnhGUmJucUdSa0RHRF92LXhKUHhQMFpxUklCVUtoZHMxMHdZZnFQTF9vejRjVW43eURlLVI5QzBVak1WeWtPcmZ6MEFlZ0h6M01BZjFTWUxDVmsyZ0NmX1I3dVI2OGl4aUJiM19sWVAwZmdsWVRDWVVXR3VSaVp4ZTRuaUY3R0pJY1BFQVBzcDUwM0c4QnI3eWtZ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 06 Oct 2026 16:05:31 GMT",
+      "detected_at": "2026-10-11T18:52:25.448143+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "977c4c5d195a30d0990b",
+      "title": "Capturados cinco presuntos integrantes de las Farc-EP y recuperado un menor en operación conjunta en Tibú - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMk9BQzlBUHl5ZkUxTWdWdFpSUGcxakYwNU9MWmthUXM0amdxYVdIR3VVaU44Sk54enFXazBuUEFfdTRoWjRGbEk1a1gyTFVqcGZhV2pjaTdNS3pzU3V4QTRnaXRaS25YN3BUSHA3d1pNbWRzOUNLcGlnYi1LVmIyRHN2NFBDSEJVZFNSUmNVUnBFdVh6Sl9oLUVvUXNUMXQxaFV4OF8yNzdMUzlaQ0tjUzZtX0huUXVQZ2xmc2R4bmxjNlU?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 08 Oct 2026 22:41:31 GMT",
+      "detected_at": "2026-10-11T18:52:25.448211+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a9f3e41eacccc348e6b6",
+      "title": "La rápida reacción del Ejército Nacional y la Policía permitió la captura de dos sujetos, presuntamente responsables en el homicidio de dos personas en Barbosa, Santander - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPb3FlR2I3cTVMWHIzbzcyZFpwY2Q3dUpLbUpzUW01WTBub1dRZkhEUnJpZmFhYWpWb1VaSTIzT1ZBVlZGNWhoWWdKakJqUUEzRUJjbWV5cEU3WnlJNElCQl9tV1dGSmZpaDZxSlJjOUxqeU9mMUpXTFY5X05zTkJlX1had01FVUJaVnVEQWIxMURiTWFOdXJaYWRDd2d0TzgwYXdzUHlzalZFOXNwd2lUc25qZ0FBN2tFbnREVGV0bDBWakRSeFZkQk80bXRFRDdUaF96NHR1bHRLX0c4amtWZnlGcFpXTjlDWDhtUF9iMEhJOWlqZ2hfYktVM0J4N2x5anIwb2lmZGFfSklHSTdMemowRTdCX2pIQVJVaw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 07 Oct 2026 16:52:30 GMT",
+      "detected_at": "2026-10-11T18:52:25.448318+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3d865c6a013f810c6ff1",
+      "title": "Cayó Lobo: Ejército, FAC, Policía y Fiscalía capturaron al segundo cabecilla de estructura criminal de las disidencias de alias Calarcá en Antioquia - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPMElfSndnYkVCR21Sb184LXkwZ1Byd3c5bXBPMWdnVVFhMXhiRHYxM2JXZlFudmpOV0lMWFk0ZGYzdUt4b2RXbWhXaWxENlE4UTY1OVR4TGtzQTdQcUZORHJJeU1kV25WVkhWb3kwSGU0dWdESXduU2pIRTZURUlBSzNwSXNBcVQ3cmFLYWZodF9ZanpyelVUUHhqMENuRlVHenc4OEZtdDZvWFdtdDhmRi1DeEZRek93N0lNRlo2SjN6Vmo0ZEQyZVZDNkdiRDB2YjRHMGFiLVdfeWxhaEcyY2huLURYV0FqNzJ6d2NRUmdXVkR5bzZBWFB4QzY3QQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 05 Oct 2026 22:54:27 GMT",
+      "detected_at": "2026-10-11T18:52:25.448404+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "f55b6137fe21c3597566",
+      "title": "Ejército Nacional y Policía capturan a tres presuntos integrantes de ‘Los Choneros’ e incautan armas en Villavicencio - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQzVOUEd3Qk92VzNGZG5DSTZLd0dWUUUyQkhBR05LTnNlWU02VGtNRWstN0dIQkN1dFFsZDBNOUpDVlIwQXpBeE4ybGM5SEJvaDJtQWU4ZWt3UllJd3l3ZTJiWW9kVTBKaUVVTkk2NnhZbm1TUU5TZmtMTldzaU9VSk9NQlRSb0ZfMURfYkJzSVQ0aHlpazlYSG1SR29tTW9JMUFrOU5aSlZYeUU2Uno3akdhdkxPVmU4WV9wZmdma184STE0QVN5bHpzSGFDY2diMkd0UjNR?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 08 Oct 2026 14:49:47 GMT",
+      "detected_at": "2026-10-11T18:52:25.448474+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "f0c1235d0b0ed2cf1104",
+      "title": "Ejército Nacional, Fiscalía y Policía capturaron a cinco presuntos integrantes de las disidencias de las FARC en el Guaviare - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMzkwVEhQWnlBd0RsaFBpQ3JIODRTSVMybl9KM0dUSlh3Z25CQ19sYjN2SFdtSkprcUtGR3lYNWVIUE9pWENNQ0xzVEk0QVRzUUNjN2ZiTVZwMDNTVFJZVmVfcEtqZXFZTUNqWGZKTGhFNTdFY1NvLXpMSU4zSHRyUXVpc1JVaVZ4X0hnRHA3TGVDNjVwaUVWMkJGeGZXYnEzRjJ3WGFvOWlPRFo2X01meV9wYmlORWh6U3hSaDB2MGRwbnhoWVM5eDJSeUdxZzdXMm4yOXJWNGFoVGh0Sl8yag?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 05 Oct 2026 15:14:19 GMT",
+      "detected_at": "2026-10-11T18:52:25.448535+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "e251a692138d0c2e4f64",
+      "title": "Ejército Nacional captura a dos presuntos integrantes de una estructura residual en Segovia, Antioquia - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb1V1TmtQVnZqRXExT2NIUWRDaG9VeFZxbGlGcWhvWDFZTFdWTjg4STZRSW1scXpSX0w0Z25kdnF4aFVXZXEtcVJMRUt6ZVpSTjFlLWJhOFV5aXBuMlRwRTdvdUFXV0tLZW5CUElaX1hNUWxBU3R6NmVJRUk4RWQ4V2pwdDFsM3FSaUx1T3RSMW9mUVlhdmRYMjhQMzlKY2JDQjNIbVY4dlFRSEdOMUZuTE1iN19VR1JoZkJ4bUhFUEJOVm8?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 08 Oct 2026 21:24:04 GMT",
+      "detected_at": "2026-10-11T18:52:25.448594+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "6ed99fc4b7743e68955e",
+      "title": "Ejército Nacional captura a alias Andrés, señalado máximo enlace en el Valle del Cauca de una red transnacional de narcotráfico - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOb08xaU5SNERSUGh0RTFqOExxRDNvbWc4UEY3Tk1NRkkxV3laT3RwTWUzYUthTmxkbGxWM3BySVUtWjEyLU53eGlBa2IwSE9PU2tOdlMydlloWVAwaW50enJLS3hUZzFCbkl6NXNfRlkwS3JjSm94b2lxekx5OUdJOHJMTmtDa0FxT2QwdFJRaDNZS3NDSnM1TVV4QTVqaVZWYklfT19kS2p0Nld2bGdhVEdzNVdCaEt1dVNXOHNZcXRTcFJWZU5FcFZMdFdsaGVOOVhKTXNKUEhrRlZodmJHYV9QWGk?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 06 Oct 2026 20:44:43 GMT",
+      "detected_at": "2026-10-11T18:52:25.449010+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "45ce929fa851509a011f",
+      "title": "Gaula Militar Cauca captura a alias 'Sombra', cabecilla financiero del GAO residual 'Dagoberto Ramos Ortiz' - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9INmV0VzhucEZUTVFacW50SmhyRDdQN0ZmNmFJWTBVOFRVRGtDSFN2ajBMT0Y4NkxRSk9jWFg0S1NETEFRNExEcm9yMzBCcVlPZ05ha0FJb3RIZw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 08 Oct 2026 17:30:52 GMT",
+      "detected_at": "2026-10-11T18:52:25.449554+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7b76ba9238505b422e6f",
+      "title": "La Fuerza Pública incautó 100 granadas para drones en Norte de Santander - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcTlHV2xvZ0RONWlCb0QwYXlSN0l5eDV3ejN1YXJoa0IySm15QzdyR1ZYejVWYTB0OUZFS2J4dTBrMWNwSy1uVEl0Mk0zVzNCN2lfclpFcWNTcVR0Q0VEX0tMMmFFZVdjSzRKMWxOVmxsZnZTTVY1RThBUGIwQWtxQWZuUW5zODhXQ2dZY3FTWm1US3ZleFUyS2diRjA?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 05 Oct 2026 16:49:28 GMT",
+      "detected_at": "2026-10-11T18:52:25.450459+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "f36bc43e9b815b0b7d8e",
+      "title": "Capturada alias “La morocha” - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EYk1mSjNESzBFbS1YT1hhZHVCbDM4T2JpM0FWLVNqMVZIcndTemw4N1ZYajZKWlYwd1ctWnY3TWpIUE84WDdSVnA2TFQyZmxTcnhyclJadHJqQTVGWG1UZTVKNjJjNXNxdGc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 06 Oct 2026 20:31:05 GMT",
+      "detected_at": "2026-10-11T18:52:29.754990+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "46c9e4474ccdc25093fb",
+      "title": "Operación 'JOTAM': cerca de 5 toneladas de cocaína incautadas y 32 capturados en aeropuertos del país - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORjZYNXZTSGVUamdUTWtvMG1PODdzLVltTTlHTGQ5R1l6cW93MXl0TmYyeHY1akVVV0tTU1V5UU1yMGdPVU9uamhaRy0wb1RKdlVlTEU4ZUJHN0lYa2c1eDNFd0VNY194emtWSHdub0dvbjlsXzVzSjloYk9PU2g3dkNfdktmXzIzUkRSUS16QUVXbEZQTG9JQjRITGJTVks4M2FraUVSN0JNVGdVMTNjN3pBV2o3Y1Vsc1YtSGFUVERfUUE?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 06 Oct 2026 15:53:59 GMT",
+      "detected_at": "2026-10-11T18:52:29.756043+00:00",
       "suggested_metrics": [
         {
           "metric": "capturas",
-          "quantity": 1
+          "quantity": 32
         }
       ],
-      "review_reason": "Cantidades documentadas; falta confirmar fecha del hecho. No se incluye en los totales.",
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3cafdef4b6f2913de034",
+      "title": "Seis capturados por abigeato y receptación en operación simultánea en el Magdalena - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR1lFZ3psaGx1cEZLdWtCQ1RaMGw5ZEN5eEdQaEZoSFBzVjhTSG9wWTY1aElkakpzem9Pa2ZhVzRrMzEwYVgyRTF0S2Y3QlFSc283TVhNeVAwQVBkWG1uOWtKUlZOelRZS3JwTDNMTjZjZlBfb0loZ2pROWJoazFrSG45TC1qMi1INDk3WGxxTmlWem1SN2o3RFVIeVlab0JKMVJCcWYxSDhKNFM2YUlxZkV3?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 09 Oct 2026 14:05:06 GMT",
+      "detected_at": "2026-10-11T18:52:29.756318+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ee0519b5e85c366f18be",
+      "title": "Cinco capturados en operación contra el GAO-r Frente 44 “Antonio Ricaurte” - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZmZqT2ZLY0htQ2djWHBLeWJKWFk0V3hmMDhtZjh6RzZlRWVIUTJWUVRxbjVILVVLdXd1RDdSbzhYWjJhdmd2VTlBX2czRTNhb0IwcWs1eENwYlpWWU9hWnI2a0JGMGEtVzZCeFB3RkxSQkNTbXZGTEFNQUc2dnE0WWQ4TmNXX1Vwa19aSmxWV0kyMlZDSXdZNGxNNlpVNk1QWFFOUkFBaw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 05 Oct 2026 21:53:25 GMT",
+      "detected_at": "2026-10-11T18:52:29.756391+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "bc7c08502bcae0671c89",
+      "title": "Nueve capturados durante ocho allanamientos en Armenia y Calarcá - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLWVmM2dfMENTdzF5c3l3bEFIMVJiYWd6bXdzelNwSE1nV1UxSnNzYzIybnI2WHN5ZEhXbHVKNjgxZXpROUxzejhLaGI4ekVoTG9IUmRkTlY0OG41UW45ZzVBNW5OcTFwdWE0cWtSWnMwcG1iUDFrQnlyTXZzVXgwMl9sMV9HLUJmM2NhTHJXVWVoX0JOMGJ1ck1TVlh6UUZOdXNITlJmUW5LRWc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 06 Oct 2026 13:08:27 GMT",
+      "detected_at": "2026-10-11T18:52:29.758002+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "09cb177d64e507d63efa",
+      "title": "Capturados por el delito de tráfico, fabricación o porte de estupefacientes. - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORTQwVjNaN2JUMXdXZzFqZVByall1R2tJeE1IcXEwR05fSHRob3lvdUNIRHc4V0xPSUhjdnZqTmpMbEpnaHRoMnNFbmFhMXBzamstREVHTzNZRGJqdXlyRk5jTUswYjJvMHJjVU9UbEVZODdxcnF4eWdHQllQdXZCVmY0bWJvdkVqbVBGS0R4LThPVlBFZk9ZR1RxZ0piZGhLUHc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 05 Oct 2026 22:52:45 GMT",
+      "detected_at": "2026-10-11T18:52:29.758069+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "325d425c90ddced25c13",
+      "title": "Capturan a dos presuntos sicarios del Clan del Golfo tras ataque armado en Magangué: fueron enviados a la cárcel - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ2tiaEphS0EtTFI1dVBITUd0QkF6VTJ5SU9BWWMyNHJEXzdfbUhlVVc4SnRHS1FOaFhDQjNHUjFMbVJka1Fpc3VwTmp1T2w1WlBXUnhTcVB3c3VsRWVtdkhEVFAxS2pZLU5DdFhydUVYM0lsdHZsTFZqVDNydVlzU3lpNC1qXzdlaTZSUGlfRV9INmJrbzRYOHZKSWZ6Q0JQeVlOMkEyR3FibElwaFhwT29ZTm1odXM0aUp2VHRSWEQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 08 Oct 2026 16:36:29 GMT",
+      "detected_at": "2026-10-11T18:52:29.758135+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d7d679f9fb7714aecda4",
+      "title": "La Policía Nacional captura a dos presuntos integrantes de “Los del 20” y afecta componente sicarial en la Villa de las Palmas - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQmx6Vk5ab0NuTkFyY2NqSGZyTUh3LXJMV0hFRFBPdGxZMU5rNlU0QmF5SlU5cXlmQ1BZQlFlaVF0TGRuYVdSMFpDMGhRb2hLMGJUQ2thTnZtNmpUdEt5OWZHMUtrQUJaMzFpTllFMXZqOU5GcF91U1Vham9Gb2E0ckN2NFlLYXh3Smd1WWdjS2ZVX0s5SmtRSkpiOEMxNjBHaTc1NlB5RVJwSU1oSm5lemJ6MkhlekdYSDVsMEZGRXRMYnR2?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 05 Oct 2026 19:24:22 GMT",
+      "detected_at": "2026-10-11T18:52:29.758207+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a9a9b087b2d9b99837f8",
+      "title": "Captura de dos presuntos agresores sexuales - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTEZtc3JnV0xkblBhbGlDaDBJUjZaN2ZZaGxyVVZmaTh4aS0zc2hqcHpjS3d3UXJYREl1WFlfdmxpR0JMMmtlYXYtUGt2M1J5NkZ2YU80anNwUzByUWltZnZNYWdYQWowNUVWRjVHaTFnQlU4bG5aWDZTeGZNT1N3NQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 05 Oct 2026 12:11:33 GMT",
+      "detected_at": "2026-10-11T18:52:29.758513+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "e044d01f3419e3246ff1",
+      "title": "en manizales, policía captura a hombre requerido por concierto para delinquir y hurto calificado y agravado - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYUI5R2hCY1BjTC12ZV9uSlAxZnFXcWVTanY5OTdDWmd4aDZaWFVadmNZcnlQZUpMT0k1V1ZRbWZyczNNZmZGYXlPNk1nYUh1anAtcFY4RkZqcllab2pxaWxNcGhQNm1qY0UtdUFCR0pfbW9xUHBJbElsVm5vaUtCUXh1T1V5MC05bFViejAwdDViSWtLVTFCUnBiSERINTVkZ0h3RGVMRThkdWg0LWI0YV9NSU15RHZQSTZ2bFF0ZnV0djdwb0szeTlpQ2ZGRUt5eEE?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 06 Oct 2026 20:30:25 GMT",
+      "detected_at": "2026-10-11T18:52:29.758615+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "1a52b84f0316e8d2519e",
+      "title": "Plan cazador: capturado en Neiva por orden judicial por hurto calificado y agravado tentado - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSWxlMzRyYkhEbEwySXc2WkN2TGdIVGlpOXBwcXM0VnlrWmpJMkJ5MHpoQUV5WmJ0YjEyd1RreGR1VXZGS2czUDlLMV9XNFFUQlhwZi10LXA5dGZNV3pBb0hLc1Y2c0dwZnBVdjFka0s0QXNJSmdtM1Q4R0J6ZDNNZ1B3S2VnZVdHZk51V19mVlJYei1NYXd4NnlKY3VsX1RHNUZRV1hEYmE5bk9GNmJIenVtbEVuNElhWEo2TDN4bnM?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 06 Oct 2026 16:36:09 GMT",
+      "detected_at": "2026-10-11T18:52:29.758711+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "037597987aca841ae916",
+      "title": "Policía y GAULA intensifican campañas contra la extorsión en Montería durante la semana de receso escolar - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQlBHT3NEcGhsXzJkMnU2WFRKLWJsVHhBOTRRaDJHNHQtTFdjb2FKdjZ4ZU82ZG9YbjZuTS1EMUN6bTZwMVA3TWt5OENtRi1hLXpCQ2NmdzhxUlI5LUhsNVVVRTBoZ1U4Y2ZCUXJ6a2JwcTlZd1g0NE5wa1BFWnJBZnBvVGhHbFN6OHF2MWtGcHhTQlNmTFUxN09VYVN4VEJ0SzJhbVBEZkVIelk0aFZsSmdxZkZWVkdLcE5xTHJn?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 07 Oct 2026 07:00:00 GMT",
+      "detected_at": "2026-10-11T18:52:29.758877+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
     }
   ],
-  "official_series": []
+  "official_series": [],
+  "national_balances": [
+    {
+      "metric": "capturas",
+      "value": 12575,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-09-02",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/No-vine-a-negociar-con-asesinos-extorsionistas-y-reclutadores-de-menores-260902.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "Balance acumulado declarado, sin microdatos individuales.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    },
+    {
+      "metric": "capturas",
+      "value": 21940,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-09-19",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/A-21940-ascienden-capturas-de-integrantes-de-organizaciones-del-narcoterrorismo-y-la-criminalidad-desde-260919.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "Balance acumulado declarado, sin microdatos individuales.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    },
+    {
+      "metric": "capturas",
+      "value": 32029,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-10-08",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/A-mas-de-32-mil-ascienden-capturas-de-narcoterroristas-y-delincuentes-durante-lo-corrido-del-Gobierno-261008.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "Balance acumulado declarado, sin microdatos individuales.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    },
+    {
+      "metric": "capturas",
+      "value": 32503,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-10-09",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/Sin-tregua-contra-el-narcoterrorismo-y-sus-rentas-criminales-Presidente-Abelardo-De-La-Espriella-261009.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "No se suman las 29 capturas de las últimas 24 horas ni los operativos detallados a este acumulado.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    },
+    {
+      "metric": "armas",
+      "value": 3456,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-10-09",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/Sin-tregua-contra-el-narcoterrorismo-y-sus-rentas-criminales-Presidente-Abelardo-De-La-Espriella-261009.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "Armas de fuego fuera de circulación según el balance nacional.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    },
+    {
+      "metric": "ordenes_extradicion",
+      "value": 119,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-10-08",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/Completamos-hoy-119-extradiciones-en-apenas-60-dias-de-Gobierno-Presidente-261008.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "Resoluciones firmadas; no demuestra que 119 personas hayan sido entregadas al país requiriente.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    }
+  ],
+  "operation_reports": [
+    {
+      "operation_id": "diamante-20260830",
+      "reported_date": "2026-08-30",
+      "department": "Varios departamentos",
+      "location": "Operación nacional",
+      "title": "Operación Diamante",
+      "metrics": {
+        "capturas": 111
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Gobierno-del-presidente-De-La-Espriella-logra-tres-contundentes-golpes-260830.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Balance de operación con varias acciones. No se suman por separado sus cabecillas ni sus ciudades."
+    },
+    {
+      "operation_id": "guaviare-calarca-20260822",
+      "reported_date": "2026-08-22",
+      "department": "Guaviare",
+      "location": "Guaviare",
+      "title": "Operativo contra estructura de alias Calarcá",
+      "metrics": {
+        "capturas": 2
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Golpe-a-estructura-de-alias-Calarca-en-Guaviare-dos-capturados-y-arsenal-recuperado-260822.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Fecha del reporte; día preciso de las capturas pendiente."
+    },
+    {
+      "operation_id": "centinela-20260904",
+      "reported_date": "2026-09-04",
+      "department": "La Guajira",
+      "location": "Riohacha",
+      "title": "Operación Centinela de la Patria",
+      "metrics": {
+        "bajas": 4
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-destaca-baja-de-alias-Naim-o-Bendito-Menor-260904.aspx"
+        },
+        {
+          "name": "Agencia EFE (corroboración)",
+          "url": "https://efe.com/mundo/2026-09-04/colombia-presidente-abelardo-de-la-espriella-cadaveres/"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Operativo entre la noche del 3 y madrugada del 4 de septiembre; cuatro fallecidos reportados, incluido alias Bendito Menor. Fecha diaria única pendiente."
+    },
+    {
+      "operation_id": "fenix2-20260914",
+      "reported_date": "2026-09-14",
+      "department": "Magdalena",
+      "location": "Fundación",
+      "title": "Operación Fénix 2",
+      "metrics": {
+        "capturas": 7
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Capturados-7-integrantes-de-estructuras-criminales-que-se-dedicaban-a-homicidio-extorsion-y-microtrafico-260914.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Reporte de siete capturas; no se incluye el cabecilla otra vez."
+    },
+    {
+      "operation_id": "marte-20260915",
+      "reported_date": "2026-09-15",
+      "department": "Risaralda",
+      "location": "Dosquebradas",
+      "title": "Operación Marte",
+      "metrics": {
+        "capturas": 7
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Golpe-del-Gaula-al-Eln-en-Catatumbo-fueron-liberados-ocho-secuestrados-260915.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Siete capturas, incluido alias Muelas. Los ocho liberados en Convención pertenecen a otra acción y se excluyen de este registro."
+    },
+    {
+      "operation_id": "rapaz-20260916",
+      "reported_date": "2026-09-16",
+      "department": "Bogotá D.C.",
+      "location": "Bogotá",
+      "title": "Operación Rapaz contra Los Buitres",
+      "metrics": {
+        "capturas": 6
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-de-la-Republica-destaca-golpe-de-la-Policia-Nacional-que-permitio-desarticular-a-Los-Buitres-260916.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Tres capturas judiciales y tres en flagrancia. La fecha del delito de abril no es la fecha de captura."
+    },
+    {
+      "operation_id": "cholo-20260921",
+      "reported_date": "2026-09-21",
+      "department": "Magdalena",
+      "location": "Sierra Nevada de Santa Marta",
+      "title": "Operación contra alias Cholo",
+      "metrics": {
+        "bajas": 7,
+        "capturas": 3,
+        "armas": 12
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Golpe-contundente-contra-Autodefensas-Conquistadoras-de-la-Sierra-Nevada-260921.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Presidencia especifica siete dados de baja y tres capturados; diez fusiles y dos pistolas. Reportes de trece neutralizados no se interpretan como trece muertos. Lanzagranadas excluidos."
+    },
+    {
+      "operation_id": "perla-20261001",
+      "reported_date": "2026-10-01",
+      "department": "Varios departamentos",
+      "location": "Seis ciudades y doce departamentos",
+      "title": "Operación Perla",
+      "metrics": {
+        "capturas": 148
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-destaca-contundente-golpe-contra-el-secuestro-y-la-extorsion-que-deja-148-capturado-261001.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "75 por extorsión, 32 por secuestro y 41 por delitos conexos. Una sola operación; no se suman de nuevo los subtotales."
+    },
+    {
+      "operation_id": "terry-20261002",
+      "reported_date": "2026-10-02",
+      "department": "Antioquia",
+      "location": "Jericó",
+      "title": "Operativo contra alias Terry y otros dos integrantes",
+      "metrics": {
+        "bajas": 3
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Gobierno-confirma-la-baja-de-alias-Terry-cabecilla-del-Clan-del-Golfo-261002.aspx"
+        },
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/55-capturados-una-tonelada-de-cocaina-incautada-y-un-terrorista-de-las-disidencias-abatido-Presidente-261003.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Terry y otros dos fallecidos del mismo operativo, corroborado por el reporte posterior del 3 de octubre. Se excluye el balance nacional de 61 capturas de este operativo."
+    },
+    {
+      "operation_id": "manual-42b8cccf5689ae88c560",
+      "reported_date": "2026-10-06",
+      "department": "Caquetá",
+      "location": "Lugar indicado en la comunicación",
+      "title": "Capturada alias La Morocha",
+      "metrics": {
+        "capturas": 3,
+        "armas": 3
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://www.policia.gov.co/index.php/noticia/capturada-alias-morocha"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Cantidad documentada. Se conserva la fecha de publicación y no se inventa la fecha del hecho."
+    },
+    {
+      "operation_id": "manual-a5ce09952915fc12d9d1",
+      "reported_date": "2026-10-09",
+      "department": "Magdalena",
+      "location": "Lugar indicado en la comunicación",
+      "title": "Seis capturados por abigeato y receptación en Magdalena",
+      "metrics": {
+        "capturas": 6
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://www.policia.gov.co/noticia/seis-capturados-por-abigeato-receptacion-en-operacion-simultanea-en-magdalena"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Cantidad documentada. Se conserva la fecha de publicación y no se inventa la fecha del hecho."
+    },
+    {
+      "operation_id": "manual-38eb6eb712555f54df9a",
+      "reported_date": "2026-10-09",
+      "department": "Huila",
+      "location": "Lugar indicado en la comunicación",
+      "title": "Captura y recuperación de motocicleta en Neiva",
+      "metrics": {
+        "capturas": 1
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://www.policia.gov.co/noticia/plan-cazador-policia-nacional-capturo-en-flagrancia-un-hombre-recupero-motocicleta-hurtada"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Cantidad documentada. Se conserva la fecha de publicación y no se inventa la fecha del hecho."
+    },
+    {
+      "operation_id": "manual-8fcbae7bf92df2e7d2ea",
+      "reported_date": "2026-10-08",
+      "department": "Huila",
+      "location": "Lugar indicado en la comunicación",
+      "title": "Captura por presunta explotación ilícita de yacimiento minero en Neiva",
+      "metrics": {
+        "capturas": 1
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://www.policia.gov.co/noticia/plan-cazador-capturada-una-persona-e-incautadas-dos-motobombas-por-presunta-explotacion"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Cantidad documentada. Se conserva la fecha de publicación y no se inventa la fecha del hecho."
+    }
+  ],
+  "coverage_notes": [
+    "Consulta histórica ampliada el 11 de octubre de 2026. Las cifras nacionales son declaraciones institucionales; los operativos son una muestra documentada y pueden estar incluidos en ellas.",
+    "No existe en esta carga un consolidado nacional de bajas ni de extradiciones efectivamente realizadas.",
+    "Los estupefacientes se excluyen del balance: Presidencia reportó 135.515 kg el 8 de octubre y 129.526 kg al día siguiente sin aclaración identificada.",
+    "Las muertes se describen como reportadas, sin afirmar culpabilidad individual; algunos operativos incluyen menores de edad."
+  ]
 }

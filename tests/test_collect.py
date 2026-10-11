@@ -1,4 +1,4 @@
-import sys,unittest
+import sys,unittest,json
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from collect import identify, validate_event, safe_url
@@ -17,4 +17,16 @@ class ExtractionTests(unittest.TestCase):
   self.assertFalse(safe_url('https://fake.mil.co.evil.com/noticia'))
  def test_review_and_date_required(self):
   with self.assertRaises(ValueError):validate_event({'event_date':'2026-01-01'},'2026-08-07')
+class ReviewedDataTests(unittest.TestCase):
+ def setUp(self):self.data=json.loads((Path(__file__).resolve().parents[1]/'reviewed-events.json').read_text())
+ def test_unique_operations_across_date_types(self):
+  rows=self.data['events']+self.data['operation_reports'];ids=[x['operation_id'] for x in rows]
+  self.assertEqual(len(ids),len(set(ids)))
+  self.assertTrue(all('event_date' not in x for x in self.data['operation_reports']))
+ def test_revised_azarias_replaces_preliminary_counts(self):
+  rows=[x for x in self.data['events'] if x['operation_id'].startswith('azarias-')]
+  self.assertEqual(len(rows),1);self.assertEqual(rows[0]['metrics']['bajas'],24)
+ def test_orders_do_not_become_completed_extraditions(self):
+  self.assertEqual(sum(x['metrics'].get('extradiciones',0) for x in self.data['events']+self.data['operation_reports']),1)
+  self.assertTrue(any(b['metric']=='ordenes_extradicion' and b['value']==119 for b in self.data['national_balances']))
 if __name__=='__main__':unittest.main()

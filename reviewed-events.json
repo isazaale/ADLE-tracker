@@ -69,10 +69,392 @@
       "reviewed_by": "Revisión documental asistida: fuentes institucionales",
       "date_basis": "Fecha del hecho explícita en la fuente",
       "evidence_note": "La comunicación institucional identifica expresamente el 4 de octubre como fecha del procedimiento."
+    },
+    {
+      "operation_id": "azarias-miraflores-20260831",
+      "event_date": "2026-08-31",
+      "department": "Guaviare",
+      "location": "Miraflores, Lagos del Dorado",
+      "title": "Operación Azarías: balance actualizado",
+      "metrics": {
+        "bajas": 24,
+        "capturas": 6,
+        "armas": 35
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-destaco-que-en-apenas-36-dias-de-Gobierno-260913.aspx"
+        },
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-respalda-acciones-ofensivas-de-la-Fuerza-Publica-y-entrega-balance-bombardeo-260831.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Operación iniciada el 31 de agosto. Se utiliza el balance posterior del 13 de septiembre, que sustituye reportes preliminares de 8, 20 y 23 muertes. Medicina Legal reportó dos menores entre los fallecidos; no se presume responsabilidad penal."
+    },
+    {
+      "operation_id": "amon-retorno-20260827",
+      "event_date": "2026-08-27",
+      "department": "Guaviare",
+      "location": "El Retorno",
+      "title": "Operación Amón: diez fallecidos recibidos por Medicina Legal",
+      "metrics": {
+        "bajas": 10
+      },
+      "sources": [
+        {
+          "name": "Instituto Nacional de Medicina Legal",
+          "url": "https://www.medicinalegal.gov.co/en/inicio/-/asset_publisher/t0LBQNMxVOxe/content/plantilla_comunic-14"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Comunicado del 30 de agosto: diez cuerpos recibidos el 29, correspondientes a acciones del 27 de agosto. Tres de los identificados eran menores. Se cuentan fallecidos reportados; no se les atribuye culpabilidad penal."
     }
   ],
   "rejected_candidate_ids": [
-    "db552f01d7c78481fad5"
+    "db552f01d7c78481fad5",
+    "42b8cccf5689ae88c560",
+    "a5ce09952915fc12d9d1",
+    "38eb6eb712555f54df9a",
+    "8fcbae7bf92df2e7d2ea"
   ],
-  "official_series": []
+  "official_series": [],
+  "operation_reports": [
+    {
+      "operation_id": "diamante-20260830",
+      "reported_date": "2026-08-30",
+      "department": "Varios departamentos",
+      "location": "Operación nacional",
+      "title": "Operación Diamante",
+      "metrics": {
+        "capturas": 111
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Gobierno-del-presidente-De-La-Espriella-logra-tres-contundentes-golpes-260830.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Balance de operación con varias acciones. No se suman por separado sus cabecillas ni sus ciudades."
+    },
+    {
+      "operation_id": "guaviare-calarca-20260822",
+      "reported_date": "2026-08-22",
+      "department": "Guaviare",
+      "location": "Guaviare",
+      "title": "Operativo contra estructura de alias Calarcá",
+      "metrics": {
+        "capturas": 2
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Golpe-a-estructura-de-alias-Calarca-en-Guaviare-dos-capturados-y-arsenal-recuperado-260822.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Fecha del reporte; día preciso de las capturas pendiente."
+    },
+    {
+      "operation_id": "centinela-20260904",
+      "reported_date": "2026-09-04",
+      "department": "La Guajira",
+      "location": "Riohacha",
+      "title": "Operación Centinela de la Patria",
+      "metrics": {
+        "bajas": 4
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-destaca-baja-de-alias-Naim-o-Bendito-Menor-260904.aspx"
+        },
+        {
+          "name": "Agencia EFE (corroboración)",
+          "url": "https://efe.com/mundo/2026-09-04/colombia-presidente-abelardo-de-la-espriella-cadaveres/"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Operativo entre la noche del 3 y madrugada del 4 de septiembre; cuatro fallecidos reportados, incluido alias Bendito Menor. Fecha diaria única pendiente."
+    },
+    {
+      "operation_id": "fenix2-20260914",
+      "reported_date": "2026-09-14",
+      "department": "Magdalena",
+      "location": "Fundación",
+      "title": "Operación Fénix 2",
+      "metrics": {
+        "capturas": 7
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Capturados-7-integrantes-de-estructuras-criminales-que-se-dedicaban-a-homicidio-extorsion-y-microtrafico-260914.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Reporte de siete capturas; no se incluye el cabecilla otra vez."
+    },
+    {
+      "operation_id": "marte-20260915",
+      "reported_date": "2026-09-15",
+      "department": "Risaralda",
+      "location": "Dosquebradas",
+      "title": "Operación Marte",
+      "metrics": {
+        "capturas": 7
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Golpe-del-Gaula-al-Eln-en-Catatumbo-fueron-liberados-ocho-secuestrados-260915.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Siete capturas, incluido alias Muelas. Los ocho liberados en Convención pertenecen a otra acción y se excluyen de este registro."
+    },
+    {
+      "operation_id": "rapaz-20260916",
+      "reported_date": "2026-09-16",
+      "department": "Bogotá D.C.",
+      "location": "Bogotá",
+      "title": "Operación Rapaz contra Los Buitres",
+      "metrics": {
+        "capturas": 6
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-de-la-Republica-destaca-golpe-de-la-Policia-Nacional-que-permitio-desarticular-a-Los-Buitres-260916.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Tres capturas judiciales y tres en flagrancia. La fecha del delito de abril no es la fecha de captura."
+    },
+    {
+      "operation_id": "cholo-20260921",
+      "reported_date": "2026-09-21",
+      "department": "Magdalena",
+      "location": "Sierra Nevada de Santa Marta",
+      "title": "Operación contra alias Cholo",
+      "metrics": {
+        "bajas": 7,
+        "capturas": 3,
+        "armas": 12
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Golpe-contundente-contra-Autodefensas-Conquistadoras-de-la-Sierra-Nevada-260921.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Presidencia especifica siete dados de baja y tres capturados; diez fusiles y dos pistolas. Reportes de trece neutralizados no se interpretan como trece muertos. Lanzagranadas excluidos."
+    },
+    {
+      "operation_id": "perla-20261001",
+      "reported_date": "2026-10-01",
+      "department": "Varios departamentos",
+      "location": "Seis ciudades y doce departamentos",
+      "title": "Operación Perla",
+      "metrics": {
+        "capturas": 148
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-destaca-contundente-golpe-contra-el-secuestro-y-la-extorsion-que-deja-148-capturado-261001.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "75 por extorsión, 32 por secuestro y 41 por delitos conexos. Una sola operación; no se suman de nuevo los subtotales."
+    },
+    {
+      "operation_id": "terry-20261002",
+      "reported_date": "2026-10-02",
+      "department": "Antioquia",
+      "location": "Jericó",
+      "title": "Operativo contra alias Terry y otros dos integrantes",
+      "metrics": {
+        "bajas": 3
+      },
+      "sources": [
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Gobierno-confirma-la-baja-de-alias-Terry-cabecilla-del-Clan-del-Golfo-261002.aspx"
+        },
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/55-capturados-una-tonelada-de-cocaina-incautada-y-un-terrorista-de-las-disidencias-abatido-Presidente-261003.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Terry y otros dos fallecidos del mismo operativo, corroborado por el reporte posterior del 3 de octubre. Se excluye el balance nacional de 61 capturas de este operativo."
+    },
+    {
+      "operation_id": "manual-42b8cccf5689ae88c560",
+      "reported_date": "2026-10-06",
+      "department": "Caquetá",
+      "location": "Lugar indicado en la comunicación",
+      "title": "Capturada alias La Morocha",
+      "metrics": {
+        "capturas": 3,
+        "armas": 3
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://www.policia.gov.co/index.php/noticia/capturada-alias-morocha"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Cantidad documentada. Se conserva la fecha de publicación y no se inventa la fecha del hecho."
+    },
+    {
+      "operation_id": "manual-a5ce09952915fc12d9d1",
+      "reported_date": "2026-10-09",
+      "department": "Magdalena",
+      "location": "Lugar indicado en la comunicación",
+      "title": "Seis capturados por abigeato y receptación en Magdalena",
+      "metrics": {
+        "capturas": 6
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://www.policia.gov.co/noticia/seis-capturados-por-abigeato-receptacion-en-operacion-simultanea-en-magdalena"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Cantidad documentada. Se conserva la fecha de publicación y no se inventa la fecha del hecho."
+    },
+    {
+      "operation_id": "manual-38eb6eb712555f54df9a",
+      "reported_date": "2026-10-09",
+      "department": "Huila",
+      "location": "Lugar indicado en la comunicación",
+      "title": "Captura y recuperación de motocicleta en Neiva",
+      "metrics": {
+        "capturas": 1
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://www.policia.gov.co/noticia/plan-cazador-policia-nacional-capturo-en-flagrancia-un-hombre-recupero-motocicleta-hurtada"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Cantidad documentada. Se conserva la fecha de publicación y no se inventa la fecha del hecho."
+    },
+    {
+      "operation_id": "manual-8fcbae7bf92df2e7d2ea",
+      "reported_date": "2026-10-08",
+      "department": "Huila",
+      "location": "Lugar indicado en la comunicación",
+      "title": "Captura por presunta explotación ilícita de yacimiento minero en Neiva",
+      "metrics": {
+        "capturas": 1
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://www.policia.gov.co/noticia/plan-cazador-capturada-una-persona-e-incautadas-dos-motobombas-por-presunta-explotacion"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "evidence_note": "Cantidad documentada. Se conserva la fecha de publicación y no se inventa la fecha del hecho."
+    }
+  ],
+  "national_balances": [
+    {
+      "metric": "capturas",
+      "value": 12575,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-09-02",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/No-vine-a-negociar-con-asesinos-extorsionistas-y-reclutadores-de-menores-260902.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "Balance acumulado declarado, sin microdatos individuales.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    },
+    {
+      "metric": "capturas",
+      "value": 21940,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-09-19",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/A-21940-ascienden-capturas-de-integrantes-de-organizaciones-del-narcoterrorismo-y-la-criminalidad-desde-260919.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "Balance acumulado declarado, sin microdatos individuales.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    },
+    {
+      "metric": "capturas",
+      "value": 32029,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-10-08",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/A-mas-de-32-mil-ascienden-capturas-de-narcoterroristas-y-delincuentes-durante-lo-corrido-del-Gobierno-261008.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "Balance acumulado declarado, sin microdatos individuales.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    },
+    {
+      "metric": "capturas",
+      "value": 32503,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-10-09",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/Sin-tregua-contra-el-narcoterrorismo-y-sus-rentas-criminales-Presidente-Abelardo-De-La-Espriella-261009.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "No se suman las 29 capturas de las últimas 24 horas ni los operativos detallados a este acumulado.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    },
+    {
+      "metric": "armas",
+      "value": 3456,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-10-09",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/Sin-tregua-contra-el-narcoterrorismo-y-sus-rentas-criminales-Presidente-Abelardo-De-La-Espriella-261009.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "Armas de fuego fuera de circulación según el balance nacional.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    },
+    {
+      "metric": "ordenes_extradicion",
+      "value": 119,
+      "period_start": "2026-08-07",
+      "cutoff": "2026-10-08",
+      "scope": "Colombia",
+      "source_url": "https://www.presidencia.gov.co/prensa/Paginas/Completamos-hoy-119-extradiciones-en-apenas-60-dias-de-Gobierno-Presidente-261008.aspx",
+      "source_name": "Presidencia de la República",
+      "note": "Resoluciones firmadas; no demuestra que 119 personas hayan sido entregadas al país requiriente.",
+      "reviewed_at": "2026-10-11T18:51:35.495630+00:00"
+    }
+  ],
+  "coverage_notes": [
+    "Consulta histórica ampliada el 11 de octubre de 2026. Las cifras nacionales son declaraciones institucionales; los operativos son una muestra documentada y pueden estar incluidos en ellas.",
+    "No existe en esta carga un consolidado nacional de bajas ni de extradiciones efectivamente realizadas.",
+    "Los estupefacientes se excluyen del balance: Presidencia reportó 135.515 kg el 8 de octubre y 129.526 kg al día siguiente sin aclaración identificada.",
+    "Las muertes se describen como reportadas, sin afirmar culpabilidad individual; algunos operativos incluyen menores de edad."
+  ]
 }
