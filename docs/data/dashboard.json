@@ -1,14 +1,15 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-11T23:53:41.106277+00:00",
-  "last_success": "2026-10-11T18:52:33.552596+00:00",
-  "collection_status": "offline",
+  "last_attempt": "2026-10-11T23:54:40.208961+00:00",
+  "last_success": "2026-10-11T23:54:40.208973+00:00",
+  "collection_status": "partial",
   "sources": [
     {
       "name": "Fiscalía General de la Nación",
       "url": "https://www.fiscalia.gov.co/colombia/feed/",
-      "status": "ok",
-      "articles": 9
+      "status": "error",
+      "articles": 0,
+      "error": "<urlopen error timed out>"
     },
     {
       "name": "Policía Nacional",
@@ -26,13 +27,13 @@
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 43
+      "articles": 41
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 26
+      "articles": 23
     }
   ],
   "events": [
