@@ -1,14 +1,15 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-11T18:45:09.361627+00:00",
-  "last_success": "2026-10-11T18:26:59.192893+00:00",
-  "collection_status": "offline",
+  "last_attempt": "2026-10-11T18:45:56.927675+00:00",
+  "last_success": "2026-10-11T18:45:56.927689+00:00",
+  "collection_status": "partial",
   "sources": [
     {
       "name": "Fiscalía General de la Nación",
       "url": "https://www.fiscalia.gov.co/colombia/feed/",
-      "status": "ok",
-      "articles": 9
+      "status": "error",
+      "articles": 0,
+      "error": "<urlopen error timed out>"
     },
     {
       "name": "Policía Nacional",
