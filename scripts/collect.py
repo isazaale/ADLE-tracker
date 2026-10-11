@@ -10,7 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def norm(s):
  return ''.join(c for c in unicodedata.normalize('NFD',s.lower()) if unicodedata.category(c)!='Mn')
 def safe_url(url):
- p=urlparse(url); return p.scheme=='https' and p.hostname and (p.hostname.endswith('.gov.co') or p.hostname in {'news.google.com'})
+ p=urlparse(url); return p.scheme=='https' and p.hostname and (p.hostname.endswith('.gov.co') or p.hostname.endswith('.mil.co') or p.hostname in {'news.google.com','justice.gov','www.justice.gov'})
 def identify(title):
  t=norm(title)
  if re.search(r'balance|en lo que va|durante el|este ano|este mes|acumulad|%|por ciento',t):return [],'Balance acumulado o porcentaje'

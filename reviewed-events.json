@@ -1,1 +1,78 @@
-{"events":[],"rejected_candidate_ids":[],"official_series":[]}
+{
+  "events": [
+    {
+      "operation_id": "extradicion-arana-20260925",
+      "event_date": "2026-09-25",
+      "department": "Bogotá D.C.",
+      "location": "Bogotá → Estados Unidos",
+      "title": "Extradición efectiva de alias Araña a Estados Unidos",
+      "metrics": {
+        "extradiciones": 1
+      },
+      "sources": [
+        {
+          "name": "Departamento de Justicia de Estados Unidos",
+          "url": "https://www.justice.gov/es/usao-sdca/pr/presunto-lider-narcoterrorista-la-arana-extraditado-de-colombia-como-parte-de-una"
+        },
+        {
+          "name": "Policía Nacional",
+          "url": "https://www.policia.gov.co/noticia/alias-arana-responsable-inundar-con-cocaina-eeuu-multiples-homicidios-es-enviado-ante"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:45:09.139106+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "date_basis": "Fecha del hecho explícita en la fuente",
+      "evidence_note": "Entrega y traslado confirmados el 25 de septiembre. La captura de febrero de 2025 queda fuera del periodo; la autorización de agosto no se cuenta como una extradición adicional."
+    },
+    {
+      "operation_id": "tello-el-cadillo-20260927",
+      "event_date": "2026-09-27",
+      "department": "Huila",
+      "location": "Tello, vereda El Cadillo",
+      "title": "Operación en Tello: una muerte reportada y tres capturas",
+      "metrics": {
+        "bajas": 1,
+        "capturas": 3,
+        "armas": 5
+      },
+      "sources": [
+        {
+          "name": "Ejército Nacional",
+          "url": "https://www.ejercito.mil.co/muere-en-desarrollo-de-operaciones-militares-alias-robinson-gutierrez-senalado-de-financiar-el-magnicidio-del-excandidato-presidencial-miguel-uribe-turbay"
+        },
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-revelo-que-fue-abatido-alias-Robinson-Gutierrez-260927.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:45:09.139106+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "date_basis": "Fecha del hecho explícita en la fuente",
+      "evidence_note": "Presidencia sitúa el operativo el 27 de septiembre. Ejército reporta tres capturas, tres armas largas y dos cortas. Granadas y lanzagranadas se excluyen de la cifra de armas."
+    },
+    {
+      "operation_id": "quibdo-chicharronal-20261004",
+      "event_date": "2026-10-04",
+      "department": "Chocó",
+      "location": "Quibdó, barrio Chicharronal",
+      "title": "Captura de una persona requerida para cumplir una condena",
+      "metrics": {
+        "capturas": 1
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://chat.policia.gov.co/noticia/capturado-en-quibdo-hombre-requerido-para-cumplir-condena-por-trafico-estupefacientes-0"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:45:09.139106+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "date_basis": "Fecha del hecho explícita en la fuente",
+      "evidence_note": "La comunicación institucional identifica expresamente el 4 de octubre como fecha del procedimiento."
+    }
+  ],
+  "rejected_candidate_ids": [
+    "db552f01d7c78481fad5"
+  ],
+  "official_series": []
+}

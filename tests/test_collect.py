@@ -10,6 +10,11 @@ class ExtractionTests(unittest.TestCase):
  def test_aggregate_excluded(self):self.assertEqual(identify('Balance: 350 capturados este mes')[0],[])
  def test_unambiguous_title(self):self.assertEqual(identify('5 presuntos capturados en Medellín')[0],[{'metric':'capturas','quantity':5}])
  def test_unsafe_sources(self):self.assertFalse(safe_url('http://localhost/'));self.assertFalse(safe_url('https://fake.gov.co.evil.com'))
+ def test_official_international_and_military_sources(self):
+  self.assertTrue(safe_url('https://www.ejercito.mil.co/noticia'))
+  self.assertTrue(safe_url('https://www.justice.gov/es/noticia'))
+  self.assertFalse(safe_url('https://www.justice.gov.evil.com/noticia'))
+  self.assertFalse(safe_url('https://fake.mil.co.evil.com/noticia'))
  def test_review_and_date_required(self):
   with self.assertRaises(ValueError):validate_event({'event_date':'2026-01-01'},'2026-08-07')
 if __name__=='__main__':unittest.main()

@@ -1,15 +1,14 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-11T18:37:56.315209+00:00",
-  "last_success": "2026-10-11T18:37:56.315229+00:00",
-  "collection_status": "partial",
+  "last_attempt": "2026-10-11T18:45:09.361627+00:00",
+  "last_success": "2026-10-11T18:26:59.192893+00:00",
+  "collection_status": "offline",
   "sources": [
     {
       "name": "Fiscalía General de la Nación",
       "url": "https://www.fiscalia.gov.co/colombia/feed/",
-      "status": "error",
-      "articles": 0,
-      "error": "<urlopen error timed out>"
+      "status": "ok",
+      "articles": 9
     },
     {
       "name": "Policía Nacional",
@@ -18,17 +17,145 @@
       "articles": 10
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "operation_id": "extradicion-arana-20260925",
+      "event_date": "2026-09-25",
+      "department": "Bogotá D.C.",
+      "location": "Bogotá → Estados Unidos",
+      "title": "Extradición efectiva de alias Araña a Estados Unidos",
+      "metrics": {
+        "extradiciones": 1
+      },
+      "sources": [
+        {
+          "name": "Departamento de Justicia de Estados Unidos",
+          "url": "https://www.justice.gov/es/usao-sdca/pr/presunto-lider-narcoterrorista-la-arana-extraditado-de-colombia-como-parte-de-una"
+        },
+        {
+          "name": "Policía Nacional",
+          "url": "https://www.policia.gov.co/noticia/alias-arana-responsable-inundar-con-cocaina-eeuu-multiples-homicidios-es-enviado-ante"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:45:09.139106+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "date_basis": "Fecha del hecho explícita en la fuente",
+      "evidence_note": "Entrega y traslado confirmados el 25 de septiembre. La captura de febrero de 2025 queda fuera del periodo; la autorización de agosto no se cuenta como una extradición adicional."
+    },
+    {
+      "operation_id": "tello-el-cadillo-20260927",
+      "event_date": "2026-09-27",
+      "department": "Huila",
+      "location": "Tello, vereda El Cadillo",
+      "title": "Operación en Tello: una muerte reportada y tres capturas",
+      "metrics": {
+        "bajas": 1,
+        "capturas": 3,
+        "armas": 5
+      },
+      "sources": [
+        {
+          "name": "Ejército Nacional",
+          "url": "https://www.ejercito.mil.co/muere-en-desarrollo-de-operaciones-militares-alias-robinson-gutierrez-senalado-de-financiar-el-magnicidio-del-excandidato-presidencial-miguel-uribe-turbay"
+        },
+        {
+          "name": "Presidencia de la República",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-revelo-que-fue-abatido-alias-Robinson-Gutierrez-260927.aspx"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:45:09.139106+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "date_basis": "Fecha del hecho explícita en la fuente",
+      "evidence_note": "Presidencia sitúa el operativo el 27 de septiembre. Ejército reporta tres capturas, tres armas largas y dos cortas. Granadas y lanzagranadas se excluyen de la cifra de armas."
+    },
+    {
+      "operation_id": "quibdo-chicharronal-20261004",
+      "event_date": "2026-10-04",
+      "department": "Chocó",
+      "location": "Quibdó, barrio Chicharronal",
+      "title": "Captura de una persona requerida para cumplir una condena",
+      "metrics": {
+        "capturas": 1
+      },
+      "sources": [
+        {
+          "name": "Policía Nacional",
+          "url": "https://chat.policia.gov.co/noticia/capturado-en-quibdo-hombre-requerido-para-cumplir-condena-por-trafico-estupefacientes-0"
+        }
+      ],
+      "reviewed_at": "2026-10-11T18:45:09.139106+00:00",
+      "reviewed_by": "Revisión documental asistida: fuentes institucionales",
+      "date_basis": "Fecha del hecho explícita en la fuente",
+      "evidence_note": "La comunicación institucional identifica expresamente el 4 de octubre como fecha del procedimiento."
+    }
+  ],
   "candidates": [
     {
-      "id": "db552f01d7c78481fad5",
-      "title": "Condenado cabecilla de estructura criminal implicada en ola de homicidios en el oriente del país",
-      "url": "https://www.fiscalia.gov.co/noticias/condenado-cabecilla-de-estructura-criminal-implicada-en-ola-de-homicidios-en-el-oriente-del-pais/",
-      "source": "Fiscalía General de la Nación",
-      "published_raw": "Sat, 10 Oct 2026 15:09:59 +0000",
-      "detected_at": "2026-10-11T18:26:59.191364+00:00",
-      "suggested_metrics": [],
-      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "id": "42b8cccf5689ae88c560",
+      "title": "Capturada alias La Morocha",
+      "url": "https://www.policia.gov.co/index.php/noticia/capturada-alias-morocha",
+      "source": "Policía Nacional",
+      "published_raw": "2026-10-06 (publicación)",
+      "detected_at": "2026-10-11T18:45:09.139106+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 3
+        },
+        {
+          "metric": "armas",
+          "quantity": 3
+        }
+      ],
+      "review_reason": "Cantidades documentadas; falta confirmar fecha del hecho. No se incluye en los totales.",
+      "status": "pending"
+    },
+    {
+      "id": "a5ce09952915fc12d9d1",
+      "title": "Seis capturados por abigeato y receptación en Magdalena",
+      "url": "https://www.policia.gov.co/noticia/seis-capturados-por-abigeato-receptacion-en-operacion-simultanea-en-magdalena",
+      "source": "Policía Nacional",
+      "published_raw": "2026-10-09 (publicación)",
+      "detected_at": "2026-10-11T18:45:09.139106+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 6
+        }
+      ],
+      "review_reason": "Cantidades documentadas; falta confirmar fecha del hecho. No se incluye en los totales.",
+      "status": "pending"
+    },
+    {
+      "id": "38eb6eb712555f54df9a",
+      "title": "Captura y recuperación de motocicleta en Neiva",
+      "url": "https://www.policia.gov.co/noticia/plan-cazador-policia-nacional-capturo-en-flagrancia-un-hombre-recupero-motocicleta-hurtada",
+      "source": "Policía Nacional",
+      "published_raw": "2026-10-09 (publicación)",
+      "detected_at": "2026-10-11T18:45:09.139106+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 1
+        }
+      ],
+      "review_reason": "Cantidades documentadas; falta confirmar fecha del hecho. No se incluye en los totales.",
+      "status": "pending"
+    },
+    {
+      "id": "8fcbae7bf92df2e7d2ea",
+      "title": "Captura por presunta explotación ilícita de yacimiento minero en Neiva",
+      "url": "https://www.policia.gov.co/noticia/plan-cazador-capturada-una-persona-e-incautadas-dos-motobombas-por-presunta-explotacion",
+      "source": "Policía Nacional",
+      "published_raw": "2026-10-08 (publicación)",
+      "detected_at": "2026-10-11T18:45:09.139106+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 1
+        }
+      ],
+      "review_reason": "Cantidades documentadas; falta confirmar fecha del hecho. No se incluye en los totales.",
       "status": "pending"
     }
   ],
