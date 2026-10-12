@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-11T23:54:40.208961+00:00",
-  "last_success": "2026-10-11T23:54:40.208973+00:00",
+  "last_attempt": "2026-10-12T20:19:28.013962+00:00",
+  "last_success": "2026-10-12T20:19:28.013975+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 6
+      "articles": 5
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 41
+      "articles": 29
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 23
+      "articles": 14
     }
   ],
   "events": [
@@ -456,6 +456,28 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Wed, 07 Oct 2026 07:00:00 GMT",
       "detected_at": "2026-10-11T18:52:29.758877+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "9dd558e0557cfe89ee30",
+      "title": "Golpe a las disidencias de las Farc en Vaupés deja cinco capturados y más de una tonelada de marihuana incautada - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ1VsN0tjWHRqazFIMDk1V2UzWkpXNHA5bVBaNktmcDNGbGVUVkUxMVBGVmZGZzU3MTY5WG01Z2ItVThZMzJpZEI0T1hkenFQRkNZOGdQTm9IMFpQRFMyOUUtN0hnN3h4a0htOVFlMjkzQ19KZm5HQ3EweU5Pal90QlAyWGw0WGRfU3FUQ0ZENFM2LTN5bmpKaTZnMEVsTndYN0s4ZTFqYzdNWl9OenUycThETkc3OU8zUXdjTl9xN0NwSU0?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 08 Oct 2026 22:18:20 GMT",
+      "detected_at": "2026-10-12T20:19:09.307939+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "76df6eb2bc1b8dba39d4",
+      "title": "Nueve capturados durante ocho allanamientos en Armenia y Calarcá - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMDR4c0dyN0U4V0prNF9DQ1BsWHpwTGkySGJlN1BiYUMySURvcVNrMkF2ZTJRcGZFc2FsV01nQkpFOFRVMk5WMEdWT0t2SXh1Z0JibDc4X2Z6NFN4ZExQajF0VHJuOGFMTG1Hb1RlczZmbzM5V0JZREZMRjlhLVNFXzdsRk9CS2ZqdVRFTzZyYUktNkFFUjcwWko4bElFdw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 06 Oct 2026 13:08:27 GMT",
+      "detected_at": "2026-10-12T20:19:08.488166+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
