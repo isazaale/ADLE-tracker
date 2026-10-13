@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-12T20:19:28.013962+00:00",
-  "last_success": "2026-10-12T20:19:28.013975+00:00",
+  "last_attempt": "2026-10-13T18:22:07.468977+00:00",
+  "last_success": "2026-10-13T18:22:07.468991+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 5
+      "articles": 4
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 29
+      "articles": 26
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 14
+      "articles": 10
     }
   ],
   "events": [
@@ -478,6 +478,50 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Tue, 06 Oct 2026 13:08:27 GMT",
       "detected_at": "2026-10-12T20:19:08.488166+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d0236e7a02ff073d3a03",
+      "title": "Capturados tres presuntos integrantes de los Comandos de Frontera en el Amazonas - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQV3lsNW40V3NiOGFXQm5pbUlxNlFmR2dzX0lyaXozS1FCdG5VcklpYXVLLUxGQjBYNVBkTkZVTmRmWG9kOEdXQzd0MUhybjhZTTllVXQtSV8yS0ZxS01OaEpBeE5nT1k1VEFscF9aSTV1ODh3ZGJ3ZWE5aDVLb2xNMnVFNXJlZklNOUZPaUI2QUJMeWdVeGV2cWw5U3JyN1RKTlFST2Rlbk5ZcEgzOF9nOXFwS0xIYkQ3MFE?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 08 Oct 2026 21:07:47 GMT",
+      "detected_at": "2026-10-13T18:21:47.734905+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "9e7707a150681075cc40",
+      "title": "En menos de 72 horas, operaciones militares del Ejército Nacional dejan dos muertos en desarrollo de operaciones militares y cuatro capturados de estructuras al servicio de alias Iván Mordisco en el Cauca - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPd01LTnZkNWhSZG43RjNsT09xX1BQeTF2RVZtX1ZDR0tnQlRqWGNNS0o5a1hMcEpYZTNkWHFOdk9ySHd2V3FLZzM2YUdMNnRINzkwblVGRENEdXRRUmVvQTU4eG9heEtFVUhPWHZEcGV2M1Bpemx2WkE0M1R6NXMybzBuVTR4TFlhRlRiRXdyMWtiRlB3WWFnNnB0YktoZG1XNzdia3RIUk1BUjdwWWdXVW1LTF9CNmJzM1BocXVrejhicFVCZ2ZjX3Z5ZWxYeE1OaGtTNTU1RTZPSWFZRXNsNXo5b1Jick5Na3RPSUZ0SGhGUTZXRklLRzRuVDRLaEdMOFozRXVVaF9SckVFZ016Qk40d1Z2eTRkS1Y5TVNQcE45VkR5NXhuM2kzYW51N3k2NTJEdUF0WEZNejhjT0I5bDYzR0R3OUlPZk4w?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 12 Oct 2026 23:24:39 GMT",
+      "detected_at": "2026-10-13T18:21:47.735145+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ae2f1a706d997134ea2d",
+      "title": "La Fuerza Pública incautó 100 granadas para drones en Norte de Santander - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYkJpZHY4ZDg4eDdkUlA4LVkyMkNLNV9JQTBRWmNuTXFScENnWDZsWDVONlA0d3FxWW81aHBLbUY5UGFaVEVmT0JZUDRlWTV0V3lqRFduaTBQOTBCZ1BFT0owdVcycVNKeDJ1Y0g3SHhieFZveUhSUnNaVmFxeExnd19LbVk0amhiTmRVNlNUOFhQU3AxRVFHdDVxejdPYW1YcjJuQm1B?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 07 Oct 2026 08:02:54 GMT",
+      "detected_at": "2026-10-13T18:21:47.735851+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "b80920d4e0e6158c28bc",
+      "title": "en manizales, policía captura a hombre requerido por concierto para delinquir y hurto calificado y agravado - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZGhOVU5UY3JUNWd0UEt5X2NCMjQ4YmNVM2R2Mno4amRVaHJmVml4TTRwZXFrU24wRmFGbjhaNzdmSE5yM3RzQXJwaVBsSmJYLXlxV1RNdy1kS3FYTDluU3hoaHI3bWdsVHJndDJBUDNvWDlJQmdGbm1CMjJfUm1GWldwRmQ2NGpneDQ5WVQxc1M2N2t5bGh6cERqX2NPc2FHcnJkbWVqd2l4YmdEY3lPMHBDZFNqT1B4RkdBVHh3VU5GcEdo?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 06 Oct 2026 20:30:25 GMT",
+      "detected_at": "2026-10-13T18:21:47.891031+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
