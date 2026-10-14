@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-13T18:22:07.468977+00:00",
-  "last_success": "2026-10-13T18:22:07.468991+00:00",
+  "last_attempt": "2026-10-14T15:51:32.194709+00:00",
+  "last_success": "2026-10-14T15:51:32.194722+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -27,13 +27,13 @@
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 26
+      "articles": 25
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 10
+      "articles": 7
     }
   ],
   "events": [
@@ -522,6 +522,50 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Tue, 06 Oct 2026 20:30:25 GMT",
       "detected_at": "2026-10-13T18:21:47.891031+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "bf5f6ba4b40cb085d70c",
+      "title": "Fuerzas Militares afectan estructuras de alias 'Iván Mordisco' con dos muertos y cuatro capturados en Cauca - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVUl6ZU5WbnBoNUVmSFpLYXVra09aeU1LZS1iVzAwZEVNeTNmSXlFOGFpN3BTTlpNaERVd0xjRlN0ejRVdFBNc3ZaRlgxal9ydGJ0aWljcExpWGY5REFMX1pNdmZLRWNoLVFlb2ZjeTlPcXVQY2x6dlRkZVJSdEdHSHZvZEJmc011QmFOYWtvNmtiRWgxMk5BeU91cnAwV0tiekpMMlNkWFNIUTJ1ZDB0TjJIWEhOZk9YNWdlaGVsam5Zc2s?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 13 Oct 2026 11:59:41 GMT",
+      "detected_at": "2026-10-14T15:51:12.419173+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "e8bd45c61bf1ada39a66",
+      "title": "Ejército Nacional y Policía capturan a 14 personas por presunta minería ilegal en Girón, Santander - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdzlXWFp0RzJzczlWeW5VNmYyQU9LdFp6dFFTaHl0SFNIWE83WUJkeE1Ra3lHbWFXSEdSNkM3OURBcVJPSTRoV09ScHdJZWRYVUhDTE1pR2NnYkVsYzZiR2swX05tLTQza2phWWdvRGkwYVZjT2xBZWNDZ09mTDRTSmc4dFhMdnF4RUdJSWJkVlZIUG5kWkYtTTFJNnhfNkpXLTh4LVR1dWhxZFYwOWppOUxoOW9BRmZ2a2VOVU5JRUlFNTQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 14 Oct 2026 12:43:15 GMT",
+      "detected_at": "2026-10-14T15:51:12.419764+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "be03b02e296800803d74",
+      "title": "Armada Nacional incautó más de 1,6 toneladas de estupefacientes en el Pacífico sur colombiano - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRzVGaEVJaVhKOHotSWpBQlpGVVZLSXQ4RXBxYVYtemNFTWlrZ0ZWd1dsQS1KLUtyQVBFR2hRNF9SZTNlSlJKdWR5U2QwbXNnY1JSY3ZIbmtwSXJxNzBWTzJWMTVYcWlSTnZaVDZwaG1NV1N2Q1BmV1dOUGFXYVpQWXlEcm04VU1HQ3Z0dzZ4SGJXbGdEdVBDTV9XYlB3OHNvRGlBR3ZwRmprS3NabHNEemQ2d0ROaThrOS1sMUNBbUxNQQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 13 Oct 2026 21:47:40 GMT",
+      "detected_at": "2026-10-14T15:51:12.420078+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "2c71d5845f2ce6ab7ba9",
+      "title": "La Policía Nacional capturó a cuatro presuntos integrantes del Ejército Gaitanista de Colombia, responsables del asesinato de dos subintendentes de la Policía en Antioquia - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdnNXTDVPdUZNWFlPMG1pX29KSG1IUXZqXzhtQlVjZC1IbVlaMjV5NXBRN0R4d0s5NkJ2T01DT1NfZFNjbWJVb0t2NGZ2NWhOdzQ5ZGZnWF9vODhCcTRXWlRUVDllTmpMcWttbE14eGRZNktNZ3dIbWJMVDhrWUtyLS10RWhaWV9tcnB5b21hVU84ZG9vTXRtdlItM2ExenRBaElEM2FiSWFJR3pKYUJMQ2ZiSk5uV1RvMFRPS2Rn?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sun, 11 Oct 2026 23:20:00 GMT",
+      "detected_at": "2026-10-14T15:51:12.594490+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
