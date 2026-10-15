@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-14T15:51:32.194709+00:00",
-  "last_success": "2026-10-14T15:51:32.194722+00:00",
+  "last_attempt": "2026-10-15T15:38:00.411227+00:00",
+  "last_success": "2026-10-15T15:38:00.411241+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -27,13 +27,13 @@
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 25
+      "articles": 19
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 7
+      "articles": 17
     }
   ],
   "events": [
@@ -566,6 +566,110 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Sun, 11 Oct 2026 23:20:00 GMT",
       "detected_at": "2026-10-14T15:51:12.594490+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "47a3cfd2cd0e07dd10fd",
+      "title": "Presidente De La Espriella acelera extradiciones de delincuentes. Van 131 procesos firmados en 67 días de su Gobierno - www.presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeko1Zk9EUDhocUFSS2RycVUycTJrMjJ4MTktYmlzb2Jzdzk2eWFscnhSX2RxVFpNYklJNER0OWNjcTliaTh1V1J5T0lqeVBoS1RCaDdUNVd5c3M1aGMyb1Z4LWUtZ19OS09oOTZKWlA3cWRjcW5qVmEtT1RUdXZPNE9iQ3RvOFhYQ2Z2NHB2T0FWUGFXX2ctWnU3V1FpUUdsQmtxTW40M2VyTXJFSURoYXpQYWFsdTFldW14LXI2ZlR6Wkt2NV9hQk1tQldQMjgyNlZteFB4SGlxcmxGV0lYVTA5RXFHQ0c5N0twSkk1SHE?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Wed, 14 Oct 2026 23:50:06 GMT",
+      "detected_at": "2026-10-15T15:37:40.652237+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "07dbaabea504f366d11e",
+      "title": "Ejército Nacional y Policía capturan a 14 personas por presunta minería ilegal en Girón, Santander - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMkRucml2bndfT0wzZHVtWFAyVHp0cHpiTDF0Tms4aHl1QTNBcXZobW1abUUwaFJqX0hvN001OVNyVzJXanJ3S1pWR0ZKNGRIRW9JRllGTlZLZEdhN0FxWHBEV1IydUtPRnV4V1czT3FnNFFnZmgxemIwejBOLXhwejFpdkVmVmNRX1RlSkJ4RnlhM1lKNXd2Q2dNdEpfOEZUQ2g5WDBYT1RxSTZJT2EyNC1nYW5aeWVQTGl6ZHpn?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 14 Oct 2026 12:47:58 GMT",
+      "detected_at": "2026-10-15T15:37:40.666826+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "0136c0c68029565a2095",
+      "title": "Ejército Nacional y Policía capturan a 14 presuntos integrantes de una red de minería ilegal en Santander - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNnoxR3RhMWNmWldhWjJwUk9lOWRtc284REhCQm9sSVZ0N3Z1UUhPUG0zelE0clJ0MXNOYmhlTmlTbDR2Snc3cnoydWFram0zQXdzeC1UeW81eW4tTWJxNG5rNk1vWmU5eHI1M3NvTkphWWhUb0FzUGYwWlUydmZPT05LOXo2NUprd29jWlFRMHdmbW1HQ2dmcFJqWHRMN0NBMC1URGs2ODQ0VWwtM3AyNFNfbENtZnVrZUpIZzBuUQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 14 Oct 2026 13:00:52 GMT",
+      "detected_at": "2026-10-15T15:37:40.667196+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c96f976d4bbb10de761d",
+      "title": "14 capturados por explotación ilícita de yacimiento minero y daños a los recursos naturales en el Río de Oro - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWXIzRDhCcUw0Zk9YYWYwRFd4dVZEMUcydksyRjJxWUpNZGo5WnZpVDY3UFhjTGVlb0poeV9yUE12WkZMQV9PREVQNWUyb0hUc05IUGtUQlFXMDBVOFhGZVdENll1RGk2OGI5eTViakRpWlEwN1lzN2FlcjdxNXJMYTM2NWwzRUw4eEhqVGhrWGxMUXh5TkhIaDQxT3d1VzFXdW1aU0UtMmp4UFJOc3JiTEJBLWt5YUVRMlVQakIyQzZtREt2?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sun, 11 Oct 2026 14:48:29 GMT",
+      "detected_at": "2026-10-15T15:37:40.939234+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 14
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "6ebb3d770094c90a06d1",
+      "title": "Cero homicidios y 22 capturas durante el puente festivo del Día de la Raza en el área metropolitana de Pereira - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQVBqSThmR0VDTWE3eFpxY2h4ellkZVc0WVV6ZWoyYU9SX0tXa0hyYmI5Zk0xUlh1bDdodURnU19LQnVsMkxscmQ4SHh1ZjlYelR3UTNuWG1wZnE2V09BNnc1cFlOYmsyalUxYVFhaW4yUGR3R1dGRjZPdzJ6MHZJWTlzNWRqRHByOFJhanE2Mkw4OUNEdnVleldlWnotdklrT0tKcUpZRW5hdVltYmlnTlNldUNCaGd1TEtyQg?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 13 Oct 2026 15:59:21 GMT",
+      "detected_at": "2026-10-15T15:37:40.939305+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Balance acumulado o porcentaje",
+      "status": "pending"
+    },
+    {
+      "id": "042a52252ce9a474f3ab",
+      "title": "Dos allanamientos permiten capturar a cuatro hombres y afectar un punto de expendio de estupefacientes en Piedecuesta - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLXFGTm8tNzNyYTBMVGFLQndYYWF5cGQ1Qm83dGFUT2JyU1dqYlRidVJQaU1DWFVVdkJjUVNRZEY3VzZSYVhBMzRhUDZwN21SSFUwQlRGWnU1RHZrTEszQnRLbTRxbE9GNDVILW9wZDlEcmlScWduVDRWX2RRckRyUlQwN0ZwUHB6ZUY5Ml9UZzJWdE5GTlJpVWkwTm8zS3o5MlQta3VRNWhOZUxHTVJFNw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 12 Oct 2026 14:49:05 GMT",
+      "detected_at": "2026-10-15T15:37:40.939502+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a59393b232461ed00cde",
+      "title": "Tres personas capturadas en operativo contra rifas ilegales en Pailitas - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRy1qMzhiOVNQSDhLRi12ejkyMDlOX0NwWS1SNUh1b2ZzQXFDdDVJM1JodUpEWFljdmdKMXhhU1MyNDNZVkFQSGRXNEFzaGxtQjNhb09BLUlIUXNMWHRfOUlkWnFRUU9VbTNPUzBfd01HM29adXFNZmV1NzZxZWVVWUpiZDRmZGNfQVVTWUVwWkQ3dFBxLUlCOE5VSHRwMF9Gc0k4OEQxbkNyQQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 13 Oct 2026 16:06:40 GMT",
+      "detected_at": "2026-10-15T15:37:40.940011+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c85fd23ed838b097e1c7",
+      "title": "Rápida reacción policial permite la captura de una persona señalada de homicidio en Sabanagrande - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOTFKNVRrbFlqWHZOeEJVMUJiUUlUS0VfeThmXy1qdkVOejZ3WU9CdnpzSnZJX3VObEptUmlGS0c4Y09vT3E3Z0U3bks1N0pYbjAyXzVhTDk0RElrR0N6amhOaE9LR1lpbzRLMm9PS3A5S1ZQb0xmWGtUdzUybDZiV2lCeklxMDJfNHRMcUJULTlNVENzOXZmY1pIbGljVTVKNldvbUdZa2llblZZTGJtaXBpYTNhUWduVFFKcWxPbw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 13 Oct 2026 14:00:49 GMT",
+      "detected_at": "2026-10-15T15:37:40.940108+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "09dae1cb46f719ce29d8",
+      "title": "Capturan a dos personas en vías del Cesar - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhWjNxc1FRb1dlUUtHVmJtZWl1Q1VOcWxrZnRyTUVPLU45MGJucTlvZ3lCdVVfaGNIbllEM1hfT1NuZnptZVV1OG1mbzJLaWpFa3FZVTh6MzktNFJ3TEJaa181Q01Xd1kzcl9yMXFOZUJYRjdZSWEwNUhUVzlCQVU?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 13 Oct 2026 14:53:25 GMT",
+      "detected_at": "2026-10-15T15:37:40.940216+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
