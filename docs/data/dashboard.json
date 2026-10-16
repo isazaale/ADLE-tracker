@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-15T15:38:00.411227+00:00",
-  "last_success": "2026-10-15T15:38:00.411241+00:00",
+  "last_attempt": "2026-10-16T15:24:05.496514+00:00",
+  "last_success": "2026-10-16T15:24:05.496528+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 4
+      "articles": 3
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 19
+      "articles": 13
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 17
+      "articles": 15
     }
   ],
   "events": [
@@ -670,6 +670,28 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Tue, 13 Oct 2026 14:53:25 GMT",
       "detected_at": "2026-10-15T15:37:40.940216+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "e195fc2f1bb6c0dac660",
+      "title": "Ejército Nacional captura a dos presuntos integrantes del grupo armado organizado residual Estructura 4, Bloque Magdalena Medio en Segovia, Antioquia - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOZWZnSnRzVk1MU2NZNmtmSzRXUjdrSGdPdmxBTWxrOERkSUU2X3ZuUVNCb2NKTGhfR3NHOGk4M2Nwajd1VEJMbG9rRzB5LVZKc1l5XzVxOTMycGY5NW1HSUtucTdyU3UxbmZyMkFxSG1oNVA3U3RRTEIyWTdsSlpZeWJ0R1hsaVVEVTZjMHhpWFR4STJJQ29JODRwZjFUSG5MZmp1MkpDRnJjYWVlaGhBYWdEZVFnUDJBWXdfVkg1R1M2NVJ4RUktdzh0ZEU1SkVKNlZTMGhDbUVuTE5mUmVaekNYTDFZUU5IWXo3WVU1a0RDRVVpR2RIRlhnQjVoTUhQRzdEM2RRN2JRQQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 14 Oct 2026 15:20:15 GMT",
+      "detected_at": "2026-10-16T15:23:45.714489+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ab98fefcbbdc56cc4744",
+      "title": "Ejército Nacional capturó a presuntos integrantes del grupo armado residual E-57 en el Valle del Cauca e incautó material de guerra - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNalN2YWFBSHExeWxvc1NWQnBjbEZpem1DcktlR3VkSXhSSV9vMmpsNUZGaExRS29ta2F5WjE4dTZUWlN5SmVrMTd2ZkVLYlFRUVRHenlCdWNxenVmLXlhdnpiZ1hEMzZnazA2Z2JfaUhPaGNkQjczbkZRcnptbkpocXNMX3JCUEY1Vkt0QTNrWDhpOVh6NTVwOTFfWmJkOU9wbXltU0wzSGx2OEpOWXhuX2tOWF9Ibi00ODBQa1VPRmNNM0txeDY2Y3NMbTRnMHk1RWtacE03SllJZnRBTHpKMjU0cGNfZWdCbmszdjBzaTQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 15 Oct 2026 15:54:09 GMT",
+      "detected_at": "2026-10-16T15:23:45.714763+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
