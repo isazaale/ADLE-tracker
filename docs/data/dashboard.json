@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-16T15:24:05.496514+00:00",
-  "last_success": "2026-10-16T15:24:05.496528+00:00",
+  "last_attempt": "2026-10-17T14:14:30.151952+00:00",
+  "last_success": "2026-10-17T14:14:30.151965+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 3
+      "articles": 4
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 13
+      "articles": 14
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 15
+      "articles": 39
     }
   ],
   "events": [
@@ -692,6 +692,170 @@
       "source": "Noticias oficiales — Fuerzas Militares",
       "published_raw": "Thu, 15 Oct 2026 15:54:09 GMT",
       "detected_at": "2026-10-16T15:23:45.714763+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ce00f99d6cd39836bed2",
+      "title": "Operación Blindaje 360 deja 72 capturados y cabecillas del Clan del Golfo caídos en Barranquilla - presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQM2VyWTBjaUlkbFF0UjNIRzR2UmdSMDZBa1ZkdmlkM245TU9iSkRQNHpOWEp3SDhoVV9JR2M5OFNfNWRzWDY0ejNhd1VsUW9jQUZ4WEpUMkUtd2xpMW9EYk9NMkdtYVB1Y043RWJjU09pZG54MEZ5aUN3dmJEczdiSkNTRzRKYjBkVklZVl85b3FIWHN0RzU3Yk1VSGFfRjI0Z2xnTUdVMzVVUm82Qm85NEtqdGhTTjRvc0dtVHVjTWMwbW5GVWFHRGRCemV0aDZya1NheXJpOG4xQVNYdFFiSHlaaU1CUDQ5a0E?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Fri, 16 Oct 2026 19:59:13 GMT",
+      "detected_at": "2026-10-17T14:14:10.297903+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 72
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ff7ea40e7ce08372ff22",
+      "title": "Presidente De La Espriella aseguró que el 98 % de las marchas de la oposición fueron pacíficas y reveló que hubo seis capturas - presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSVhQX1hiektlMkk1S1ZlOFVYU01GLU1icGhBcU1RX0puTG1nRXhMem1LdHZEcGdWZ0F3TThJaElZaVU4UFhhc3dIa2ZmWHRvaU9MZ3pFakNVYUcwOERWUElGZVR6M1F0Y0N4emZKUmJacXpMQUdFWmRlclQyVjBKb0ZkMklkdjRCVmJ2VDBvcUhvWUhiN3FnU3hzYWhodDJEMi1OMG5GWVZ5ck1Ra2VyQ2lnY2NkeHUzbVpycXd1cTFzRWNTRlk4R2JSYkNVbWMwN1RzRUw4OExUek1xNFQxVGNqVGdPX01qM0JZQzFSNlkzdTF5WVUydTJKWmx5UQ?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Sat, 17 Oct 2026 06:57:18 GMT",
+      "detected_at": "2026-10-17T14:14:10.297951+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Balance acumulado o porcentaje",
+      "status": "pending"
+    },
+    {
+      "id": "5b062d04a9f603ce836d",
+      "title": "Ejército Nacional captura a tres personas por presuntos daños a los recursos naturales y ecocidio en Soacha - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNV2dac0RUcEV0VFFkdXptWmZ1ZVdPdHZQcG5LaVRUcnNoLTdpZy11OVhtNUhiWTR0OExMMWdoNGRHazcwTXlSSDc5VC1FU05qZ0FxU2sxOGdTNWxGVFM3S2ZIOEptcmxNaDZ0UmNhUnU3OVI0QTVWNWtsQk9MbXVMemN1ZmVfYnpQYlpSdW5uclRUSVBkeDZfXzBabXJNUUFrNFBmSkt5OFgyRlAzMkVhRzVwNnFySVhwLS02ZVFKZWhWY2FUNFFFWTVqaw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Fri, 16 Oct 2026 20:00:48 GMT",
+      "detected_at": "2026-10-17T14:14:10.339276+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a60e7b32621184e8b7ea",
+      "title": "14 capturados por explotación ilícita de yacimiento minero y daños a los recursos naturales en el Río de Oro - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPekFSS0g4RnBzZ1ZIeWtnNE9yOXB3M3c3SGhna25GQ09mZnBHTmJ4US1oSlE2bmx3RW0yMnN3UGlkaXYtY2toZHBIRUxEc0VRTndDRldXZzF1eGswU0hmRktmdHMzeldSakVXdHJqaE1RbllxMVRFMHprOHVzc0o5cGplQzM1UUllaWFGcFlkLTRxckFvZkcycHMybVZnMnJvcVpOeUNPQWhTZC1oV1V4WWY0U2V0cU4zSkdpNWFmUmFUV3NhVzhucHpyMElhQVlEdmc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sun, 11 Oct 2026 14:48:29 GMT",
+      "detected_at": "2026-10-17T14:14:10.558570+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 14
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "9ab176cbbb7339b2f3ce",
+      "title": "En una acción articulada entre la Policía y la Armada Nacional fue capturado alias “Betún”, presunto cabecilla de los Espartanos - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZzVJVWFOMnlDLUFNcFlIeG83WlUzTzF3ME04UFkwQTBCWXBDTl8xbzJBODdTODVGYW9QRWREVkgzVkxIc3A1N3hQcU9HZHlDUXhKeUJwcUh5TmZ5NGpWWjdpeS0tYjI4ZzI4ek5xZmJrVHlEZHpFOXdZQ3paUGtUZ0M2VlNncU5HUHBTSUVEZlkzWkJ2VHJsY0ZxVVZkWEpiRFptNnRXd1FwY244ODdvaGlUM1o3WTB1ZUNJLTRaTkJ4dw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 14 Oct 2026 14:41:06 GMT",
+      "detected_at": "2026-10-17T14:14:10.558861+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "03436fe7c9eb955a3d21",
+      "title": "Tres personas capturadas en operativo contra rifas ilegales en Pailitas - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQkE2VWVKZUtndlBON1lhZTFlMWJzQnBMZGp4WUtmN1NKQ3FyWGFIR3BEUTNEdlFUc0hnamdUcGlfUzM3MElBNkppOEFoS0Fyd0N4Mkd3UG85SjZYbVFneDAxWUpJUUZxWFdEaUZqZWZIVnN0TTVWQkZoZGxqdHRxNGwzNGFGaDR2aUJKalhhNDF6LVlXcFhLZ2R5UnltTU5xWXJ3S0xfM2xhcEZJYmNIYkNCN1c1aHc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 13 Oct 2026 16:06:40 GMT",
+      "detected_at": "2026-10-17T14:14:10.559020+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "01ecc45f1f873e9532e8",
+      "title": "Cayó alias 'Niño Potro', objetivo de alto valor de la DEA y principal articulador del narcotráfico del Clan del Golfo pedido en extradición por Estados Unidos - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWVBrbWozQXZucTBGZkJDMW9Qa2JyOW5wX3VIZk5uMk1IaWhMdXBkaURBalhGbVctM3VkWjRrdEQycHJSSkN4c0hCUkpLd3ZxMkNpemFUZjVzRTB0TGgxSi13NXNHaU0waWQ4S2JaenFsVUt2UDg2d2t5WUFSS2RFNWxtQ3lTOTA5c3EzWEMxU1AzWnZocGJnbGZIUUdxTzBSN0NlS1oxNU1CRU5lU3pKWElpX010VHRtVFJ4dnNlYU4?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sun, 11 Oct 2026 19:45:00 GMT",
+      "detected_at": "2026-10-17T14:14:10.559205+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "0ca448331f4ba7c2e0ad",
+      "title": "Cápsula operacional contra el crimen organizado permite recapturar a un hombre requerido por homicidio agravado - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT3VLMzRDWERpSTJDbWJ5VW1NdGUwNl9mZWVUVWZoOU1xdW5DMm5EMEwwNi1iSV9CQXVralB0anM2V091aEl1dmNBc1VCZmNOQk9lVk9Vc3kyMGkyd3c3eUZXQUdWVGwxWC1mcFhMeTg0bXRzcXBCX3pLVnpQaUZUWUUwSXctNlpEUW5hRV8yZ0RRMzVLdzdhM0pwYWhIYm9xRS1oVlVoRWJyVms0UHpXY3kwdWhoSGl5ZUVrZFFTZmZaM25Zd2xSZUpUSk0?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 13 Oct 2026 15:23:07 GMT",
+      "detected_at": "2026-10-17T14:14:10.559308+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "71b83073ba7e6cc14e6b",
+      "title": "Capturado por la Policía Nacional alias ‘Emilio Zapata’, cuarto cabecilla de la estructura criminal 4 de las disidencias de las Farc y experto en explosivos - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNVY2NHFWcllFbHpYQ1VGbWotb2poMjhaOEhHbUoyd0g1U0hvanRLTTJFNk5xX3pGdEdKTnJmdWo0ZXgxM1JLZ1N5cldBWWFVLURXR2paRWZNakYyQ19XNS1SSVR6Uk1hUzZaV0FOaWlBSXMxUjJyd3FCMVhoRTVZM3U5dUY3c25KY3pKMjFSSHg1UHFfWjcwazkwSTZmU2dpelJHSmY3SUZTemw5VDlaLWhqWUlGclgySjVVa1hFZ1ZDZw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 14 Oct 2026 13:04:00 GMT",
+      "detected_at": "2026-10-17T14:14:10.559492+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "721fa232402866cf05d2",
+      "title": "La Policía Nacional captura en Cali a presunto cabecilla del ELN que dinamizaba las rentas criminales en Buenaventura - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcEpwel9fb2UwRE1yQzlfUVVZQnVDSUFfbmQxX2dEVjhmODZBU2hRLURiNzQ5Zm9jVko3ZmhxNzd2ZHNCV2Y3OHZvcDlIZmNpV1lyaVNzektMSzRpa2dzWjk5dmZrT3hCQjdkMXRKWWxTTEUtWkFxaVpKZVNFUzNVQkM3ZjZyT250RlllcVRyWGMtOEtsRTlJRHNOUU9sV19SalA0cWc1TkxaOXBMemtHWWxGMU56OGMzaVF1cw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 14 Oct 2026 14:11:57 GMT",
+      "detected_at": "2026-10-17T14:14:10.559726+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "9ebc5b78550fd221bde9",
+      "title": "La Policía Nacional captura a presunto dinamizador del tráfico local de estupefacientes en Montería - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNanVja092VTZvMnU2V3hwbWdyUWl4T0szWmtZMzZ1R0R0QXhYWTZTRGRSZzl5ZUVzOTZzQXRnMWVXNG12V0U0d004Q1l4U0xmUTNYam83MTduLVBqVUV6U3h4Nzl4a2pDZDZEVmljWnIzT2h0TDBIdGtTbF95SFg4eE1uSldwZ2ZudG43SWJvbTJVYXpDV0pyMzZRcTljNkN2Q2FmZ3VBQThUbXZTMGpFUDBUYjcxSDRybWZ3b3ZtRWNlZy10?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 13 Oct 2026 23:50:33 GMT",
+      "detected_at": "2026-10-17T14:14:10.559819+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "cdd8ac21827d8bd73bd6",
+      "title": "Policía Nacional captura a un ciudadano por porte ilegal de municiones en el Guaviare - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbFF5N3VITVBRaVc4Ukh1bzY3NVNFb3dKejkzVzVJbE5La2FuLUxsRThuTVlQRklQMmNlQ19iTDhRRkhQMDJ6X0hPd1l1VUc1b2kxUDM3anhLT1hSdURFVG5ETi00SGppY3A0eVczcWFwX00ybGVlOGN5amdmS2tDTGRjSE9RNEctNmptTzRVc2d0MlRXYnpfNldmNTVtOVZfQlFBbEk1RmNfQk1xR2lnd0Jn?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 13 Oct 2026 21:11:40 GMT",
+      "detected_at": "2026-10-17T14:14:10.559943+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "5570526d0d382d791603",
+      "title": "La Policía Nacional capturó a un hombre investigado por más de siete ataques sexuales contra mujeres en Bogotá - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR1haNGhqX2NfRzlUMFhRMWpYcWtsLTd3c2l4QXNPOVVBMms3ZFU0TFJ1dmlaN1BXUUZETXpWcjFQZHlqSFlDNU9WZDNhakVBRHlMcG5JWVcwN1FGYUFwanNJdmF6NlJFdHlrOC13R0hiUVJsVDYxdXlpQzZiLVBuVmFrejJOaHhrMmVsckxUUVE2QnYtR2RSQWJnRVNtYWpwY25Xa2w4Q1JxbktBQUdOZzVGa3FoZ0wtMmpB?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 12 Oct 2026 13:59:58 GMT",
+      "detected_at": "2026-10-17T14:14:10.559994+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "07fc300a34b67700f2db",
+      "title": "Capturado presunto expendedor de sustancias estupefacientes en Montería - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaTRmQXR4b29PZFFuc2dQaXJteHJ5TFlIZURHU2JYZUxnbVF4QW1MVVdua1g5Z1UtN2xxSzBhTVhTVWN6UVBLS2I1cGlBbXdJMkRmVkdIMHExSlRVOUU2MUUzZU5RTHZTNmMyUkhqM2JleDUwUzlnMER1VS1pQ2t5eFNHSkJ2Q2xMVEU1YnpGaF9Rc3dsRWMwX3FVWDNVZlpOSl9zWVBR?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 13 Oct 2026 14:32:56 GMT",
+      "detected_at": "2026-10-17T14:14:10.560205+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
