@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-17T14:14:30.151952+00:00",
-  "last_success": "2026-10-17T14:14:30.151965+00:00",
+  "last_attempt": "2026-10-18T14:38:30.572562+00:00",
+  "last_success": "2026-10-18T14:38:30.572578+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 4
+      "articles": 3
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 14
+      "articles": 12
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 39
+      "articles": 45
     }
   ],
   "events": [
@@ -856,6 +856,72 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Tue, 13 Oct 2026 14:32:56 GMT",
       "detected_at": "2026-10-17T14:14:10.560205+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d06e6e11734eff2c6a80",
+      "title": "Contundente golpe al narcotráfico en Ipiales: cuatro capturados y 300 kilogramos de marihuana incautados - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTWs4X3UybmZEQmt0NHdTWU5ZT0RpbnVPNXBSQUR6RGFFb1pBd0dVZS1taE5Gbi1nSWhidFU2V1llSjdqa0t0ZEM5UWNBRUllTDJVNGdxOXBQX216VWExWDN0MWdjRl9mdEJqaV9WNDhJSjh6S2g5NUVJc1lQLTFjazJUV0djbG0wWFpQdTJTeFkzZ3VZZXJlWjJyd2taRHJMaEROTGJ5N01OQVJ6dUc1R25IWU5mTG1qclhxTjBRVQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 14 Oct 2026 19:58:02 GMT",
+      "detected_at": "2026-10-18T14:38:11.094744+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "15136f82457dd3bd1554",
+      "title": "En una acción articulada entre la Policía y la Armada Nacional fue capturado alias “Betún”, presunto cabecilla de los Espartanos - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa1hRY2o0MWRBdFdWWmY1d25hQ08wZDJidk1tdExBYlJrV1lUSXpkTGdwZ0V2TmxQMGU4V1dGVlRLa1Z4YklwcUE3RWJRSGNvUDR3MlZlYVFoSE4yTEZTT1RfaHViSjF6MElneGd0aS05NnZsVTZfbkpTRjFsNGEyN0tSaFZKamhwX1pIS0ZRVXVxMmhTeDlWeWxnWnFiNm5NZ0JuYXd0dlkzZ0FoZ3lQTlJDQ1dqbXhqQ09zend5OVVybWd0aG94UGdTX3VMLVE?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 14 Oct 2026 14:41:06 GMT",
+      "detected_at": "2026-10-18T14:38:11.095002+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "0723ee9f10a3a5aa2c5f",
+      "title": "La Policía Nacional captura a presunto dinamizador del tráfico local de estupefacientes en Montería - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTG5lcDh1SlgwU05QQnJWR2VjNjZCSHpXbkhxZ0VRMlJjMWpBSlczSjZqQWcwQXNpeVdGR2JmenU3eEkwaGRPbk9Tb0pkcTRaaEpHMjd6UDItS1FPY0Rkb3VnaEQ4VUFINE9LYnFsbG05RWoyNGRRcEFFNnRNZDFjMm0yM0VfaWtGX0VaNXhnMzYyT1hDU1Bkd25ZYU9nSUI0VFVUZHdOZmtfbkhDTHBMako3TVlPMUNYdFIzbVhrV1VyTDloTUdSUTVpSno0Rld4bXc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 13 Oct 2026 23:50:33 GMT",
+      "detected_at": "2026-10-18T14:38:11.095651+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "baf99fa802713043a804",
+      "title": "Policía captura ciudadano que habría disparado al aire en Ipiales - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWEhwMHlWMk0zTkZaV2NUdlFDek16Z1ZfdG5uXzM0cVFJZmFPeF9Fakh5SWo4X3VTektBcEhVN3d0eXNZNFBZTThqUktfM1JiWDEwQmRpTV80SjdaS2JnYWhYTlBURXU0bHQ4UDNFTW96YjRBSkswUGU2NDlfUGp5RUpOaS1ERVF0NlFFQkFCcjJVRUhyNkhSX3NkSWhNWE1kZ0E?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 15 Oct 2026 15:43:49 GMT",
+      "detected_at": "2026-10-18T14:38:11.095806+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a386019922a4edf39106",
+      "title": "Plan Cazador: capturado por orden judicial en Neiva por los delitos de homicidio agravado y porte ilegal de armas de fuego - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeU9LZEYzXzhHUURMRTl5RjBzazFpeExiUjA3d2lWSjQwZGhac1ZmN3NIZjlDMDhRcnp2dnZhZFU3VHcxSnBwWUxmVlhrNDFtZEt6LWNiUlVtejZ2Nlc2QkZEbkdYQm43UmZscVdLUGFqMC1FZkRXdl9ZV2h1dHVIMEJoR2prSHVWNHhwTWRuUFR6OXRqWU9ObTdENlg0UFVmQlFqMlVHSVZPNGkxMjV6Tmh3T0g0THdwSTFOSU9mWmhVMGJ3?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 14 Oct 2026 21:00:32 GMT",
+      "detected_at": "2026-10-18T14:38:11.095898+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c5ef5b5c14b8dd9336c6",
+      "title": "En operativo policial fue capturado alias \"William\" presunto integrante del GAO-r Alfonso Cano - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWGhqVlBqb1pHSnJ3a1VQU2VYb0RwVzZyc2ZvaXNNbGZKc3B4VjhHb2o0WDEtMDI1OFQ4Zk5RQTJpNk94d3l4R0lMTURjN2pvYVNMTUlzVnJTVlIzdTFZVHBxRjFlUURITkxqdDhlVkhKbllmTWx6a3lXTkl6TnRRbTdYVGRGejYtYzFOdUY1d0FMLTh4Y3RJWlg0WUxQaDdwUVhLcVNzcnRyYnRUU19VbVgxVFBvN2hfRnVWNGlfUQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 14 Oct 2026 20:10:07 GMT",
+      "detected_at": "2026-10-18T14:38:11.096111+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
