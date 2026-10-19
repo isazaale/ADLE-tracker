@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-18T14:38:30.572562+00:00",
-  "last_success": "2026-10-18T14:38:30.572578+00:00",
+  "last_attempt": "2026-10-19T17:31:38.190625+00:00",
+  "last_success": "2026-10-19T17:31:38.190638+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 3
+      "articles": 5
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 12
+      "articles": 42
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 45
+      "articles": 34
     }
   ],
   "events": [
@@ -922,6 +922,209 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Wed, 14 Oct 2026 20:10:07 GMT",
       "detected_at": "2026-10-18T14:38:11.096111+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d0c504778c7985d895e4",
+      "title": "Agresión a un uniformado durante un  procedimiento deja un capturado en Cereté",
+      "url": "https://www.policia.gov.co/noticia/agresion-un-uniformado-durante-un-procedimiento-deja-un-capturado-en-cerete",
+      "source": "Policía Nacional",
+      "published_raw": "Sat, 17 Oct 2026 23:58:49 +0000",
+      "detected_at": "2026-10-19T17:31:18.908938+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "48c42998c4000cf67227",
+      "title": "Ascienden a 64 capturas de delincuentes sindicados de homicidio en Bogotá - presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWjhhOU04MFdwYXlCbURFZkl4akZ6M28xTTRLYUxtbkJiZ0RadFZXV1pnUllkNEtPV2xXeDBFUVlBcTZFaHFya3RVbkl6Tm1uOHI1XzdJdlIyR2hoX2FCYUV1bjNDYnJxWjZTMjVubHFyVkhyekNuVG5GNlhCWTZUQ2dfbDljeURlR1FVS0gyQXR1Q2JxRlFMeXAzY3k5R0Fwb3FyT1BoZ05ZTVgtbHBhanRBWWVBcmtQc19nbW5OWWVGTUE1RUItc2JTSQ?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Mon, 19 Oct 2026 16:40:45 GMT",
+      "detected_at": "2026-10-19T17:31:18.399351+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 64
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "410c8d06a0eda4194008",
+      "title": "Capturado alias el Compita, presunto operador de drones del ELN, señalado de participar en ataques contra la Fuerza Pública en el sur del Cesar - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWjRRNHpjdUVUZDg2UURwdXVfZTRpejR6S0hIV2FkRGV3b0p0MVNCX25manpjQ293SVUtdHVVczBJUjY2ajIwSlAyamZzZUJVTXllMGdyaVcyOERRcTdkOC1md290MXBoOWJ5Sm5mQ2owdGg2WkM2YnVuSlp6M0xlZmRlN3YtN2VEVWJyM2NnN1hHZ1ZkS3FqUGlYWkk3cFdfd3RjX1RSX2dLV1cweWJyQWJMMV9sOGliTjR4eXZZVUNmZkdFdS1uTGp6UXVlalJzcFp4WkI3Z3JRVmxCMDZfem9ySkhSckhkeS1MajN5OWN2T1RtRW5QRmU3SF9YZw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 19 Oct 2026 12:28:05 GMT",
+      "detected_at": "2026-10-19T17:31:18.403659+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "af07fc09f153a148c9b5",
+      "title": "Ejército y Armada frenan abastecimiento del Clan del Golfo: incautados 10.000 galones de combustible avaluados en 160 millones de pesos, en Chocó - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPUFJxRkJSSkxZU2ZFRE5KS0t0QldPVXM2ckdMUE8tSnQzQy11Q0x3STF3b3BjYmIzaF9NODFGN2R1MWZxZkNQLWg2UjFEUTJKMHFyWjR2N2EwZlhlWEdoYW8xMHZKLTVyXzVYUmVpYUFLdDBleXMyUjc1bU56bVI0c3FnSk4wMWZIcEN1ZXkwNnlGbUhmZVo5akwzTENDV2lGTDA3S3B6SjNCRnJsYjR1ZERTU3l0RkYxTlNFbGZvNFBTbEZRdUhITFZuZlBwSWlfd05adTNNRk1lVGRwMm1XZ3oyOE5VbUloNlBqd09wdkZwT01vS3pyamRaMjd4OEE?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Sun, 18 Oct 2026 14:54:41 GMT",
+      "detected_at": "2026-10-19T17:31:18.404181+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "afd9f06eddb780ea3b18",
+      "title": "El Ejército Nacional, Policía, Fiscalía de Risaralda y la CARDER lograron la captura de dos personas por afectación al medio ambiente - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNVnl1VXh3VjY3VVp1V2VvV2pQUXZVbDVNVHdRYnVPeUhFYUFEVE9pbTkwTDJUSGtPQndUUU1vckpQNUFGV2oyaWxyZXNjU01jV1ZhTVU0SWxUUGxyeC1QM1pPODlLSEdqOXBVWGZXR0ZGNmtEcDlsZnJCcEZRa0RrRm9ldVBtZER4T3FNWGIydkJOd1gxd01BUGthNk1pZjJreUpmdWxZYWp1aUI4UVNMNTFyVHdhWUpCR0ZJd2E5eWttWV85Y21kcUZJeTBRaUN4QnlxQnNxR1ZOcXNncnM0QVdGXy1SMjdiNVVj?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 15 Oct 2026 15:18:40 GMT",
+      "detected_at": "2026-10-19T17:31:18.404240+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3c829aa16dbb2f28e16a",
+      "title": "Sexta Brigada incauta insumos para minería ilegal en el sur del Tolima - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXJtWnJScElSRzZmS2ZJbmlrOWxtQnRLbHJPS2UyelZ0a2dJZ2tUOEt1WVRPU2dSblZ6UkFaUFhtOWVmLUNuQk1uTmNmUzgtcTJfOS11MnhqVWNMU2NaRERrOTk4dHFUUlE3Um1wSk9VbXZRRGY3R3pUY04waEJuZ1pfZjRnaFBGSTU4a3E5S2duaHR2Z1U0eTB1d05JWE0?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 19 Oct 2026 15:41:38 GMT",
+      "detected_at": "2026-10-19T17:31:18.404380+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3b6fe876dcfb60a4d839",
+      "title": "Ejército Nacional incauta más de 250 kilogramos de marihuana en Algeciras, Huila - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVU9QVGJnYmY0TFUyNUtwRFFzVVlldE02ai1GUHZ2d1gxbU5FUEVOaUwwc2o1bWhuT19ubXhnaXY5cEpHU0NJQ3dxYlBNcHpIVUpQeHZPcWdHWWZiVFdyYkxWZEFZdWdTcGktNmxFODlHdS1YNXJPVkl6S1d4SFhBZ21zcmZVUXF2bWJEYmk3Q3Ewb2lTUzhkN2E0TDl0R1dUcmtad1RfOURGS1U?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 19 Oct 2026 15:52:53 GMT",
+      "detected_at": "2026-10-19T17:31:18.404425+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "6bed10421dbd421d27a8",
+      "title": "Ejército, Policía y Fiscalía capturan importante cabecilla del Clan del Golfo, en Carepa, Antioquia - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNclN2Q3VoZGlPM2NGLTh1WnZRd1NfNkZxb1Azamp6aTNpSDdvZ2c5RlpNUzFVcmxXaE1DZnU4WlRHdVV2cmY1YmtNVEZSSk1GMlllemwyMEwxdHZIM2ZIalRieTd1am4yYWFXTlpsemxmX1BPRTJZVG1vd1Fub1BjdHRINDZkQ2NWOFNCcTc2LTVlVkk0cWpISTdycU9MWDdIX1ZxOS1MWUUySElSbW8tMEVNa2NldjQyb0dGMk1vWTAzdw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Sat, 17 Oct 2026 16:13:40 GMT",
+      "detected_at": "2026-10-19T17:31:18.404642+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "5920f114037778df6247",
+      "title": "Ejército Nacional, Policía y Fiscalía desarticulan a la estructura delincuencial Los Reclutadores, dedicada a la extorsión mediante la modalidad de falsa encomienda - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPUkFSb2hPbm9YSDZOLWRBemhzclJXOWZwU3dTZ043OURDUzdMdE9MTEVERzhLelIxVVh4aDNJc0d4SVVBUjd1R1N3elFoSlFQY3ZoRWUxdXJVN0s0MkU3RThFQVJvQmRzV1dMa1lpanc3UWZKV2szRTU1YWlsT190X2ZxRi1kSmRkTG5FQTIxNVpmc093NkE4bHRwSFFLSzJ3a01kcjAtXzBDajFqTU9uaGY1WHBNV2tNSjd4YjQwdkVWVEpBcG5qQWdIanFicXJvMDF6OVFCZnlLUDNqbnRFeXFNNW5heGZpaFBpM1d5NTZaOHNpRExQT3BqbEtMZ2J0V1JPVzNHbGVnWXh1UWVoN3g1TnJOeGp6Z2c?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Sat, 17 Oct 2026 15:53:21 GMT",
+      "detected_at": "2026-10-19T17:31:18.404815+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "808052a1f2218be86156",
+      "title": "Fuerza Pública incauta más de 200 cartuchos y un revólver que tenían como destino la ciudad de Neiva - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRjlPSzBRZzFrTVBURGNfdWhlWnZ1dVNJQXd3RTNQRHpqc0NOYldtSHNxWUQ1M3hCdURER2tiWVJxYlNRM1l6SENnbS1PenRwRzZzZW8zOXVXVWlmM0RVeTU4UG5ZRlVXeEZxZzhvRjA3ZHFaNkdCVEFheW9VdU05NHp1bWZacW44QTlhUzF5NXozaVdObWlFemd5MzBoSEZ6a29RVXNQZml2dE1nbVVFZURYTW5SbmZSNlpKaXZSdFkyTXhIQzg4?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Sun, 18 Oct 2026 12:22:20 GMT",
+      "detected_at": "2026-10-19T17:31:18.405166+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "5fdb9a37fcd0569b6c90",
+      "title": "Capturado alias Doble Cero, presunto cabecilla del Clan del Golfo, señalado de múltiples acciones criminales en Antioquia - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWnlHQU1rdTN4bk9WV3VIcWpDUEF1b2s0Zm1lREdya0ZEMU5aWW9sQndQaGV1aUdCLU54UjR4TU9oaXRuMGs4Zmx3V25BMm95NnhtVXNHTmp0eFViRTdDR3lBaExWVTJkakUwNmhLR0FfT29SdGRFa3BKZWIxWTdmZDRrakVPZG5tVkkxQmJLc1ZwUV94VGJQSHBETUY4WXltQkxXUlZSYWltZjVzOVRtX1BjbHV0S21ZU3BqNFRPZm5TUVFfVzdPRmVkSVNzQVRxemxkY29CVjhobVBreDAzLQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 15 Oct 2026 15:10:47 GMT",
+      "detected_at": "2026-10-19T17:31:18.405553+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "68e0a29bf1e2943bf33b",
+      "title": "Desmantelado laboratorio artesanal de marihuana en Manizales: dos capturados en Villa Jardín - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWGQ0ZWY3SGpNMHF0WjNqVEZGMVE4aVR5bGxHNmRZQXBuX29PMWZVbHZDbjlRckNvN1R0eGI1cnduV2NzelpfcVFnc0k0cHA5REk2Uy1fQlhNNDdRSlFwVEtfVWhwalJOT2p0dmlsRjR5YVZwU0Q1TWxlQWJ4V211NTlnQjVmeDlqZTl4QjdhZUdhMklNYWFacnZvQzhPRzN6TGNyS19zMkRvbmZweUpoU3Y0bktUYV9ZYkljT0RUZFE?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sat, 17 Oct 2026 20:20:42 GMT",
+      "detected_at": "2026-10-19T17:31:18.614481+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "dd1ed380d9c9a3fc5784",
+      "title": "Dos hombres capturados en Arjona - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10aUo5S1Ixb2lvRG52ZXZrWXFfR1YxYlU4M29wYnVlU08ydHp0Z1hvMHFkVHE4bGEyRzFNUU9qbWhFRXFoa1lWejVUS2ZwMUNYR192YmhkSklidVV2eW1rTlVmaWpKcVJGc3RzMFpOd040Qm5UcGc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 15 Oct 2026 22:55:29 GMT",
+      "detected_at": "2026-10-19T17:31:18.614535+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a20e79ffae5aaa192779",
+      "title": "Capturados presuntos responsables de homicidio en Manizales - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTzduR2F5eFc1U0dhRTU5QUhHcFZxRE1iUF9PSnBFYmRZLURZeEhHVS11VWdEWFJaR01SUXpveGhGdl92ZnFIYkR1ZDJPZkJjVVFKQU5GMHZvd2tmUXFnSXpKSnJXaVU4WXZMZHBDQ2xSck9tR3NiM1dYcUcwcnFiSkgtVUpOUnh2VmpWeDI2aVZOMUgxMlE?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sat, 17 Oct 2026 20:23:25 GMT",
+      "detected_at": "2026-10-19T17:31:18.614577+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "4b573867494b1bf81598",
+      "title": "Capturados dos dinamizadores de homicidios en Granada, Meta - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLUpqR19ZT01LeU9OWVVvUkdtU0w4TzhJZU1Wb2h3VjJzb2l4S0RwVHBzSl9DaDMycXJaT1FtLXk4dHpNbXFGTnZSdDF5Z3RHRkhLZ01VM3VYaFJiQkNtYnk4eGo3RXpZdWVVTW9HeVcyYkQzc0JWZ1BleUlTUEpyWUNLZ3hBZWJ3ZGs4SXJ3bU0zbVIt?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 16 Oct 2026 15:54:03 GMT",
+      "detected_at": "2026-10-19T17:31:18.614615+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "843e58bcb71d3f87869c",
+      "title": "Policía capturó a dos hombres e incautó armas de fuego en zona rural de San Martín - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObjRpSk9RZEtIT21pWktIa2Y1TGg1ZXRJRFlUVmJDSko4MFRJY2ZkLWN5Y0pMTjA4Q2lXZVVhNE9FZU8zS3dMY1luaE4taXVKcW5OZ0ZLNHNEVm1xQnhJb0J6YzR4Y05RWlhyODZXS0VLSXA4YkNLT1hMYW03Y3NGOHZGQU9teDFNTU9NcUtMU2gwS1V3ZzJ6VDZ0bnVNZXN2eUU3UkNGQjNBSW9vc1E?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 16 Oct 2026 15:43:32 GMT",
+      "detected_at": "2026-10-19T17:31:18.614839+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7b1af2cd013897a10569",
+      "title": "Cerca de media tonelada de marihuana fue incautada en las vías del Meta; dos personas capturadas - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUUtzaDYtcUJPVVJtZ0hjZVVRU0F2VjZFbTd5dUZfeHRaZHlhWE5CdHZyVmtzRkozU3hQb1JMOVNMOGFqYWxlOXpVQUdUXzFqVXY1N3JOcUh0RVJtUTJFQUtEREpJSjlJNVNhWVRPa1o3d3Z2VmRQeGM3RHZZd3BwVklpNVByWm9vTm9ZZXlyaklIUkJaM3NrZUpwOUVUU2NUc3dwZ01FdXNYOUp6R3kxdTFqY3BYcTJXSkFqR0QtNTNhQQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 15 Oct 2026 15:30:23 GMT",
+      "detected_at": "2026-10-19T17:31:18.614962+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "aa295de01779ca7eed33",
+      "title": "Rápida reacción policial permite la captura de una persona señalada de homicidio en Sabanagrande - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUVZzZWNzaVh1S3FvbDF0RmpTSGlKWkFMbEFxd2h0elNlYTlLRG85UEpMdHM3UTl4SGFRZXBYRVN0RlplbGk1V0tidUZGRkxpMUltV0ljcmM2aDMwWjcweEJRakhvbXR0OVlSWWZZVEpxZEpmRDRMbmMwY0U2cmVBT0trXzUtRHRoN3hXWHptYU1UcE5ZTzR4cHZ1c1V6LWR0LU5NcFpHUTUwRHhLMnhtUERHLTR3MmFYU3I3cWVSSERvZ3c1Mi03SVZVV0Y?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 13 Oct 2026 14:00:49 GMT",
+      "detected_at": "2026-10-19T17:31:18.616046+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
