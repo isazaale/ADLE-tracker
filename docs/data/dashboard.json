@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-20T15:41:00.187752+00:00",
-  "last_success": "2026-10-20T15:41:00.187767+00:00",
+  "last_attempt": "2026-10-21T15:59:20.516692+00:00",
+  "last_success": "2026-10-21T15:59:20.516706+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -27,13 +27,13 @@
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 76
+      "articles": 27
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 24
+      "articles": 16
     }
   ],
   "events": [
@@ -1268,6 +1268,50 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Thu, 15 Oct 2026 15:43:49 GMT",
       "detected_at": "2026-10-20T15:40:40.605560+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "8181ae67bafd72947d12",
+      "title": "Ejército, Policía y Fiscalía capturan importante cabecilla del Clan del Golfo, en Carepa, Antioquia - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVUNxSXgwYkg3Uy0xQlFnd1ctRWlNZTRyS2c4bGhwN0Q2LVF6dm1GWU1nS19vMk9RTXpBRTljcUpDZDNDV3V5aWtZczJ6STFpY1hVZWJSR2dtV09DaU1kdm5HbUFKSlJGand1cXdsZ0V0MGZENmxJcEIxa25yLXBBSHJ5Tk02VXp5SDVPaDlWaEtIcXNUQUFZeTUtWGdVNnNOTWxhUXJmQUZsdzRMNG5SSHc1ODNBejlOYXg2NA?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Sat, 17 Oct 2026 16:13:40 GMT",
+      "detected_at": "2026-10-21T15:59:00.765586+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7d23b9bddb6041f26185",
+      "title": "Armada Nacional captura a tres presuntos integrantes del Clan del Golfo en Bahía Solano, Chocó - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE93Y1phY1J0U2ZtRDFWT3pHbENkeEdpNUFfRmNwZzhLWjlVdDBDRFV1ZHg1MlhRakNBQlNTRjFpaU9KYnF1NXVwMFVkeEhzdw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 20 Oct 2026 14:22:45 GMT",
+      "detected_at": "2026-10-21T15:59:00.767023+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "b53ea3200d0118d484c8",
+      "title": "Ejército Nacional y autoridades judiciales capturan a cuatro presuntos integrantes de una red transnacional en Nariño - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWTBObDRTUFJHWFA3NWt0cE9hWGNveFRDbkZvTFJaczJXdlBmSldLTGdJOUhCSDFHVnNmS09yd0t6VlB3cDU1WXp0ZWpLWGhzLVVMQ0ZiVDdlRF9uUzZPQk1vOTFXa01rSGFCMFl5THhhdndGaDJmNFBzQ2I1dHd4cjIzSzdqZ083S0tmSUtZTXVPdldKTGFhMjlfanAxbFU4aXhoOWh4NzBaWFlwZ1lyeVJGY3hWN0tqd0VGclduYXYyVm9tcUViSm1Ob3pza19jRVJoeWhndkNDVHdSOGc?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 21 Oct 2026 15:57:08 GMT",
+      "detected_at": "2026-10-21T15:59:00.767674+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "58cfdac1449e66829c8e",
+      "title": "Capturados presuntos responsables de homicidio en Manizales - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVE1Ed3cxSkJpSURQcmdVdTNvWm5QRlpUeENpT0xoMW1yYUFmdUFLSzFqM1d0cTRvdEl4TC1ZMnNGTk0zUFd4azlKM0hHc2w1aUh5amdtQ2FlUEluSVlvM1M1OXYwSUFZWTFrczRUQWVIaHFkMHFPTmp2N2FiMk5KV1RmdDFlQUlBQk41S3IwQjNoZWlSWEdHb0cya0pjUFhxb0tV?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sat, 17 Oct 2026 20:23:25 GMT",
+      "detected_at": "2026-10-21T15:59:00.939434+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
