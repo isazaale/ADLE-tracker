@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-21T15:59:20.516692+00:00",
-  "last_success": "2026-10-21T15:59:20.516706+00:00",
+  "last_attempt": "2026-10-22T15:54:53.449190+00:00",
+  "last_success": "2026-10-22T15:54:53.449206+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 4
+      "articles": 3
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 27
+      "articles": 16
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 16
+      "articles": 6
     }
   ],
   "events": [
@@ -1312,6 +1312,50 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Sat, 17 Oct 2026 20:23:25 GMT",
       "detected_at": "2026-10-21T15:59:00.939434+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7e50291fc82ee8469bde",
+      "title": "Fuerzas Militareas incautan más de 3,5 toneladas de clorhidrato de cocaína en el mar Caribe y captura a 5 narcotraficantes - Comando General de las Fuerzas Militares",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbFhnOHFTRTVmSG5PUjZrOGM2V3hzVVlubFV2WjM5NThNRHN0VlVHRWw2MHMwOFlvc2xOYUVwWUlhLXozNHJXelQ2R21GODBjeEN6VGhzUk9zQk9DMy01OGd6akQ4Uy1UbjlrNVpoM183SHBjQjZEMWN6S3h3em5oa0Y5UzJmMUg2Unhsc1gzdllxSjZ0SlFkWU9QTmVuUldvOFo1WmhFQ1RqQXdjSUZYbDZrTmNnQ1dkeDRscXduUVd6Ul9L?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 19 Oct 2026 11:28:19 GMT",
+      "detected_at": "2026-10-22T15:54:33.732094+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "719476e563293ba987e6",
+      "title": "Ejército Nacional, Policía y Fiscalía capturan a dos presuntos integrantes del ELN vinculados al asesinato de líderes sociales en Casanare - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOU2xHMW4yUzA2X0ZPeTVkZnVuZHR6bEg1eWV5NElBOEZqcjAwS051eG9ZNGdVNDBxbDdjc0tKZUlKbVFBLVUzWE1jdjhOTjJ3dXBBRjg4ZnNyMG1uVkVvNl9abnRnc1RmelNyeE0zbl9PMWxhT19uVFN2WHc5N1BtdllCX2FPc3ZkS193ckhwRG1jM29JVlFMODlkREJPYlpXWUR0d1poaFVaNnVvMDdpcnVKTVEtQl9LRmFGeC1Ib0dLRkVMMDFnd2k3MmVfdmpzUWNzbTVmMV9VV1BLRTdTVjVGZnMwQVBZQWJvdzdZX3ViUnM2RzlzcQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 21 Oct 2026 20:41:13 GMT",
+      "detected_at": "2026-10-22T15:54:33.732335+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "b6f6a11eb7123bbfec70",
+      "title": "Autoridades capturan a presuntos miembros de una comisión de finanzas del Clan del Golfo dedicada a la extorsión en Córdoba - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRzhidnhldGtiOWxCOXEtUExNYUJwdG9Ddk14ajVSSXVuTi0yZ090X0V6Y1NrYWxXQXJPMTVBUi1WWi1nazFJejBjMUZoU3dqdVc4VlpDQXQwQ2Y1SHNVbUNGdVBROWU5dUx4MU9OOE9Na0NXOTlMR0l1bDZ5eEt3ZDZsRkIzUWYwZ2gteW5DTFNZZjJ5VnZlVXliRlhWa2lwcWlNX2NDdTNtTGtPQmJnbUJnZEoyc21lMmJDRUxCSzhoa09NM3I0cGRlYXcwVmxZc0pQaDNPd0NXQ3dKeHo3d0xpTmJCdw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 22 Oct 2026 14:27:33 GMT",
+      "detected_at": "2026-10-22T15:54:33.732479+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "98044176392c22358096",
+      "title": "Ejército Nacional capturó a 15 personas e inmovilizó vehículos con más de 200 bovinos en Puerto Rondón, Arauca - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWEVWUEZrcHZxY1JvYTgzZmwzaTA2UVpxRF9DOV9OSm1CNTJ1OHhOdFZhaXd3NWUtUHJIOC1XWG4yaHFoR1g0djVua0ZsMm1MVTl4WkVvUVR5VVBWaGlzaWk4bmZGWGJ2R2dyN1JfTzd6VEhnVERrdEtSSVZDTjlHMXlJME1hb1A1OVhUMUZfQkhiVHVHSWVVZURZUGMxSEc1OFQ5UGNnSjlIWGZyZ0ZYelAtWnNjVXBZZkxEZGoyWHhqTzU4a05Wc1llSzdkRHJqX0p3?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 21 Oct 2026 21:33:01 GMT",
+      "detected_at": "2026-10-22T15:54:33.732802+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
