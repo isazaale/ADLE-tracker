@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-22T15:54:53.449190+00:00",
-  "last_success": "2026-10-22T15:54:53.449206+00:00",
+  "last_attempt": "2026-10-23T15:46:37.498960+00:00",
+  "last_success": "2026-10-23T15:46:37.498973+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,7 +21,7 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 3
+      "articles": 4
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
@@ -33,7 +33,7 @@
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 6
+      "articles": 4
     }
   ],
   "events": [
@@ -1356,6 +1356,39 @@
       "source": "Noticias oficiales — Fuerzas Militares",
       "published_raw": "Wed, 21 Oct 2026 21:33:01 GMT",
       "detected_at": "2026-10-22T15:54:33.732802+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d5a72842066f0e045526",
+      "title": "Ejército Nacional, Policía y Fiscalía capturan a dos presuntos integrantes del ELN vinculados al asesinato de líderes sociales en Casanare - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNk1wRnRrVUtpRHFTREZsU0g0QVFTeElZTEtvckF1azVNVXZuNS10NkFBRHZhMUd4SWVmZ1F2Y0FSdnQ5alpMOHZWNjJzX2JDWVhMNFBhVEVPYlZzSjJ1ZGQ3WWY2eFRhRnVXczhZdEFCbDZ6eUh3MzJaMEk4SmNIaGlkb1Q0RURRa2s1MUN1YmJYWjZwYUhzOGhXZDlYdDgxYkxxM1YyVE5HaVQ3VDZsR1lzd2FtaG9LTHJfVVRMc2hXaXotVFE1M1h0RlU4dVlheWxkV1hmTU5lenhYODFBaUxHd0FNQkNUeVlBc0tNUzNQTkk?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 21 Oct 2026 20:41:13 GMT",
+      "detected_at": "2026-10-23T15:46:17.759706+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "24a76439548b3cc63fdc",
+      "title": "Ejército y Fiscalía, con apoyo de la DEA, capturaron a siete personas requeridas en extradición por Estados Unidos - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZGktSzRYbk4ycURzM2E2azdvcEYxYm1ac1o4NHBKTW5TaXZqQ1gtSnpWMXc1akdkMnFJOUZrX3ZhX3hUMmFhbUdBalM5Rng0aXRmS2hMVXFrS2JvM2dfOW9JZ3dLRGVrdzg5N3FrWjhFa0p1STBQNlpxNnMwbzh3UUk2Z0hfZnZOMTR0bElmeWV0b1JlRmNQUzQxZUQ2ZUtkUDdyLWpxdWhBWjY4SGFYbU9IVUxPUGEwYzJfSTAzZFVyU3g2X0NhNmdCR0p1WDZwV0hkVEFOZw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 22 Oct 2026 21:05:25 GMT",
+      "detected_at": "2026-10-23T15:46:17.759895+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ac681dc2bed5a3535a89",
+      "title": "Ejército Nacional capturó a 15 personas e inmovilizó vehículos con más de 200 bovinos en Puerto Rondón, Arauca - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZVI0Vmpnb2psc0tZVXY5eUw3YUhnZFJuUmpmX0NnN3JtMFJfdDZtUzFOV08yb1VmM1ZkR3NvSVBqVV9UVWlxVlhucVk0WWEwY0o4emdyTFdfZWp6azYzMDRaOTF5WGhIWjJUaFhqejhfUkVxLTI4QmwwUng3OUVUWlpfZWJVbUMtdjRkSTJFcU9GX295SEI0YUpDU0x2Y0wzcmlNYVgxNV9yMEdTZ3RnSEE0NzZadGdvMjdqNHVJMUl4TUJTLUg5ZDl0WEs5QQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 21 Oct 2026 21:33:01 GMT",
+      "detected_at": "2026-10-23T15:46:17.760199+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
