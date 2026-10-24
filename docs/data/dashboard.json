@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-23T15:46:37.498960+00:00",
-  "last_success": "2026-10-23T15:46:37.498973+00:00",
+  "last_attempt": "2026-10-24T14:36:55.495296+00:00",
+  "last_success": "2026-10-24T14:36:55.495310+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,7 +21,7 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 4
+      "articles": 3
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
@@ -33,7 +33,7 @@
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 4
+      "articles": 5
     }
   ],
   "events": [
@@ -1389,6 +1389,50 @@
       "source": "Noticias oficiales — Fuerzas Militares",
       "published_raw": "Wed, 21 Oct 2026 21:33:01 GMT",
       "detected_at": "2026-10-23T15:46:17.760199+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "4163fa86e36934a2cebe",
+      "title": "Presidente De La Espriella destaca incautación de más de 3,6 toneladas de cocaína en el Mar Caribe - presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPaXE1blVQY3pvM05MdzZtZ2gxalNOZ2RYMlJLODR3YlIxUUVLdmJucmh1eDBWMnVUTkVXQjZOcnl6dTZ5UllWSUNHR1lwNzZPcExqSjVHYmx3UURMVWNTV1JsNjhMWmJ6WDRWQkRQNVR0X1JtNVdMbW5Yb1VnX25aMEY3c1dvM0RmRTVlMG54Y3otMlpOWjlQeHJMdlVMSU9XaWFpTW5LRC0yMGdyM1VXVklIWVU5WHdOWGo1ZmpFQzMtd3U4dlFvdU11UWdNNTdyOEVicXRWbGJqMzFHdDlpOHJ3bXNTWHMzYmhj?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Sat, 17 Oct 2026 23:22:27 GMT",
+      "detected_at": "2026-10-24T14:36:35.698076+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "06ff4b5aec3cbb509081",
+      "title": "Autoridades capturan a presuntos miembros de una comisión de finanzas del Clan del Golfo dedicada a la extorsión en Córdoba - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTWFkREdlck5EUzZwb0xQOHA3eHhocTJ2aEtGdjV5SW9ZOU5qU0ZxMDdsMUJ1ZnpHVC1KQVJyUkRRUlRZdU1KdlBvNUVVV0Nfd0J3MUtpeHJWQ1hNVGpnZE5WYjAwMW1pUE5abl8xVjVMZ1JraDZmTC15NGF0cF9BTFdSVFFicFVlUTFLZHVhd1E1MUU5c1IxTkRlbERKZXpfMWhKRjVoRnY4czZ2UW9WSVA4QlY1a0NxTnNBTldxNUhKcndiWG1BYklKSW5hLV9MV3RYaXpxRVRVdjRyMF9aaQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 22 Oct 2026 14:43:32 GMT",
+      "detected_at": "2026-10-24T14:36:35.712053+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c19402c8edbb7feca5db",
+      "title": "Ejército y Fiscalía, con apoyo de la DEA, capturaron a siete personas requeridas en extradición por Estados Unidos - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPLUNoWUZzNUZ4YTJZUnBHNmpFaWU4NWtUMlM2OHYwWW83YlpjZEF2azFtMXhDMF9vMWJHaFZPRlBJc051Vl84aU5mUFNjLVItb3lHVlJZbXRSVEtUYVF3bTV6cktCWWg5YS11Z1A2SUhxbjYxdHliRTRseEZxS2hsUERaS0RBeHRXbkp1N3AyY3E2YU5LSTd2ZlVWSngtd3NtTTZ2aWdIMExBajREQ3dEcG15a0RRdGItN0VtdkhBQ1lHVUlZNGRzNlNXQjVHbFdzemc?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 22 Oct 2026 21:05:25 GMT",
+      "detected_at": "2026-10-24T14:36:35.712692+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "2eabff254efd274c752e",
+      "title": "Armada Nacional captura a tres presuntos integrantes del Clan del Golfo en Bahía Solano, Chocó - Comando General de las Fuerzas Militares",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVEtfdGNKMDFFNDVkQ2dZY2VGRTR1X0wyNllpLWN3ZEJaaWJyZUVvczRMTUhiSE9DWXpVYmwyTzRmdVdKQWl3Z1ppUWkwWnUxMUs5Q19zeFBCWDRpM2V5MVBpX2ZhODl0QXFSenU0d2tIOGJzeGdTYUU1c2lVUmthR04zR1BsTE1WYlAzbXRyc0hGOF9TZ1dyTlBUakZ2QjV6ZkhaVHFMYWtuV1RqZG9XQnVLdHFKcS0wS1VWMVQ0REl0emc?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 20 Oct 2026 14:22:45 GMT",
+      "detected_at": "2026-10-24T14:36:35.712768+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
