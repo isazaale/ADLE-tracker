@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-26T17:25:48.015451+00:00",
-  "last_success": "2026-10-26T17:25:48.015467+00:00",
+  "last_attempt": "2026-10-27T16:43:33.866159+00:00",
+  "last_success": "2026-10-27T16:43:33.866173+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -27,7 +27,7 @@
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 17
+      "articles": 44
     },
     {
       "name": "Noticias oficiales — Policía",
@@ -1433,6 +1433,94 @@
       "source": "Noticias oficiales — Fuerzas Militares",
       "published_raw": "Tue, 20 Oct 2026 14:22:45 GMT",
       "detected_at": "2026-10-24T14:36:35.712768+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "42f90264fde1e62a7677",
+      "title": "Ejército Nacional logra la captura en Leticia, Amazonas, del presunto cabecilla del grupo delincuencial organizado Los Fantasmas - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQjNoTXZxdHRGV2M3Y0dkN3RXbFlON2l5V20zbGFXVl8zTFZjc2czcmV0Q25jVFU0aEpiSmMtSXE3Q1BMZFFoc0JHeE1CZHJyc2RiZWdzaExfbk9SU2x4RjZjSVlWZEtUQWFQZ1JjWTZqU19wVnlCNjMxZzhoRnp1WmdQQzZzUzMyQTVkVUdNZjBsU2I4cXg2elE5NUhtTXEyUlhWQXZwMHRTYWwwNjJNckgwc0hPMFVTenpMc3h0LW1vbUtYcEdMYmowSXdTbU9jdXhFVk0ycy1UN3ZjRzE0ZGFwUlM?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 21 Oct 2026 20:32:46 GMT",
+      "detected_at": "2026-10-27T16:43:14.176047+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7f52d5a5df990e731c5c",
+      "title": "Cinco presuntos integrantes del GAO Clan del Golfo fueron capturados en Puerto Wilches, Santander - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORDlieWlHSGxoYjlaYVJoS0wxMmF3MVI4TzhIQnNianBsVFdMQjZBdGg2b2pJN0tpOWR4RVdEZkE5YUtoNFlxVElQN2VOOVN1TmpqdWk1ejYzX2hWdWdLQlRyOWpQNzFERUxraWtGZDQ4SHRXNkhkdmoyYXdHUVBoVF9LRXVySXduVVRWT0k0bU55TUx2Q0QxeVctMlZjVEdMbU1UcUFTWERUSERTWHNOWkZhcjdWN24wLU5vb3RqYjZ5QQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 27 Oct 2026 13:00:55 GMT",
+      "detected_at": "2026-10-27T16:43:14.176184+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "4b60975f719d666a2f16",
+      "title": "Ejército Nacional golpea las redes de extorsión del GAO-r Estructura 36 en el norte y nordeste antioqueño: dos capturados y material incautado - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSk9NeUFVTndNXzZSR21NQWlKVzBwOG9vbjlRMEI5MVRkbVZlM1hPQVpXd2pZZmVYMzdZazBfM243bmQySjhxNDFjYTZkNmM0dHFjTlRiTG1MRWFka053dmQxbHJrMzlFWmczRWFmU2o3dG80RjVaMWRBMkZYbi1URllhY1NFaWVrZ0hseHpyWjZOaDJwdXVuQXRLcUpRSThvY0g3X2Rna1lDRHFIcVJuOENMMDhFUzc0ZzR6TVk2bmtPOFlKOC1kamFwek9zbEdkaUNGSll6eXgyTTVMdmtiWkVGT0h0VUI5X2QyRDFfWEVZbFVFemFrdlIwSnc4dw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 27 Oct 2026 14:26:15 GMT",
+      "detected_at": "2026-10-27T16:43:14.176233+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "b079a3ba49d4dc7e4399",
+      "title": "Más de 24.000 galones de insumos químicos incautados en operación contra el narcotráfico en Putumayo - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMmZ6UG9WNTV2alNpM2NaMGtIY3dnd01uY0JnT0pnYTBqbjFnSS1QbXhGUkR0N1ZQbDhVanJJek1MRHRXYTNVUXZzSklaemRONjBzNjgtQVlFX1B5Rm1rVWd1ZGZBNkF1d0xXM1FDbEE3dXd4VGJUcEZjSFFXTkg3eGhtelUyS0tfWUVqaEhKWjRwNDVOQ0lJSzFkWUJsYUNCQ1pSOG9zdXlwVTFoWGhIUzBSUlhXcGJud1U2d1l5UlM?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 26 Oct 2026 22:04:55 GMT",
+      "detected_at": "2026-10-27T16:43:14.176969+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d97b0fca0c00ca81da44",
+      "title": "Ejército Nacional incauta 536 cartuchos para francotirador y explosivos a una estructura de alias Calarcá, en Uribe, Meta - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWFd2ZlRrd1lfdGR0eDJqVXA3ZWc0bG5kMllCY1VoT01tckd3THVURXM3VXlRYXZySi1sXzY2Y0VGdXlSRzY1UTdvWGZHVmxZa19wOFJ0M2k4SEZlQWZybHpTMG5GSUpYOXpFRTlMX25zc0FhLTZhZTNvV18tZVdiOGkzckFOZ3pya3BKODdUOVlKLW56VkdCbXFGVDlHZm9YemY5WWFVbHlMRXp6TXpLMkp3UlFyZ3piY2VyUXR1emJuQUZ5ZHlqeVhQVmFLd280TTRSS2V2UUFkTms?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 22 Oct 2026 17:14:05 GMT",
+      "detected_at": "2026-10-27T16:43:14.177127+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d643d42d6d7ba1bffa5d",
+      "title": "Ejército Nacional incauta arsernal de guerra vinculado a la Estructura Franco Benavides, en Nariño - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeE02QVEzaEpkTHlrb052U1RDVWlnSUFtMEx0RGg0a0x6REdqMGR1S0JGc3RyUVE1NDM4ZURFQXp4UUlhb0FpaHpGcE1ubWNMTWxRTXhkMW5nNE9TSF9ndVhoVTZzci1nUFdHV0NrY05vTElzSlFVd1RiX0hySGhodlNXS0hDdm8zajRsZ3VVaE5CVy1lSjRJb0xXMXZrclNIdDIzTEVvNXJ3NWduWHp5RnRvcXUwY25tV3dybGJR?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 26 Oct 2026 14:00:58 GMT",
+      "detected_at": "2026-10-27T16:43:14.177161+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "19709ea29a62f2fce529",
+      "title": "Ejército Nacional y autoridades judiciales capturan a cuatro presuntos integrantes de una red transnacional en Nariño - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPY25ETUNEWVF6VmRXMUdfYXZxYUVHQWNxSUx0XzFLeWtaSDRhUEd2ZEN5b1pXSUNGaktkTzQtYWtyRElISVFJbzFhd3ZDZ0E0NlZHU2xJT3dDS3MwbmY2b2lfaDJFeEw4b2RlT25MSkxZR2wxWEJYTG1MVDhtV1VCWURMMi1yNjZBNmFxNzZza0VaQlQzVVJSeVhacmJhejgxMWdUSl9kNFM3ZkJNYXRsVDhXaURaRmVHdXRFdGtzRWxyQ0sxWVZzMHgzOXZRN2RncGdzbk93SGE?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 21 Oct 2026 16:28:22 GMT",
+      "detected_at": "2026-10-27T16:43:14.177199+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a094336455f56bceadc8",
+      "title": "Capturado en Cartagena del Chairá alias el Negro Antonio, señalado integrante de las disidencias de las FARC y requerido para cumplir condena - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQYTN5b21WdFk4ZldXcU84MmRLamNjTTJkdjZZZGV1R05oVUFuaGRYeF84SlpjS0Fza0FheXh2c0pMLTk4MVhpX0p6NHl3MnFTQUw3TXliT3ExSDhqTnhCUTduVDVUaVVncGFVR21SMDdXMDZOZlFwTFlLaDVWQzNPOUNJZGpNYXAxbEYzMkZqczVYNHFHWTBfN0RfVktCZXZPVDdxSWN0d2FaeFZ1NWg1aDBjQ1VlXzZxRjRZS2JIbURQaWF4VEVSMUFGS1VncnM3MHhzemRxaGN3UURzcjJTbGFlT01BYlBtNTRkRUF2bnhreDhQejZ3?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 26 Oct 2026 16:28:37 GMT",
+      "detected_at": "2026-10-27T16:43:14.177391+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
