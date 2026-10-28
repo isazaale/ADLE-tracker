@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-27T16:43:33.866159+00:00",
-  "last_success": "2026-10-27T16:43:33.866173+00:00",
+  "last_attempt": "2026-10-28T17:11:42.160922+00:00",
+  "last_success": "2026-10-28T17:11:42.160936+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 1
+      "articles": 2
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 44
+      "articles": 100
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 2
+      "articles": 5
     }
   ],
   "events": [
@@ -1521,6 +1521,99 @@
       "source": "Noticias oficiales — Fuerzas Militares",
       "published_raw": "Mon, 26 Oct 2026 16:28:37 GMT",
       "detected_at": "2026-10-27T16:43:14.177391+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "80fd8349098a3a39129b",
+      "title": "Dos adolescentes aprehendidos por su presunta participación en un homicidio en Bucaramanga",
+      "url": "https://www.policia.gov.co/noticia/dos-adolescentes-aprehendidos-por-su-presunta-participacion-en-un-homicidio-en-bucaramanga",
+      "source": "Policía Nacional",
+      "published_raw": "Wed, 28 Oct 2026 15:03:52 +0000",
+      "detected_at": "2026-10-28T17:11:22.794418+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "971bbf2dbe87a23b06c0",
+      "title": "Presidente De La Espriella encabezó megaoperativo en Medellín: más de 150 allanamientos y 135 capturas - presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNzk5UXlFbUZTUEt3Vkx1Ui03ODZUY2pFRUFfQzJLT05meG9lMWpXY3RFUmp5dk5vSlh3RGpiNzA5QnFpWldjQjBJb1IzaWFyT3R5OWtGbFZmOC16QnJEV01QTVdyNXQ2dVdYLXlScUFINFdVdzhjMVhqVEdLTFdFS2ozRHZRQ19CODFsdFFSV0ptODlIcUNLWjViZDVqekpQNmREVm5oZWpIZlNxOXkzWTlYR2cxZ0FfVFBVckJiMWlGQjdHNEZHeFhB?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Tue, 27 Oct 2026 17:01:13 GMT",
+      "detected_at": "2026-10-28T17:11:22.395620+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 135
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "f3a6afc486a683f110bc",
+      "title": "Cinco presuntos integrantes del GAO Clan del Golfo fueron capturados en Puerto Wilches, Santander - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ2UwTHZYY3FvbEU0WWozYWxMdjNYTGFxdDVseGE0djRmdk4yLWdwQmhnQjdOX2YzVXMxYXNaT1NQcHUtZE51ZHZueDNwRGpHSXMzS0tCT2FSaDduQVd3blpFWGFuNWFqb2l1eTltd2Z4STVNdkp5VXphb1NIcjQ1WnR2TGVOaDBkWlRBVE5PT3FKRk1uY1lQeWo1WkVLdDF5aDlBMFNNRTNPXzQ1ck1OTl9XSnB1eXJZUHd3Zw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 27 Oct 2026 13:01:29 GMT",
+      "detected_at": "2026-10-28T17:11:22.562962+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "54e679430947a06c3528",
+      "title": "Ejército Nacional golpea las redes de extorsión del GAO-r Estructura 36 en el norte y nordeste antioqueño: dos capturados y material incautado - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZXZFb3h6NVY1V0szdTAtSXZYZnh0b2p2dVBnbnJiOHdyaENfbXRIX2ZNdTR5N0VvUm4zQlhPRFU3azkyN0dkeXJXUkx2RDBwdllOV011Ym10MGxJMllIeDJCNWlzdGhGMFU2ZFBFb0VUQWIxdmpLRklqSHNyT1pCTFBjMjZOaXotb1ZkWlMtaGhOa3Q2MXB2M3dncEpZQm5hMldrbWh6d29kYlNJbV9NZjlIT2NSU0dyU1RJQUNwNGd3SHR0bE84RWRsaVlDbGk4NzRpLWh5UW9kR2hGTkJhQU5YYTktbkNiZ2dZNWRIX19zUDhFYVVVMw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 27 Oct 2026 14:31:15 GMT",
+      "detected_at": "2026-10-28T17:11:22.563007+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7c54432abd279336e027",
+      "title": "Ejército Nacional y Policía capturan a dos presuntos integrantes de la RAER del Frente Iván Díaz, en Garzón, Huila - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNXpscU5YYlV6THFpRFdYUW82Q3NDOWQ2V1RVajFCVWVnVEJIR3ZYTXBsTTFrVGtNODdyZTBwNTZBSkpBRFVBOThoWXVVNC1xdmRIcS1kNmc3aDZGbS1qLU1HX1VtdHhVbm9qd0kzTWlDanA4ZENsak0zOU05ZkFYRDZ3V3RtUThzYkhMUTJTUmI1aWJhRUMwaTJ0bnlvOENDXy0xVkxxT3dXMWlXc2dyVDF1by1mekcxbHl5Si1JejNlbEtQSzRpYXItNWdYN0tDbFRWU2FIbw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 28 Oct 2026 16:27:50 GMT",
+      "detected_at": "2026-10-28T17:11:22.563254+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "63b7e63dfda08a44ecbf",
+      "title": "Capturado alias Cachaco, presunto cabecilla de zona del Clan del Golfo, señalado de coordinar el homicidio de dos policías en sur de Bolívar - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOWWJmX2NTVWlWMDZxUTNtbnpqeEo0dTE3d25iSG82RXRFSER3SThQc2NGT2tRR0MwUjdQS0M3cTA2TVl3cGNlel9GbjlSLTZFaGx3MUpVdlVaT2J4eV9FQXN0WVk2RFFmcm53b2oxNU1YejVSMHRfTE9rbmRZV3VjN0o3amJhYnlVYl9GeU9LWDZ0S3lMZDdLVVhPa1ROMU81VzVrNEFhaTJxZ2ZNSUNfa29IQXlYSXd3OFJyNlczNkttYVVIbXVwbjVGb2ZxZm9LVFhKcTdKNklqV2hnUlpXNG1UbmlzeVpVNXgwMXdYNUpSRmVXLWY1Y3Zn?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 28 Oct 2026 16:10:31 GMT",
+      "detected_at": "2026-10-28T17:11:22.564164+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "90f47046c2d049d04eae",
+      "title": "Dos capturados y armas de fuego incautadas en operativo contra la delincuencia en el Valle del Cauca - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMTVGRHkya1dkMTE4bG4wcW9xREp4RHlxeUhfdEpuMlI0dWJWYy1PTEZ4cUl0LWRuQjJrNUZ2SzEzMUJXOUlESDRCdVFIbGNWMkFSQkZEV01KX3pieXh2OTJnRi0yeTNvRGVkVk1SWUJEd1JpbWxXZHZBZXUyeklmaERDQ3hrbmZhOUQyQThZZ1R3LTE4ZHV5MGJaTFQzdDdkaDY3Smh6WTJ5VVdwOHlOWjc2WkdiUUNUTnJuQ0U5Vm9hQQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 26 Oct 2026 15:27:39 GMT",
+      "detected_at": "2026-10-28T17:11:22.664851+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ab3c2cd4812c309bfe09",
+      "title": "Cinco capturados y más de 3.000 dosis de estupefacientes incautadas en Girón - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSVBFUk1IekMwaXJUTlYzNW1yVU5sSXVNZHJabndfU3dVX05MeWpTTXh5S3U3RzNOOWNlQ09DVGNETWYtWWRwTEk0RDkwbGZJVWxMMllqcHRya3VlQXVWaGlOd28wRDhybUEydDgyM2ZKWW5IcnNHOFFScXNlY2FRMXJWd05uX3ZKazFUX3AxRHdYbWRpUnh4LU5xYUx5RHNkeXNFSg?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 23 Oct 2026 21:02:23 GMT",
+      "detected_at": "2026-10-28T17:11:22.664910+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
