@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-28T17:11:42.160922+00:00",
-  "last_success": "2026-10-28T17:11:42.160936+00:00",
+  "last_attempt": "2026-10-29T17:27:41.610105+00:00",
+  "last_success": "2026-10-29T17:27:41.610117+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 2
+      "articles": 4
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 100
+      "articles": 61
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 5
+      "articles": 4
     }
   ],
   "events": [
@@ -1614,6 +1614,94 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Fri, 23 Oct 2026 21:02:23 GMT",
       "detected_at": "2026-10-28T17:11:22.664910+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "b8cb621266b3203e1f51",
+      "title": "Policía en Caldas incauta 20 kilos de pólvora en controles viales",
+      "url": "https://www.policia.gov.co/noticia/policia-en-caldas-incauta-20-kilos-polvora-en-controles-viales",
+      "source": "Policía Nacional",
+      "published_raw": "Wed, 28 Oct 2026 19:54:29 +0000",
+      "detected_at": "2026-10-29T17:27:22.195877+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "811e86ad1b50500fb6e4",
+      "title": "Capturado en Pasto por presunto hurto de una motocicleta y un celular",
+      "url": "https://www.policia.gov.co/noticia/capturado-en-pasto-por-presunto-hurto-una-motocicleta-un-celular",
+      "source": "Policía Nacional",
+      "published_raw": "Wed, 28 Oct 2026 19:51:49 +0000",
+      "detected_at": "2026-10-29T17:27:22.195931+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "be5c0819711d3d45e2c5",
+      "title": "Ejército Nacional capturó a dos personas por hurto de 2.000 galones de hidrocarburos en Santander - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcXNzZVVJTjlMNzJXbGducENMMVB2RkhwZF8wdmQ5UFI0MnVpdG81TnI3QUc3d2cweUVYUUVlSHdUcUZHNFZvYWxRTE5xVWtQVVE1U3AtSy1KNE4zT1JUWVhEb21VbXlIM1FSV3JneXVtOHNMVG16ZVFyaWRmdXByZ1JnNV9Yb0hKeTMyNHNyMVlpREItVXVBV0dPekdZd0tnalg3RzhtWlRReUpNQkZIbUs5SWU?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 29 Oct 2026 13:23:41 GMT",
+      "detected_at": "2026-10-29T17:27:21.899068+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3ef6fcc331a4664238b8",
+      "title": "Ejército Nacional captura a cuatro personas por delito ambiental, en zona rural de Cajamarca, Tolima - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR056TlJkTzBhdk5JNy1qZl91S2VVYmpmM01mdlhaRW8wbC1EME1US3AyR2U2dkprNlB6WlhZa2FOQmdYMGtUUExPTFNxRzNEeHJPVXF1a0FwZldtb2tjOGxMNFFZODBPVVNHY2o5dmxiZ0pSZDNSbTdKLTRGemZreFRUbC10OTVNSjhLQS0zUWVmejNNb3hoWlpqSm41LVlfYWVjNW9KdVl1OTdwZVRsVEI1OFRKbmFxZ0M1STQ2X0xoOUM2?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 28 Oct 2026 20:51:49 GMT",
+      "detected_at": "2026-10-29T17:27:21.899679+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "64f570aee1e3fb37004b",
+      "title": "Ejército Nacional capturó a dos personas cuando hurtaban 2000 galones de hidrocarburos en Puerto Wilches, Santander - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQ2ZKREoyWGpmLUdrYjF4Rmc5MDZkRVhTemtuTHF2anJ0Z3pwb0JEUWd2MlRBX0VBUXJycFFiZGdhYWhUOVBVVFdmc3ctUUxoRWE2REZtWVMzRVFsbjJaMzhaZFNROEpIZDdRYUg0X0U1YV9mS09WU1ZFMU5PZVBFSU1EOTJIRVB4R29UZmRCYzdIUkpTbE5RcjYtOE9yTE1SNWd6bmxfN0hTZGhJRlBNbFFwTTZMMlBYZ193Rjd6cUFVNzBaQzVzR2tGYjZQLVhjVTBobGYyUDhwZw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 29 Oct 2026 13:08:26 GMT",
+      "detected_at": "2026-10-29T17:27:21.899768+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "e6d417f4a697c4c3031e",
+      "title": "Ejército Nacional incautó diez toneladas de coltán en el departamento del Vichada - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVHhHZHVNdTd0NkhrZ3pkdHFncDdzT2VRbWIzek1HX2w3Q2NJbDB5M29HbzZ3bzBqZ0l1QlNsVTJGaE0zNk9CVXhMUy1qRkt1RnY5cUR1cDBiekN3cXBTeFMwZlNDVWVLX1psOGJzU2JleWhZbHo2cllLTG5HaDc0VUM1X0VuT1VURFltTldzdVdMWGF0RHB4MjRlX2pZbU15NDdfdmVhV1I?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 22 Oct 2026 22:21:03 GMT",
+      "detected_at": "2026-10-29T17:27:21.900514+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "2f3aa787aa3be2ee14ab",
+      "title": "Ejército Nacional captura en el Cauca a alias May, cabecilla del componente urbano de la Estructura Jaime Martínez - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPemJNYS1vZ1JtdmFfRU5MTFJUNHkwcU9vckRWM1BaVkhxRzdKTkxrc1kxUzRPaFZOdEc1bDZTUFBkN1haQ1RBSTdkWDlvWFhXUVkydS1zZDRpUzM1c2I2QzVXd2FrZjZHZEdMTXIyWG50eXJ1cHphNGw2YlR3RHlMeVBwTWQySzYyZTRkTndONzMtTlQwbUJ3eVZhbFVwa2hkay1UTVV0eGVfd0NNQ1R0ZDcySUNxQ3ZKN1REUkwtdlpwNnhsdkk0MDE3TkJZbXN3b2Qw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 26 Oct 2026 21:03:48 GMT",
+      "detected_at": "2026-10-29T17:27:21.900657+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "2b3542377ea9c9284632",
+      "title": "Capturado alias Muco, presunto integrante de la estructura 33, señalado de participar en homicidios contra líderes sociales - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQU0gxSHA2cDQ2dTM2b3VkQWVFLVlJUjk5eUM2V0drZ1NNbEZwR0xVS1liWUJneE9TZVZCaUNDWTk2WWpRT0tWd0lHS2RGc2EwYU1HQW9ZQzNBNWJaNTVPdmR2ci11ZGk3NS14NDhmcXRMWDA2bzlSRWZLUVRnem1lTXhTZTdsX3JGNVd5bGpNSWs4N3QzZENBbWJHcGVud1B0SFp5WFoyZHlnTWJtNVJ3aTF3S1NGVVZfZ2Q1UU56ek83d0toYXhaNTJDekZ3WkRSNHZiMUpHOHNJMFhha3c?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 26 Oct 2026 20:41:54 GMT",
+      "detected_at": "2026-10-29T17:27:21.901410+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
