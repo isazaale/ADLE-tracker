@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-29T17:27:41.610105+00:00",
-  "last_success": "2026-10-29T17:27:41.610117+00:00",
+  "last_attempt": "2026-10-30T17:02:24.177569+00:00",
+  "last_success": "2026-10-30T17:02:24.177582+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,13 +21,13 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 4
+      "articles": 5
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 61
+      "articles": 85
     },
     {
       "name": "Noticias oficiales — Policía",
@@ -1702,6 +1702,77 @@
       "source": "Noticias oficiales — Fuerzas Militares",
       "published_raw": "Mon, 26 Oct 2026 20:41:54 GMT",
       "detected_at": "2026-10-29T17:27:21.901410+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "379e016ede8e30ebe687",
+      "title": "Presidente De La Espriella confirmó contundente golpe contra las Farc en el Valle del Cauca: cinco narcoterroristas capturados - presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORE45MFJGNjJjRnZjcTJnVmRsbEtJcEVsQ3JVVzZiTjZhMWEzVEFVb2ZVT1A5QWNrR2hWckV2djhXMGdOZWJPV3ZnYmdDOWpEdWEyN2hwMTcyZVdOWmxuT0FIRHc4blRtWFNCSEpRNFMwMlIwRVQ5UkI0cUlJQ3hubjMwdDFxcGdtLXdudmU5b21mZHZpUVBpeVl6T203dVlFV0Y2TFA2b2dSTW95VkE5aHE3RzBPVHVFa0Y3MW1RQ2FsT0tZTmc?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Thu, 29 Oct 2026 17:11:43 GMT",
+      "detected_at": "2026-10-30T17:02:04.363948+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "24afabfdffa53c96ff2c",
+      "title": "Golpe contundente contra la criminalidad, 172 capturados en megaoperación contra la delincuencia en Bogotá: Presidente De La Espriella - presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdzFYQk5nMmdrQzMxMmllZGtIb1VmZVEtYlpxQUhLeVA5MUVWSVZhNkZUam9VQ180TUNYSnliLVJKS2xPQmVFWHdWQTRNaTJTV2l3MHQxbkVhbmtjQml3bmJkSWVza2tzNW1BZU5DRmctd2tYcWxLRTMydXNyUFBOLWotVjhjcE0tcWM2djBXYmg5VjdCZDNaeEQ4Y1g4bDJiSkJqS2tOWlBfVkVGZ0NDa09tWHlPdGFRelRBMmtqdHNWTnM4RXUzekN3?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Wed, 28 Oct 2026 17:31:39 GMT",
+      "detected_at": "2026-10-30T17:02:04.364054+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 172
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "90ce58a86dfc66b128ea",
+      "title": "Ejército Nacional captura en flagrancia a dos personas que se hacían pasar por integrantes de las FARC-EP para extorsionar en Casanare - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNb3BUUHpfVExPU25sSWY3blZXWkU1bE45aVo2Mkdrd1J6YUZ1TjUyaC1LQW1TdS1TR01HZlJtU3gzZVdOaW9mcEFzQTlsQmZpdFNKYl96bWx4OVNTU21tMGJxRHBaZXZUbUsyUVpfVEVsNUpobW1DWUF2YXZ2elBfd0JQUW5JR2NoMnczMTFNM2VBcFJyWllyV1E0US1ic00wNms4LV95S25qN09yblBvX3FyVnlqRVNONWxCdlJucUViT0FSN3pHYm5rVDE5cHEwVHRCc1VNd1AtQjlULTlNYmpHTlozTTlUNHZob24zVQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Fri, 30 Oct 2026 02:44:57 GMT",
+      "detected_at": "2026-10-30T17:02:04.469422+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c76231d0f3cc75507fcc",
+      "title": "Ejército Nacional y Policía capturan a dos presuntos integrantes de la RAER del Frente Iván Díaz, en Garzón, Huila - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWmJLa0dhNHd3Q3BPNE84Mk14TndyeXNSV21hRUZJMWhuSUFwN3RDaHl3NHdiYmlYdnowcHJhUmEybnZ3bjVXN1l6OWZDMTRZM0pZd3ZMVVNHTVZST3paUFRxSHBMNTBIWlk0Y24xZDk2XzhPR3N1Tllfd0oyYmNnLUJzNDBnVTlNSlNyekc3Mk8zczZSZENUR19TaU5peUxhdjhWT1NHQXk5aFBfS3k1YmViU1ZlSDB1UDkwU2VZdTVKUEFuNW1VLUJ4SVR2NktCekE?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 28 Oct 2026 16:27:50 GMT",
+      "detected_at": "2026-10-30T17:02:04.469567+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "5992a9240c729e81a24f",
+      "title": "Ejército Nacional capturó a dos personas cuando hurtaban 2000 galones de hidrocarburos en Puerto Wilches, Santander - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNEdqSVpiUW8ycTB6TW0yRW0zVzJMeGE5cURPY2FMTVl4UnFxNUdlLVI2SHdYbUlMMDBmdkVaWmtzWG1LTUY2YlZVY1d3aTdkRFFPcVlpMEZ2NXVKajdocUtDdkxMMV9fNGRUY2ljdE1sTjEzN3F1R0Z3c3p1cHNZWlUyeF9pcWtoX0p1eHdsWDBMZF9JaGp5Yy1NaHloa190a3ZvT1RmU3o5U1E2dHZrTDhzeDF5RlJFNmFGQXVXdmVGbmM4Tks4Rm5PeTNrQXJQSEhVeA?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 29 Oct 2026 13:08:26 GMT",
+      "detected_at": "2026-10-30T17:02:04.470321+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ab7ac0a41d06f09181d3",
+      "title": "En Arauca, el Ejército Nacional y la Policía incautan más de tres toneladas de marihuana que pertenecerían al GAO ELN - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNamlNZmZVUVpDMUhYTnVqWjh2R1FBY2d2VktXRmZCeF9GSHBqdEV2V0JoVm8xZzFKcUg4LU9lZ051MVZ1VDVmekcyamtVSXFVcm1XSURJUGRjSXhQWlpLVzk2NV9BSEQzcFN5RUVyNlZFZ1RXVFhvbmVGY3V6YmR5UHJfNnJpb1hLRjh2ZVJ2ZTMzYlZXdzJHd29WOXZ5LW52dmFpRlJRTEFLS3h0T2pBM0FMQ0V6R0tCckNoTDVQOTVIYXRrMG1WNU1sUmtjclRwNlk1NE5ydw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 28 Oct 2026 23:17:15 GMT",
+      "detected_at": "2026-10-30T17:02:04.471491+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
