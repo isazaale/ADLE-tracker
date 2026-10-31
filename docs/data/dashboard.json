@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-30T17:02:24.177569+00:00",
-  "last_success": "2026-10-30T17:02:24.177582+00:00",
+  "last_attempt": "2026-10-31T16:08:48.784802+00:00",
+  "last_success": "2026-10-31T16:08:48.784817+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -27,13 +27,13 @@
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 85
+      "articles": 46
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 4
+      "articles": 3
     }
   ],
   "events": [
@@ -1773,6 +1773,28 @@
       "source": "Noticias oficiales — Fuerzas Militares",
       "published_raw": "Wed, 28 Oct 2026 23:17:15 GMT",
       "detected_at": "2026-10-30T17:02:04.471491+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "b7ce15e38035dc76aeab",
+      "title": "Capturado alias Cachaco, presunto cabecilla de zona del Clan del Golfo, señalado de coordinar el homicidio de dos policías en sur de Bolívar - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQRnBERDBiT1dDQ2p2SkZ2RUZvZkRaQWhfTllQUVRONTlQMl9UeHFidng4SUV3aUNGd0ttR3dmZHNRU2VfV0pWN3loUFRyU1VhT21SXzN1NVo3UE9IS1pTZzJRNjg2c09SU0FaS2JwT2xmN09GWEJ3bnlzeWR4NGdEZEdyandPNzgtZmE4blQtTTlIZ0V2NGt1SUJyRjFQME95cVVtMUx3SmJKZGxPR1V5Qm54N3NKRjJnN3lrSHJPMlNtd1JDeHVfZnBtaDJ2X3RhT3F6NUUzVzZ3WXF2bVg3Qk5SQ1g1MDZnTjcwZVB3VUNnMHZF?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 28 Oct 2026 16:10:31 GMT",
+      "detected_at": "2026-10-31T16:08:29.082465+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d7f310c8b38f0bd40c3f",
+      "title": "Ejército Nacional captura a cuatro personas por delito ambiental, en zona rural de Cajamarca, Tolima - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaFh1eEM0ZTE1XzZLNE52UE54VUFhckZSSksxN3ZjNkY2cDVoOF9NOEwzbTZyRVplX182YTRKai1aY3lWdHFuYXlza0JBeWtYOFQ0MENQMWlEMmU0a3JMeDRhd29sU3ZNTlg5OGtvZnprUUk1YzFaLVVVNVB2aFJLS0lPTWRiX2Z1TmFwdU5tZmI3SzhVUlJ5WGpucnc0S2NKclVuX3RYemwyRnVwZXRvVDlNRnZycGJndDlRVzF1aw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 28 Oct 2026 20:51:49 GMT",
+      "detected_at": "2026-10-31T16:08:29.082501+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
