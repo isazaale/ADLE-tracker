@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-10-31T16:08:48.784802+00:00",
-  "last_success": "2026-10-31T16:08:48.784817+00:00",
+  "last_attempt": "2026-11-01T17:09:15.471662+00:00",
+  "last_success": "2026-11-01T17:09:15.471676+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,13 +21,13 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 5
+      "articles": 7
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 46
+      "articles": 27
     },
     {
       "name": "Noticias oficiales — Policía",
@@ -1795,6 +1795,28 @@
       "source": "Noticias oficiales — Fuerzas Militares",
       "published_raw": "Wed, 28 Oct 2026 20:51:49 GMT",
       "detected_at": "2026-10-31T16:08:29.082501+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "1fb299cc4f9ed0f2e7c4",
+      "title": "Presidente De La Espriella revela resultados de histórico bombardeo contra el Clan del Golfo en Chocó: abatidos 7 narcoterroristas, entre ellos el cabecilla ‘Alex’ - presidencia.gov.co",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOM3ItOFc0eG9uRU93N0ZDT0xIaExFenc0amNnb0lyaXNBenNRSWFkaUlxeHFNaDM5MTZBQ3RGUzYyS3JNZmNSZU1VQzd1NW9OR1hpalI1Qjdtc2prQXpMVE1iQjhHNkgzMHhfYU9ZNldDTWFxZlh6eWhkQVVlSjBKT0EydDZWdEM1RDl4RUF1TmMyZ3B6aE1UN3didU1ic2RDd1JNNkJsLXpiUHNIOXIwaTZIaFJEVXZiX1AwbUd1aGVWcXNiVjhQQXlOeDlISjVxSWZIYjZ2Qkhvdmh5bDVVVGdsVUs1VjMxNS1PSHhRRno0dmVxZWFtR0MxQQ?oc=5",
+      "source": "Noticias oficiales — Presidencia",
+      "published_raw": "Sun, 01 Nov 2026 09:13:25 GMT",
+      "detected_at": "2026-11-01T17:08:55.636629+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "04be2a598b2c6a87da92",
+      "title": "Gaula Militar del Eje Cafetero ha evitado el pago de más de 1.000 millones de pesos en extorsiones - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCMEdTTll0bTBVUklBWm1VMWYtaXVrSXpuVVIwTzNlYzBHVEs3Nl9nZ1BJMDZZS1hVbGwzNFBOMldIcmdJUTNESjFTQ0hlekpueWtZQjRkQXFFNnpRN3ptMnln?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Sun, 01 Nov 2026 02:16:14 GMT",
+      "detected_at": "2026-11-01T17:08:55.712727+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
