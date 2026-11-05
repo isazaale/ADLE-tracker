@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-04T18:40:47.445417+00:00",
-  "last_success": "2026-11-04T18:40:47.445431+00:00",
+  "last_attempt": "2026-11-05T18:47:36.314447+00:00",
+  "last_success": "2026-11-05T18:47:36.314460+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 8
+      "articles": 7
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 42
+      "articles": 70
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 44
+      "articles": 52
     }
   ],
   "events": [
@@ -2136,6 +2136,160 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Thu, 29 Oct 2026 13:03:45 GMT",
       "detected_at": "2026-11-04T18:40:27.916841+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3155a08da86867e75409",
+      "title": "Plan Cazador permite una captura y la recuperación de dos motocicletas en Neiva",
+      "url": "https://www.policia.gov.co/noticia/plan-cazador-permite-una-captura-recuperacion-dos-motocicletas-en-neiva",
+      "source": "Policía Nacional",
+      "published_raw": "Thu, 05 Nov 2026 12:54:41 +0000",
+      "detected_at": "2026-11-05T18:47:16.913054+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "60672a767d6fe5ef74c5",
+      "title": "Capturado en Neiva un hombre requerido por homicidio agravado y porte ilegal de armas",
+      "url": "https://www.policia.gov.co/noticia/capturado-en-neiva-un-hombre-requerido-por-homicidio-agravado-porte-ilegal-armas",
+      "source": "Policía Nacional",
+      "published_raw": "Thu, 05 Nov 2026 12:46:00 +0000",
+      "detected_at": "2026-11-05T18:47:16.913105+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ffdd69a1e1636d1798f6",
+      "title": "Plan Cazador deja nueve capturas y tres aprehensiones durante el puente festivo en Neiva",
+      "url": "https://www.policia.gov.co/noticia/plan-cazador-deja-nueve-capturas-tres-aprehensiones-durante-puente-festivo-en-neiva",
+      "source": "Policía Nacional",
+      "published_raw": "Thu, 05 Nov 2026 12:35:42 +0000",
+      "detected_at": "2026-11-05T18:47:16.913176+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Balance acumulado o porcentaje",
+      "status": "pending"
+    },
+    {
+      "id": "9be25ae73696cb4a6b76",
+      "title": "Golpe al Clan del Golfo en el oriente antioqueño: dos menores a salvo y dos presuntos integrantes capturados deja operación militar contra el secuestro - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNRl9BaWgtaldDdlFLUkRlTEFrWldaWFJVQWd6VGZEbGtRcnh3akt4OGVZZGJCSi14SXhSNXNXbUw4UHIyYnNPYV85X2NRZ2duU0RkYmo5bFk2eW5OQnVzMHFTNUNHWnhUZ1NoREpIWlBmZ0RzMklqQV9IMjFtVkZ3b2hORVpteUlmcWtVZXZNQTdLT2FEck1uamctSnk4M3VDNXVfT09IRlRBOVZkWS1PS29OcTJKVGNqZzViZ21ybHJBOHJxMTBCOHFzMHhpWE1lQjA4M1ZTV2Y5TXlyU3JUNUNIYmZ3cmNHYTRyTms2WjFSbXBFOElnajFpTTFTdWRQTk1TaHFQYzFyZw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 04 Nov 2026 21:30:32 GMT",
+      "detected_at": "2026-11-05T18:47:16.584433+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ffe1b032d3d0c8e885c9",
+      "title": "El Ejército Nacional captura a cinco personas con armas y municiones en Ansermanuevo, Valle del Cauca - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTkozZUJiODgtZUFNaTZiZ1l5MW9uRjBqU0xLZmVuRnJVT0ZYOGlJRFdoeGQ4dEJNSWVncmdpamVxTDg1R09UUmFwMDB4RHRCcDBERzhjR2VNM3d0LVpSNFZRZThIMkNqTG5aNExfX3U1ZkQ3b3JhR3Nxdjl5aDNOeEhWYjIzb3lOQ1VtRGNFZXNxbnN6bU1jUFl3aUlIak1yYi1pdGxVa3pfV21lbkZBUmhkVWhEZThEMUtaUnpaUVplbHlxTzZn?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 05 Nov 2026 18:43:55 GMT",
+      "detected_at": "2026-11-05T18:47:16.584602+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7367e124ba776e684659",
+      "title": "Capturado en Santander alias Matamba, presunto integrante del GAO Clan del Golfo, al parecer dinamizador del hurto de hidrocarburos - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdjNrc1YxMEl6WWJPOFlUZXVJdG5tWnZ5TVlfOXlZQTFsZkUwX3ZCYlhiTUdsU0pXaGRlSTA1NGVDU2RSOWhyelZTWnZPYUpUeUUyZnB2X1Mxek9zTWt1SXhwSEVBWkpRVHVNUzdBOUFPblFQMEUySC0yRDJqTXNiMnBuQ2tWNll2RGZ1WXI4aEV1MHQ3ZXlYYVhiM0RWZW82SHpXNkQtdVp5czdXcjduRDZiaENDTGliZmFKVHVLNDVkaERRamJwNDdobllfUnZMeUowMmE5X3JzdUxObkJWcmJaSnBadUVw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 03 Nov 2026 10:58:41 GMT",
+      "detected_at": "2026-11-05T18:47:16.586487+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3c0cad4fab8cc7b0d72c",
+      "title": "Ejército Nacional incauta 8000 galones de hidrocarburos y 7 motocicletas en el sur del Cesar - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZW5jdXlFVXlzZHV5VWtRTFZ3QUtZUzlkbVBzRlhnZDB6WHNvUjBSUzlUaFVveXV5am1WcTJnVzRwY3BQNlVCYjF3dVVBWGpZOWFSR2VjS2RzSlRQczRNQ0Fqd1NkYm5jQ20wOVhGTmlBZDg0NmpzMnBVWUFLWE5GUXBBSk1abjhqaE01eW00SWpEYWRRTXJBUk1sTUFrdVFTbm5SNGRUREpON3dMNk5iREVmX2J6aU1VZlN5bw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 04 Nov 2026 23:20:33 GMT",
+      "detected_at": "2026-11-05T18:47:16.586932+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "83172d4000ee5a8b1ec0",
+      "title": "Operación contra el frente ‘Adán Izquierdo’ en El Cerrito deja tres capturados y permite recuperar a una adolescente - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQmpMdmwtSUMzbmRwVlpCSG1ZaURKa3htU2prWUFmcnpfbDlxd3FIOHN6U1ZOQzIyQzZiUXBoTHZZVjltbGc5SzJTNnVHYkFTNFVka1JaWGtKSjc4bUV1WHBtQ2tSZFRUcVFOOUNNRjQwT2c3bjY5dm5ONWVUNEFVLTZlZ0pZWTdLR3V0WU9vUk80b3dkTUROcW83Y21Qc1NoSjZXUnU5OGNLdXV2a2FtenVDdzRNTHd5LWV5QTR3Ymc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 02 Nov 2026 17:10:39 GMT",
+      "detected_at": "2026-11-05T18:47:16.853683+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ede9d16fbe93c05f099a",
+      "title": "Cuatro capturados por su presunta vinculación con el secuestro y homicidio de un líder político en Boyacá - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdzhqdkRVOE5uOXpLZHR2Mk05Z1JIeDNrYU9sTi11VWJOWTVHYVd6YmlzbWYxR09mclIxcHpwc3dUZGtvc3NYUlRlbmxGcGlyS0NLd1JIaV9Pb0lBbVQ0V2JiQkZ6VXhUVjhwTWxmT1U5Q1RWNG9RUzVSNXJjUEk0T3FrWGE4MHdJYkZDdGhwbXQxSklFV0FRSDg3Wk5WQmZtci1qNjZ3Q2dlaFhRd1AxSFlkQldTVWZvc19qdkh6UGpRTWM?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 04 Nov 2026 16:02:07 GMT",
+      "detected_at": "2026-11-05T18:47:16.853761+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "88d756d5813bed68b186",
+      "title": "Plan Cazador deja nueve capturas y tres aprehensiones durante el puente festivo en Neiva - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUGV6UVVuMXlDN2xPdlktOXpwcXZ5Z1dIX3d5Z0lOSEN5RVRGR2xpRWh6RWdBZXJzWnVPU0ZpbEF2QjJNSzd2Wi1LTzg4QU5hNWEyTlZib3VrUjd4RFFZV1g0b1VWNmJwQXZvS000ZkpzOEZNeV9DY2MtS284WmtqTmwwU2I3VUR1cUdSbGsxRUdyWWstZ3FsMjQ2eGZMOVVjeElORzJWWGN5LWlZVjVibFdZRG1zYl9PUWc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 02 Nov 2026 12:29:47 GMT",
+      "detected_at": "2026-11-05T18:47:16.853839+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Balance acumulado o porcentaje",
+      "status": "pending"
+    },
+    {
+      "id": "dcfa9ad9116d6b4feb61",
+      "title": "Desarticulado el grupo delincuencial ‘Los Linces’, vinculado a cuatro homicidios en Boyacá - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT05JeFlYVmU5VHdjTEpsZWJTTkRTQkJYajl6YW9XUHlocUJsai1uZGJZQVA1b1dLNHlGcnIxd0xObWIwOTZNR3FBa2pxZ25rMnpTTF9nS2V4OWZac2lQTlJPbTRLYU1xNm00N3hONC1CdG9vNTdmUUdHbU1YU2NOaGhSMExlY1Q1cjQ3RFl3ZFhzMWp6a1FQbVZXN3JEUW9iOTlxanVpUERlWVppSEtsc2l2M1lKVmlF?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 04 Nov 2026 15:42:26 GMT",
+      "detected_at": "2026-11-05T18:47:16.854003+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "12e846c50446ab85d92d",
+      "title": "Capturados tras ser sorprendidos con elementos hurtados en el centro de Pereira - Policía Nacional de Colombia - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNVYxWU9JVmU1d2tncURKeEdIZEpSODE1dzRMQTRtdVFLdXk3cFA1ZEpBUzkzTDdqZjFQTG1nbXlyN3pZdTBaMGo1aUwyano3eGJ5eHVtRS1oOWZoU2JTM1pfNHZ1cVREbFRPamw4WUlBUU96ZHBZanJ5ZHFOUnRab01leXpSMnE5Q1R0eWZlS0xsMUlPd2E5ck4wX0JETzd4QUVZbXRxVjQ2UTVaRXlVR1hMamYwNzYzQkE?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 05 Nov 2026 04:54:55 GMT",
+      "detected_at": "2026-11-05T18:47:16.854079+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "8f2e66ecc243354fcc47",
+      "title": "Plan Cazador permite una captura y la recuperación de dos motocicletas en Neiva - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUhIWkNGcUZKb1NyaDdzbTRSMGlkeGJ4emhwMzNCX3RiMkpKbkRKRjFSYkktYWpTRURpanJjVTI4dzNremZ3MjRncmlBMnJJakhNM01JNDl0d2hnSC1WYnVRZ3Raejl0aExSUlZzdU5idEE2SmVNQ2VoMFp2VHZXZ1ZWQjQ4YjFYdXdXOXRjQ193MEgxVWdxeGxFWHQzUG80QmNxS2pVanNYUQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 04 Nov 2026 12:54:06 GMT",
+      "detected_at": "2026-11-05T18:47:16.854623+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7ce3ab95f843703389e5",
+      "title": "Cinco personas, entre ellas cuatro menores de edad, fueron aprehendidas y capturadas en operativo contra estructura residual en Tuluá - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRWItZXNFWUc0SXdUTEE2cTd4cDdWaG83bGpGcmNlMmphN2x2MTlscFFsbGtFOER4aW5Wd2VNdGhIcEhfUjd5Sk9YRFZDSWlkajZJaXBGSk1DSS1PcGVTNmprdW1oUUNJWF9QZzZMZ1BzLWR1UHNZTnhoUktXLVZQcEQyMWdzMTdTcmNpSUI3X2xJd3JFSEpxX3JVN3RseHMwZTgzcFloZnRfRVRMdU12VGwzUlI3VWZIdVYxZFlLREVRZXc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sun, 01 Nov 2026 17:05:57 GMT",
+      "detected_at": "2026-11-05T18:47:16.855800+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
