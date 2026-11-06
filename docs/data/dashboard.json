@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-05T18:47:36.314447+00:00",
-  "last_success": "2026-11-05T18:47:36.314460+00:00",
+  "last_attempt": "2026-11-06T18:02:26.054065+00:00",
+  "last_success": "2026-11-06T18:02:26.054079+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 7
+      "articles": 6
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 70
+      "articles": 79
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 52
+      "articles": 53
     }
   ],
   "events": [
@@ -2290,6 +2290,39 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Sun, 01 Nov 2026 17:05:57 GMT",
       "detected_at": "2026-11-05T18:47:16.855800+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d827d652213a6780d609",
+      "title": "Seis presuntos integrantes del Clan del Golfo fueron capturados en Aguachica, Cesar, responsables del tráfico de estupefacientes en la región - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOcG0xTTVIMDA4WnV3Qml0VUEwNWpGOTZTalFfakNxcTM3ZmQ2Qy1DY01DU2Z2SEpBcHhJUC1QemFuNjNoVW9fV1g2cl9LRGxKeVJJWFNkbk4xUUdNOUdiN1k0dU1RckZpRXdDRUJ0SlBEVVNNVWhLRjZ2VXRkQlpLczBhQVVaYnFTYjBXTDJ3R2VPdVhQWUtaYzZUUElxRWF4UE9XSmR2SWU2Wlk5d1gyb3VvOS1JS2hnTVhKZ2FoX3h1NTVydHdBOGQxajI2SmhRaDZjU1preng3RWNqSWZibzJ1R1V3N01fQVk0RlZLbW1qYXpMTXZYVVJOSQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Fri, 06 Nov 2026 15:48:28 GMT",
+      "detected_at": "2026-11-06T18:02:06.327374+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "4da228dee894f3ba5357",
+      "title": "Ejército Nacional impacta estructura de mando y finanzas del ELN tras la captura de alias Carrito, en el sur de Bolívar - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZmptZ2ZZb2dKU2ZOSnZLWGxGaU9wRXBXcy1oTGM1c29Mckp4LV9rdVE3aFI2cnlBRlYza0pKckg0YUNmYmZuSmdTWldEbDA3Q3cxQjdockhRRzNPWGxfTDIwNjJvakpveTBnMWpvVXhSNEJJc1h4Tzd2cGVBX3lHOG91VDVrQXRhdWZ2S1hPWnY3X3dXWDRfNW16bHhWOEIyOEFaX1huN282T3AwV3dQSVRGUmc4M19IeHF3ZVJuM0lGVEhab3hyVVE3OGJmelRoTWtLaC1TU1ZIOE9xZUNZ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Fri, 06 Nov 2026 16:23:51 GMT",
+      "detected_at": "2026-11-06T18:02:06.330915+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "1a742e6b8d4f67a92312",
+      "title": "Cuatro capturados y una orden de captura notificada por extorsión y concierto para delinquir en San Carlos, Córdoba - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb2lGVDB4UV9KYmhxZnNYbXpCVEFmdFgyZUplNElHMkNKSmFPRTBubEJtcnFqaHZuMGtkOTBxTW9FS092X0xhWnMzcTdkM0h4QUdWUk93emZwdG5kMFNIUXQzRlJ5MTFMWUhZOFplWXlPbHlERjF6ai1Yc3FPd1VGY1lsRDlaeE1zeWNobjYwaVZ1anQ2ckpiQnVzVkdWZ0hBVnVFRmZka1FqV0pDUlZhVU8zRjJTOGhMdUo3T0s4TXM?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 04 Nov 2026 19:01:31 GMT",
+      "detected_at": "2026-11-06T18:02:06.693671+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
