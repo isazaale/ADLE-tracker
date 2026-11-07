@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-06T18:02:26.054065+00:00",
-  "last_success": "2026-11-06T18:02:26.054079+00:00",
+  "last_attempt": "2026-11-07T16:52:46.472046+00:00",
+  "last_success": "2026-11-07T16:52:46.472062+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 6
+      "articles": 4
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 79
+      "articles": 80
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 53
+      "articles": 45
     }
   ],
   "events": [
@@ -2323,6 +2323,138 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Wed, 04 Nov 2026 19:01:31 GMT",
       "detected_at": "2026-11-06T18:02:06.693671+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "927b6b3ad01edca20f73",
+      "title": "Policía captura a un hombre e incauta 7.000 galones de ACPM en Bosconia, Cesar",
+      "url": "https://www.policia.gov.co/noticia/policia-captura-un-hombre-e-incauta-7000-galones-acpm-en-bosconia-cesar",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 06 Nov 2026 22:22:37 +0000",
+      "detected_at": "2026-11-07T16:52:27.075931+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3e2512304128b4965cf2",
+      "title": "Policía captura en flagrancia a un hombre por lesiones personales en Aguachica",
+      "url": "https://www.policia.gov.co/noticia/policia-captura-en-flagrancia-un-hombre-por-lesiones-personales-en-aguachica",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 06 Nov 2026 22:07:11 +0000",
+      "detected_at": "2026-11-07T16:52:27.075992+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "71490a4463e0163900b6",
+      "title": "Policía captura por orden judicial a un hombre de 32 años en Aguachica, Cesar",
+      "url": "https://www.policia.gov.co/noticia/policia-captura-por-orden-judicial-un-hombre-32-anos-en-aguachica-cesar",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 06 Nov 2026 21:56:26 +0000",
+      "detected_at": "2026-11-07T16:52:27.076035+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "e4ad7df8a35e1dde5262",
+      "title": "Policía captura a tres personas e incauta munición de uso privativo de las Fuerzas Militares en el Cesar",
+      "url": "https://www.policia.gov.co/noticia/policia-captura-tres-personas-e-incauta-municion-uso-privativo-las-fuerzas-militares-en",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 06 Nov 2026 21:47:02 +0000",
+      "detected_at": "2026-11-07T16:52:27.076084+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "daf6fbcd148aeb239908",
+      "title": "Policía captura a dos hombres e incauta un arma de fuego y ocho cartuchos en Bosconia",
+      "url": "https://www.policia.gov.co/noticia/policia-captura-dos-hombres-e-incauta-un-arma-fuego-ocho-cartuchos-en-bosconia",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 06 Nov 2026 21:33:50 +0000",
+      "detected_at": "2026-11-07T16:52:27.076153+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c6d79ecfb75b09333df2",
+      "title": "El Ejército Nacional captura a cinco personas con armas y municiones en Ansermanuevo, Valle del Cauca - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV3RfWTJwNDdtbWgyS1g0M0ZUWG5CZWhzYzhuTFUycUVDaXZSUzFsdjNJZ2RwQV96d3k2N3hDcldGazFsYVppOU5ObkRqRGlXcHJBRVdRZFJLa0ZRbjg2Z25BUFdIU3BUY01kSHpZaGFVZEVqcHUyVGhHOWVOWHlZa3ZmWWdWVHpzVUZ4UXQ4dk9PUGpzS21JaTYtUm01NlJObTZ2dGNsSXpva3RaaXZIaWJJMnFfLXhDNUxPbWdYVnN4UQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 05 Nov 2026 18:43:55 GMT",
+      "detected_at": "2026-11-07T16:52:26.741401+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "4c16df27ccb6299d0d1a",
+      "title": "Ejército y Policía capturan a alias el Viejo, cabecilla del GAO residual Estructura Carolina Ramírez, asociado a la delincuencia organizada transnacional Alianza del Perú - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQRFcyaWp2MTdRRTFGSkZyVGJYUmJMRWI1dkx5X2Rkb2d4Y2VTTzJtYUlfNUlxRlZIQzFkbEFubGwybS03R0FwNk1HVGtIMXd5ZDdtRzE5Q1RlbVNUei1QS3UzVDhHa0x0NWplVFhNWW9PQ2lSNjVzcWxYdW13ek4yZnlEV01kVDF1ejdxR1ltSDJ0VUloeTRBTnZXR3ZZdGdIT1YyanpMT0txaGo2TDA2Ty1PdndXTUJ3dG9rOGI5UDVHSTlkaHRGRDdwMFVDbXo0WHlJY0pGbGxRSDBOMFNrYjJUWGgzcDBDX0x5TXVBWWN1X2x1UVY0SnNGc2ViUVlwby1RMDYwUmdHRS1vWHJLeVVzam5MSnpVaWZXbkgxZEVfZw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Fri, 06 Nov 2026 15:32:51 GMT",
+      "detected_at": "2026-11-07T16:52:26.742985+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "de0e054908f94420fa60",
+      "title": "Ejército Nacional captura a una persona y recupera más de 2 toneladas de cobre hurtado en Puerto Gaitán, Meta - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbk5kYXA3bVNadlAwUEh4STc1V2tCZzJuRXZoZkZ4TElaQTdyZ0tmbWdWcXhIUjRvc0RaYkI1OUZ6MkhSclJ1aVJRSnVwenJrZ1hfNGdRTzlsSDRwSlM4bnZ5R0dMcVltWG1SSFNyS2hYSk1hd1FXVElSQ3JLMS1GdUw3N1hyUm9QeWMtSEJURUNDekhiUzVDalhJb01maE9QbTR2S091dVFkTDB1cVltdy1wMjVmYkNPTEhuc0NiZ3VEZ3lKbHJuYlpuOEVkeXV2UVE?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 03 Nov 2026 16:45:27 GMT",
+      "detected_at": "2026-11-07T16:52:26.743239+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "90df6c377235b4044413",
+      "title": "Ejército Nacional impacta estructura de mando y finanzas del ELN tras la captura de alias Carrito, en el sur de Bolívar - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMVNndmJBeUxRRDJhbDZ5amYwQVBiRjBRWWxKZmR0REJqeUd6cVdLZzM0T3NfaE1ieWdiX05Hb3ZqdmJBd2NXWmVJTDhvOXdiN0NVb3dWNVJESUl3MjI1RGJFdXdmMXJYbmhVaVRLaklDVHcwQko3bXd0b3puQm1DRlFER1JkX0dYTXZjN2FRcWM4N25nTERKT2NfSXFNb180SU03YzJfbGktR2gyekhvRWUxdGFxZS1EcFp5Vl8xVlI5U1BBU3pSYkZVSUxUM1gtQnEzbE1HdmdHZw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Fri, 06 Nov 2026 16:23:51 GMT",
+      "detected_at": "2026-11-07T16:52:26.743631+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7cbf221f1ff559a22073",
+      "title": "Un hombre y una mujer fueron capturados por la Policía Nacional al ser sorprendidos con un arma de fuego por el barrio El Estero de Villavicencio - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWnhXcktRQWxhSjIyOGRUaUd0b3pGZXNBcGEwQ0hGb3oyLXpVNDBXejVfSExMNF8tRDNKakdzVlNrckQ0ZlVHbV9wS3pDTEFlYVFQa094TlRSNHdxRzlCT0ZPRFkyVGh3N0NKT3dWVkhyYmlScmlNay15S0FnNHZoMm9LLTQ5Z0VPb3dhX3JGZTdTQ0poNE1BSUhjYl9DV0JhRnBhQ0tGU0lfM2todkNrT1lQZXZuaXVRQnVocXFienp0OWc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 27 May 2024 20:29:24 GMT",
+      "detected_at": "2026-11-07T16:52:26.922737+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "1f041e997b3bb349868f",
+      "title": "Policía captura en flagrancia a dos hombres por violación de habitación ajena en Montería - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONG5jeExwUXgzVlV5MjFUV19mRl92a1Ayb2xINzRDN25xWGk4UDJVOTh0TVpXblJQWTdfNWNNY1ZhMERTbHZYbTdvR1JkT05FMkxZZEctcGlhRnhHdHJ0cGZwd3hJXzlpRnpxSHFwTFRMcG11ZlpmcTkzZkdURFVJN2dpLVR0N2x5eW55bTFKZEgyeDhUY29ncDg3VWZmUEJ1eFBSM04tbWNob0NHNm1MZnZVRkFyZUhXbmdv?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 06 Nov 2026 13:07:29 GMT",
+      "detected_at": "2026-11-07T16:52:26.922789+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "9ea268f25e27108d3010",
+      "title": "Policía captura a tres personas e incauta munición de uso privativo de las Fuerzas Militares en el Cesar - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNGg2UkFvVmxKT2xudU9pMktfT3dlWFEzcXVMVEVUbV9XNEhlc0FnQU5hWGxUaHVTbVlOUWpCLURWeWRzcGdCS2NqWnVLaGhWUENRZnZPNURaWFFWdUZtcG5mVHBNbmVTa01UOUVzN0xLQUtsR1NjZXVKM0xIZ0wzV3ZsWmtaX1VqMjBFOVhSVDVUajRILUk1U0NmdktrS2lhRjZkOThYUnZ6ZDAyT0pzUmw2MTMzV0dtXzZKMkVWaw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 06 Nov 2026 21:46:29 GMT",
+      "detected_at": "2026-11-07T16:52:26.923052+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
