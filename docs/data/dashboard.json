@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-10T18:41:53.822415+00:00",
-  "last_success": "2026-11-10T18:41:53.822428+00:00",
+  "last_attempt": "2026-11-11T18:43:49.079741+00:00",
+  "last_success": "2026-11-11T18:43:49.079757+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 1
+      "articles": 0
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 41
+      "articles": 23
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 71
+      "articles": 48
     }
   ],
   "events": [
@@ -2730,6 +2730,39 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Sun, 08 Nov 2026 20:08:57 GMT",
       "detected_at": "2026-11-10T18:41:34.349513+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "6cbd934eb65e9e852771",
+      "title": "Capturados cinco presuntos integrantes del GAO-r Estructura 33 en La Gabarra, Norte de Santander - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81SjdaUzFxQktyQVJReWotZVhGaHJLZXhqOTJTaXEzdy1JOFVjTVpfVkliOENUM3FKU1RWUjQ1SktYYXVVWTJJQU54Y2tXZVBGVGM1b0JwOC1fZw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 10 Nov 2026 14:13:56 GMT",
+      "detected_at": "2026-11-11T18:43:29.298495+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7a80657cf709a8632156",
+      "title": "Ejército Nacional captura en flagrancia a dos personas por presunta extracción ilícita de hidrocarburos en Cuatro Vientos, Cesar - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcFhTTkgzVEI3QVdrM3hydng0Y1N3aElpSU9OZDc2aU9nR3V3Sm4tWjMzTURhLXRXdi1lZE1FT0tac1hDcWlNNFFWOGtqczNjUkFiT2UycFFkTWVNaXdtLTlYalJkcHZMLTQ4OEJaa1doSlRsOWdhdF9WelRSckxjTHFXZkdhX0ZXLXBSZWV1QWFqN1YwUElZOFVNeDRFeUdmSWRWODlBa0JQYU9ZV1hsZlhDdkVTN2g4LU96R29WS3ZGYzlkaUxEWDNiWEZGYUR1SUVLeXFpTFNFNkM4U0sydFhWNWtBZlQyVGpn?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 10 Nov 2026 21:46:11 GMT",
+      "detected_at": "2026-11-11T18:43:29.298602+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "85dfb30642162ced2234",
+      "title": "Ejército Nacional captura a dos presuntos integrantes de estructura residual en La Macarena - Comando General de las Fuerzas Militares de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOVFuZ1h6STFXYWxYeHhPcUpIQ3NSN0I0OFRiNDdTaUFoRlFpMTEyd1p4WnZhVVJrODYwR1RSdjBrZ0ZyWHZ2MXgyUGJYaGdWcWVwTkFyN3ZyWHQ5S0VVWXczdUlEZXFHcFQzb2w2NS1RRVBfRHdVYlZnU2xybDFrUl95ajlVYm9yU2ZQbVRzSkxNazZ4RkVoN2VhdTFsaDAyRHEwWVl0bFVMRmlTWl9OUGNzQjFwYkxnQkN0RFhnOUQyZw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Sat, 07 Nov 2026 17:55:49 GMT",
+      "detected_at": "2026-11-11T18:43:29.298842+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
