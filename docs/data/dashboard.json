@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-11T18:43:49.079741+00:00",
-  "last_success": "2026-11-11T18:43:49.079757+00:00",
+  "last_attempt": "2026-11-12T18:58:19.701365+00:00",
+  "last_success": "2026-11-12T18:58:19.701380+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -27,13 +27,13 @@
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 23
+      "articles": 12
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 48
+      "articles": 35
     }
   ],
   "events": [
@@ -2763,6 +2763,72 @@
       "source": "Noticias oficiales — Fuerzas Militares",
       "published_raw": "Sat, 07 Nov 2026 17:55:49 GMT",
       "detected_at": "2026-11-11T18:43:29.298842+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "859517171075d1527315",
+      "title": "Seis presuntos integrantes del Clan del Golfo fueron capturados en Aguachica, Cesar, responsables del tráfico de estupefacientes en la región - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQN3VLaXZpYkdhTWVlOGdfUzRyV2hzMnJqLS12RHhRc2VaX29oSUp4TkdtUXlEWU5hUnNOZGEtaHg4cWVKakxLZFQ1LV9oeVRUaHlRZ2trOEpuMzRXcnVVV2xCNjVabmhHTFlrVHgwZVpqcV95TDNESWJPR0o1U01tbGE0VGoxQnFZSHpvaDROTWJZczlNWTRfd2xjQTgtSzhQTFFyOEVQV09mMWR4Y2d6NWZyYUk1TnNhZzZZbFFEcmJOU3JCS1BBNENxTnlBOG5nNDI3cWxyUmQyWkpPanJkbG05WXZMZUFIclRxeEdwZTBiX3JGbUE?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Fri, 06 Nov 2026 15:57:15 GMT",
+      "detected_at": "2026-11-12T18:57:59.962901+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "1da416ca4177522e17e5",
+      "title": "Capturados en La Macarena dos presuntos integrantes del componente financiero de una estructura criminal - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdHMwNGlqTzU4ZGJYX3RWZ3ZHWG5iY05RWWhMcHRmNjdPbG8yZk95dkdzTHdfLWRXbnpoWFptUzlKR3dJMkRIMjVGai14cmdnMy1CTFNxYTlGUmljN04xWkpzQ0JIeFFyajNXOHU5MkN6QTBlMW5YdkV1MTNVa2RYN1loM0QwT1RyaEx2RW4wMVNHX3FJOE9BMUJ0WnBVU3NaSVoyS3lURGVqQS1saWFEZGdWVGFXd05xSVItVklKelB1Zw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 09 Nov 2026 15:35:01 GMT",
+      "detected_at": "2026-11-12T18:58:00.334420+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "810589fd0c75de150f30",
+      "title": "Tres presuntos integrantes de ‘Los Kilates’ fueron capturados por hurtos a entidades bancarias y establecimientos comerciales - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPam1KRTAtVFBYWUExTHRGZ2EwQmYyV19PNzRQZU83R1JRT2dKazNPMnRNTmRDYXBnSk01bm9TOWw5ZlJNRWpQcU1xTXdPT2g4SkMwT2FlN295eFdwLWFDaWs5UXRzV2tMR3doN1VQQllTSHh1c3ppWEtsRkpYOFN5TEVXVEJKc3F3ajFmSzU5X2JCTnVfclEwZ19Ya2tMaGIyWDdPTW1HaTByQnVXbE9ENll2N0NDX3ZndDRmQkFJNA?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 09 Nov 2026 15:12:29 GMT",
+      "detected_at": "2026-11-12T18:58:00.334710+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "25ee086c5d7ccb9a6f4c",
+      "title": "Policía Nacional captura a 111 personas durante ofensiva contra el delito en Cúcuta y su área metropolitana - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS0k2d2NtR29YUVNIOGFjVkJHalA2cjI1Z3N0UXVFdjZQN21ONVU3QlBYUWhfZ1kydUk1V0traG1HaWt4M01CR1I1V20tU2ZETEt3VHk1RUNZelkwYkNQbXhmenZTYlVWc1NSdHNzRVR3QUM5V056RVk1WEdqYU9hV2VxclZVaG5MclQzcGtIbUVsVU1pYWtqWlhLZkQySjNGSkdIZVlZLXN1bE1KMWRUWko1LVpENHBYWkEwdkdB?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 11 Nov 2026 13:42:41 GMT",
+      "detected_at": "2026-11-12T18:58:00.335722+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "5da8d80458fb62fd7d08",
+      "title": "Ocho personas capturadas por presunto reclutamiento ilícito de menores en Nariño - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOajE4V1RZRWFHTkpjTmVjWWZESWc5U1h5VUFoNTZPNHBGY0pyb0RVaVVKbW1qSXBsN2tETFZzUl9LcDN1dDJMQVhFSnhuMkxEbUNBMHpwMy1fRFdHQ040cTZodk9rUzl1MTJtRFNiWFR0bjJmWmhhN3ltTGVJZTVKdk5QZktMYlNCSU9kcG82UE1SREs4MjJVa1Q0dXZQOXNzQ0hEUkhQSkxRVUxaVExTMDZB?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sat, 07 Nov 2026 15:02:49 GMT",
+      "detected_at": "2026-11-12T18:58:00.335834+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "23347b50e71f25fc1612",
+      "title": "Tres personas capturadas en Cali por su presunta participación en atentados terroristas en Manizales - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRHo0OEp2d0ZqeDF2eWNvRmpQQUVxa1hwamJ1WHE4eldVMDlVajhabFF3d2YwZURyWmdPRS1WVVdHQ3lRZG1tNncycjRFSGNiYVc5STU3YUpEdUF5Rl9XcmV2enpBQk9fZnNsdXpnR0pEXzlwQXMtVTBkS19uN2w2TEFiVHVncGFxWjk0UkhCZzczbXdid3dUSGhIWTlyN0lYRnpYY0dWUEVHNHlmWC15VE9RNEVCdUlzUEJFM0JkMDlDVGM?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 09 Nov 2026 22:11:41 GMT",
+      "detected_at": "2026-11-12T18:58:00.336158+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
