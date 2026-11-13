@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-12T18:58:19.701365+00:00",
-  "last_success": "2026-11-12T18:58:19.701380+00:00",
+  "last_attempt": "2026-11-13T18:34:04.291634+00:00",
+  "last_success": "2026-11-13T18:34:04.291647+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -27,13 +27,13 @@
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 12
+      "articles": 7
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 35
+      "articles": 64
     }
   ],
   "events": [
@@ -2829,6 +2829,324 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Mon, 09 Nov 2026 22:11:41 GMT",
       "detected_at": "2026-11-12T18:58:00.336158+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "bd1a93bd42acf1c0d8b2",
+      "title": "89 personas capturadas durante la operación ‘Ocobos de la Patria’ en Ibagué",
+      "url": "https://www.policia.gov.co/noticia/89-personas-capturadas-durante-operacion-ocobos-patria-en-ibague",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 13 Nov 2026 16:22:50 +0000",
+      "detected_at": "2026-11-13T18:33:44.864956+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 89
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "cee7d2f5dc151ee0f656",
+      "title": "Capturado alias ‘El Cucho’ con más de 300 dosis de cocaína en zona rural de Isnos, Huila",
+      "url": "https://www.policia.gov.co/noticia/capturado-alias-cucho-con-mas-300-dosis-cocaina-en-zona-rural-isnos-huila",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 13 Nov 2026 16:16:49 +0000",
+      "detected_at": "2026-11-13T18:33:44.864996+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7b38a22ec873f1021816",
+      "title": "Capturado en Ibagué alias ‘Samuel’, señalado de cometer hurtos mediante la modalidad de ‘cochero’",
+      "url": "https://www.policia.gov.co/noticia/capturado-en-ibague-alias-samuel-senalado-cometer-hurtos-mediante-modalidad-cochero",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 13 Nov 2026 16:07:16 +0000",
+      "detected_at": "2026-11-13T18:33:44.865044+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "796dcf1bb79b302c6cca",
+      "title": "Cuatro capturados y cuatro armas incautadas durante operativo conjunto en Quibdó",
+      "url": "https://www.policia.gov.co/noticia/cuatro-capturados-cuatro-armas-incautadas-durante-operativo-conjunto-en-quibdo",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 13 Nov 2026 15:54:28 +0000",
+      "detected_at": "2026-11-13T18:33:44.865111+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "12cf67f19634350e2038",
+      "title": "Cuatro personas capturadas por presunta explotación minera ilícita en la represa de Betania",
+      "url": "https://www.policia.gov.co/noticia/cuatro-personas-capturadas-por-presunta-explotacion-minera-ilicita-en-represa-betania",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 13 Nov 2026 15:50:52 +0000",
+      "detected_at": "2026-11-13T18:33:44.865136+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "ba16d8e0b8cbbcd5458e",
+      "title": "Cámaras de videovigilancia permitieron la captura de un hombre requerido por tráfico de estupefacientes en Manizales - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONHFIbHc0UE1RMlNIRWZlQ1VCT3MweVR1bUtuNklCQVNjc2RURFQ5bFd2cFRVellEQmhpdHRJblZqcWV5REZGWmVPNkJlNzZSSURzVF9VdnpqX1lZdExHajBvRXdiakhWWUVzTTUyRzczRlJ6WlI0M1l4MGxZU2pBLXpzb1dDSk0td1ZfN0tfZWE2d0tkZHJiT1JyaV9vS1VHNTRCQ3ljeW5KdXFub1o2ZDRGWHowdlhDUURxVmkwNVdqTElD?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 10 Nov 2026 15:51:59 GMT",
+      "detected_at": "2026-11-13T18:33:44.940101+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d1cfa2e4470129d8341b",
+      "title": "Siete presuntos integrantes de ‘Los Mexicanos’ fueron capturados durante operación contra la extorsión en Quibdó - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaEFmZlpGbEtQU3ZWaGdxT2NLTHhQaG1wRW5wYXlZdE1GSUZ5OS1YeTRscGJIeU5RS0xPUWJUQXozRFd4bGNoYXY3dy1NZEU5Wll2aGJsS3lwU0xIXzg5Z191elQzTWJFYk5mQjhoZnVhdWRCTGRWd2lQMnZGX1o4d0JfbVcxQzJ0amtwRk50SEYwS2tYck5SdTlXcFVzdFBJX2ZENjZCX2R4bXRmWEZJNW5mVzJGV1JWUl9V?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 15:25:48 GMT",
+      "detected_at": "2026-11-13T18:33:44.940257+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "6d63d0e5a6ed13b7d1cc",
+      "title": "Cuatro capturados y cuatro armas incautadas durante operativo conjunto en Quibdó - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMksyaHJveHFyWnBPRUVMVzJ4UFpFQjR4TWhEVUhQNktHUXRaQUNVMERYZDJ2alZ3RnVyekl6R1VoUEZFelN4UWVZOGdJTy0zQzVuZm1vcTJVaTgwT3AzSlZFaDRtb3BlOGxNeU5Hb3o4VTVQb2FaNmJRZFUyME1KQWhsNmh4NEp1dE9xUW5xMnc0djMzcW44WEtWRm1PbTlTS0JLbTFmNUN6MVo1aW9zZkNmWQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 15:33:25 GMT",
+      "detected_at": "2026-11-13T18:33:44.940288+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "750f590e2299c0edf786",
+      "title": "Desarticulado el grupo delincuencial ‘Los Nocturnos’, señalado de cometer secuestros extorsivos mediante la modalidad de paseo millonario en Bogotá - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYm40dzMzeUtMT1dFR3E4dG1KTFdYWmtCdE9GdWJoZDA2b3JURU1RemlTcjNTYlVORndUdzRQVXZTa2Q3M3hVd2dselNNbXNQXzRqa2c4Q2syTTQwWE94X0tBX0hRaF9wMEZXeEtmOVFrWi1kYm1KMmpod21zeEctbDRLd045SEpOLXh1UkZGbUxaWHpGUVRuUEFBRW1WaXN2WmZJdm9zZ3ZPYjZ0cDdWVDVEYm10TU9DWjVnRld3?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 13:00:00 GMT",
+      "detected_at": "2026-11-13T18:33:44.940478+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "691588a9b0b270b51f32",
+      "title": "Policía incauta más de media tonelada de cocaína y afecta las finanzas criminales en Norte de Santander - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbXZBenlxQVNyTUF4RGY3dVhkM25xNlVwcG16UjczSUlTUHgzcUVPMjlKT2lMODVDRlNGZWQ0b3JwTU9xYWN2LUpoRkVhY2FpLWQzZ3kwcnU0QzMtZjlCQ3Zic3lZbGNXTzZkUllxMFJWa2FVSi1URVdaUG9Za05qaFViMF9vSjFSeml3Mnc0QmEyT04xX0RhTWFwSEdSZW1DN2VGN2Q5c2pWczV1dVNDejR2VzZvS0J5?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 11 Nov 2026 15:09:05 GMT",
+      "detected_at": "2026-11-13T18:33:44.940794+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "8741fb1d14cc622f8556",
+      "title": "Policía recupera motocicleta hurtada en Cali y captura a un hombre por receptación en El Cerrito - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX0RMLWZoVGJCcjBmYlp6TVdjVl9KcGtockZkQW1IUzdoX1YyVFBncVUzN3dDZ0tPWDBZdy0wZ1NwX1dtdXZFTFFRMWdjM3I3NkRmLXR6UGh3NnJUYzU1UE9CS0dmdnNPS0RSSE9OMGh5RThmNmUzUnExV0hKdDVxbUFldjRGVV9QcmhicTJfVmlFYVBQMEY3dndZd2RicHhod3pKLTkxSzI5S1EwSnpqRHRPYVFHMk5oeVg0bzd6UHFwZw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 11 Nov 2026 14:12:29 GMT",
+      "detected_at": "2026-11-13T18:33:44.940857+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "057d4396e429cccfa364",
+      "title": "Capturado alias ‘El Cucho’ con más de 300 dosis de cocaína en zona rural de Isnos, Huila - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZHU4d2RWVFdJdUlRM2M4UC1EbU1xREJEbzR3Y3NST1RZdG9GTmdob2U1U1RnT2FHbWwzeDNrY3FUamRGTVh6R3pvbmF5RnZMLW42RzAycDVfdGJGanZEVWZvdWRhUXBpaVpSX2REWHl3dkFwc0tSOWxGbnpJQ1MxZjVZaXZvdl9WTHR4b1JCeFdkZEptZlE5VVRkTTZvZ0VlSlFENDFYU3lsRGkt?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 09 Nov 2026 16:16:39 GMT",
+      "detected_at": "2026-11-13T18:33:44.940935+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "6a3e479e94f88be17e2a",
+      "title": "Capturado en Ibagué alias ‘Samuel’, señalado de cometer hurtos mediante la modalidad de ‘cochero’ - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYmptcnBqWHo1MHkzenZkemlaNkt5aXNoX3k1c2VZaUhMMURaYXJMMzVZRjh1NXFqRmJ1TWVmMTFHZF83ZlZMamYyUVV4dWNMemo2U3JocFpjQ0tOLWRjVmc5ajhqdVhkWnhVUFEyZ3I1M055T2RDZGRBdy12MzE5cEVET1RGaFZOZi1FZHRWT0NoNnllNUdUR21ETzRFUTBmbUFkWnY5Q3FzZEppa1lid3hoU2gyNmtXcWc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 05:49:39 GMT",
+      "detected_at": "2026-11-13T18:33:44.940968+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "4be64599cc34f1481ef6",
+      "title": "89 personas capturadas durante la operación ‘Ocobos de la Patria’ en Ibagué - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaDNiaU9BZ2w5bGphejhXbjItR3RFOWdxVUtIYlQxNFBJbHlRSEk3blFxNHE2MnF0Qkk1R0piY0F1ZEpZak93SHpRTkRIWU9pcWptdTFITHlPNGNRc3dTLVVhNGsycGdtODYwZUVMTzlybWgwcU1XeFBFc0lIeEVEZ1ZzUGt4NEdqbV9OZUxRT25vV2gyZHRTdlJDYUlhRWkw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 05:09:25 GMT",
+      "detected_at": "2026-11-13T18:33:44.940996+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 89
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "0a9b52897a8c2db73557",
+      "title": "Policía captura a hombre con arma traumática modificada en Villamaría - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN2tla1llTGxTc0ZQOXB6T0F2dEtrWnA1elVzZUxBSGRjOGg4cHBtYi1aV1N4WWRWeVlnbjZkSGNBU0hyeURJcVkxaVlpUW4xaEZ4WHNfQnpDdHVHNWU2bVBXY3lYX0dUaDB3YzJfYmI0c3Y0LTBzcXlzTTFCc1VsaXEyWVhlQWFJSVB4d0RFMVRnQUpBSkNXTFlhdUpETFlVMDNqVg?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 12 Nov 2026 21:43:31 GMT",
+      "detected_at": "2026-11-13T18:33:44.941025+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c2a97596fbd83a6b6216",
+      "title": "Cuatro personas capturadas por presunta explotación minera ilícita en la represa de Betania - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMjFFU2o2SzFmMmUzU293Q3JsTzlMYzhNYV9JX1BHWEtDZllKSktCZ2x2S2lDQXNSWm1saUtLZVpoZFdMNGNVVEVWdTF1ejlfbzN2cDJFWjlQMkNJN0lHc0dKUEJONzYzR3dOSkdpVWE1RTFmdnJGdzJWWHVUSVJtU051a0VCQ1g5OEdqQUp1dzRhbDlFYU9KNmRteDRjbkk4bGlpd3FVRzZpV0dfeW1zMm5KX0wtMWF1R3NDVQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sun, 08 Nov 2026 15:44:37 GMT",
+      "detected_at": "2026-11-13T18:33:44.941149+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "e5e12c531aefdff0cbfb",
+      "title": "Videovigilancia permitió capturar a un hombre requerido por tráfico de estupefacientes en Manizales - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWXg5VGYxc2hjb0NwczZ4RktaZzFQejk5bHE1NFlFLS11V2djTW04em1aeDBoZEM4Mkg2dVRaZUpJZHltQWxuRUNGWnl3UTVGT2dfQlBKZFdhOVpicF9ZM3pqS0x2REVzcF9sYnFqQk5nRTRqVUFNSjEyUHRQWmswRHdhNGxlUmU2MWFYcnhjazQtakxYQTdOdms1a3d5czJZamZJU1BmY2xxaHhIdW04ZWRTSFpYM1U0S1BV?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 12 Nov 2026 22:42:28 GMT",
+      "detected_at": "2026-11-13T18:33:44.941364+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "1bd20c69707657f1bdb3",
+      "title": "Policía y empresa de transporte se unen para prevenir el secuestro y la extorsión en Montería - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcE85YWRZVTNvcU1PY01mc0hRZ0ozSFB2ZUR6cC1acjQ4aTlpcnI1TVJqWWw3VmNqSFpMazZYYzBSRFZZcUxrbDY4ZDZqSjJkeWYyYTFReFJKRUxQdmVpNko2ZzNaajh6Y1FEMVJxT0ZXRXdNVUZ0UVR6enA5b01mNjJ0RjFMcEM0dU9ua1VmQV9yS2tuSEJGRjVaWDZOVXVYQjlBVmhoRDNTX1NhV211eTdsS2RNdw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 11 Nov 2026 15:20:23 GMT",
+      "detected_at": "2026-11-13T18:33:44.941412+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "22a1e0dde43d64d7b959",
+      "title": "Capturada alias “Anita” por su presunta participación en hurtos mediante el suministro de sustancias a sus víctimas - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWTNDZVB2UFV4SjI0X1ZBMC10bkF2MS1mVWQwdWlTSEFlc0ZjVGRESkZxY1dDRHVRSEFHQU0wMGlHOF9JWjZyaXBjaktlWVhnOWxIQU84cmhZay1MaTlZTlNOSTJxMzhFbHRONXlocUtycHlXaU1ndWVfOUlNMUtENEw3U2xfR1lWZ1h2RkxJUjFXcHBaRFFhM2lJQ1BLd0NoS1hwTTREWlhOdFNfcDJVU0RRQzJwVTg?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 11 Nov 2026 08:00:00 GMT",
+      "detected_at": "2026-11-13T18:33:44.941537+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7b91c254514fcd492906",
+      "title": "Capturado en Inírida por presunto lavado de activos; transportaba más de $183 millones en efectivo - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZnNCd3J0MnZ5RXRVUG1zWmlQSHI1bGkyYl96ZUtfOVVxX0t4NWlkVWdiYmdpWmk3cUd2dmV5aC11RnJaemRsNlNPUk1nRlRnbE43dGFyRWV5TWUzM05kZTYxdjZraTk5dW9tV2w0MVE4MUxuaHFwVXdkUlExbjhNMW90OTBwYk5sYmlLZFVkZ3FBRkFGcW5PdU1GZ2JnY3l4Unh2dURiQjMxN29uUEl2Uk1McFBwLWw1M0pmZWNOV2ZyY0k?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "detected_at": "2026-11-13T18:33:44.941599+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "0f076273c86016574ecd",
+      "title": "Autoridades incautan 2,3 metros cúbicos de madera y elementos utilizados para su presunto aprovechamiento ilícito en Guainía - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcl92aUdSM2FLQVd5MU1MZnNvYkttWm9GTnlpLWkta0V6ZXBxQTZpOTJwT09KS3RIT1BJQnRfLVJiU21Oc3VxWlhseWowbWFZQ2JTYll2YXgtLVVmQ0d2a0JsZmpqUVI5TmcyMkJtd2hCemFPejhNR1JUQzFqTkt5Z0VILTg2SFBncVhiVkg1MmVMNmxSTHIwYkxtNV9MZjFvQWFOZzRBODNuNWVxb3lGaFFkQnQyVGZTZkE?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "detected_at": "2026-11-13T18:33:44.941702+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a20f213443646fafcb0c",
+      "title": "Capturado alias ‘El Costeño’ por presunto homicidio en Armenia - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZUxscm96MWlkSS1EZXB4RDk1UWV2V0RmUXhaS1dmTlhfQklfeU1IN09tTnhMdnpkeWxOUmRpcWE2OHdXa0dTTFlueDlSWmo5eFNGRE1uQmF0UGdXbm9sa1BTVXl3R3QzRUZ1b240a21zdnFnMUlZTkVRZnRKbnhZZGlaMHlBMTVOSlZYQU1WajlNTlNhX3d3?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 12 Nov 2026 20:49:05 GMT",
+      "detected_at": "2026-11-13T18:33:44.941730+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "e838ee6dbb0ffffc6ca2",
+      "title": "Policía recupera motocicleta hurtada y captura a un adulto en Inírida, Guainía - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeGs1eDRqdzJjVDVEenJGSVd3c29JVllZaDN5UGh0U2hMWDZibU5nTjgxeDF5RWgteEREX3VRanJHcTRfT3dCeC16NnpVSGNvQUtXRWEwZThVbEh4RjdiTWNqdXdZbDhJWDY4VG45MlZFeWVUYWoxLUV2RDJqNFVDNmJad2xmbjVmVkpjdTJtejdQMFpSUk1wa1U4LUxDenpuempvZTViVUpKNVB5?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "detected_at": "2026-11-13T18:33:44.941758+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "968d7aeca7c0a4a06026",
+      "title": "Capturado en flagrancia un hombre por ingresar sin autorización a una vivienda en Inírida - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcy1JcUluelIyT1NkSHEyMUt0bXBSZmVDUUdZNHBzR2FxVjBRUk1UYTJUcjJkTjB3akhPNlhpSXlpM3dmRE1LZDMzUndsV3N2akstOWNtdEYzcmEzMkdqX0ZPQW5PSEVsNWRxY1ZGMkxfZENSYXdPazJ2WlNzZTVoX2RwSEQwbnIta3BqWFVKeFZBR1ZQN005OFgwWTFYM1JiVV9tNmNtR2FBaWhqeXo2MkhHaGFXMHU5V1pIeDJQdw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "detected_at": "2026-11-13T18:33:44.941789+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c37c9028a861323de319",
+      "title": "Estudiantes fortalecen la prevención del secuestro y la extorsión en jornada de sensibilización - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaXpFSzRHVlVrRE40aHU1azFRdE1raERybXVyd1RFM0xNVk5YVUpwN3Y4Zlk3aVpVdEx4bTBNM0hscE5xMUtqLUpvMUs2anVQNUcyT3RHR2I1clh6WXdtNTU4QVlvV0VKRkRoRUFqdUFzbDdBZlpWWUJzQXNBOUl6QkwtM21maEd0UXF6bDlROXJzR1VZMkszQ3pVOE11RmFfeTFueFdWTHhnUm5UNFZ2OFRtSUQ2Y09GbXpj?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 11 Nov 2026 15:13:43 GMT",
+      "detected_at": "2026-11-13T18:33:44.941820+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "5a08ab5bfbfff713142f",
+      "title": "Policía incautó dos loros silvestres que eran transportados en un bus de servicio público en Pelaya, Cesar - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNERrX2lqd3ZkVFZ1Nzl2REtUWWJfemdrc0N0RTk2VjZqRDc5NGNESktLeFN3Nkx4dGN6UXJrUGVnemRMcDlEdWdDUTZtWUh2YVZ0YXVDVFN6ZXV4WWFNMWp0b3NOa0xGSnRJZ2NvWEkxbi05RUVuclh5Y01Dd3NqR3BIZE93MVozMWVOcGtMbDJoS0E1MlQ0cWhaSlVjV3RLdnpJYWpaSktNdUtpNTNQeFdMUkhYNmg3MXdqZEQtUUx3Zw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 09 Nov 2026 23:45:25 GMT",
+      "detected_at": "2026-11-13T18:33:44.941853+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d1d8f3e58bc49ef8c41c",
+      "title": "Capturado en flagrancia un hombre por presunto tráfico de estupefacientes en Inírida - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWkdMVmdOTXQtNU5SZy1PUFhqenhLSHBYZUxGX042LUxaRG4wYW1WYTloTzc4OTdrenFkU0dac0pVMGlRWDdHcUJwd2hPOFduTXJmckY5azRiS295T3ptVWFQaHJHcGRrVzA0aWg0V21WTW1nQkw0ME9sRXFhaWFKek5XMDhSWlYzU01fdW9pV0NmcUctSDRpb0V6Z3ltU3gxSFBRNHJ5cE9jN2ZuakxHb0xlUjZ3REU?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "detected_at": "2026-11-13T18:33:44.941882+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "fb0fbdc6badc5cf821b3",
+      "title": "Cámaras de seguridad y reacción policial permitieron capturar a presunto agresor en Pupiales - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ1YtcmdtdDR2bkJQdnFhTzZDX1NFbTdQaW43Wnhmd0J0TGlHTzg4d3lzVy12NFlLc2dUOVI4VFdtRDBrN2Z3b1NYcl9Jdi1XSVl0dnhOc2NaM1BkSl9ia3VzZTRjRlVITDFCNUdBb1E2MXF5dTRNS2hDQ3NpNVZGYXlKUlo5RFVnMXdJUnRJTjFRR3NrdTdmRm5ZbmppQW5IbUhWVEFqbkFzUTFrRDh5WDhrbDJvVFRDMlRLbw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 10 Nov 2026 16:38:26 GMT",
+      "detected_at": "2026-11-13T18:33:44.941942+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
