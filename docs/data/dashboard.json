@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-13T18:34:04.291634+00:00",
-  "last_success": "2026-11-13T18:34:04.291647+00:00",
+  "last_attempt": "2026-11-14T17:11:31.018622+00:00",
+  "last_success": "2026-11-14T17:11:31.018636+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -33,7 +33,7 @@
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 64
+      "articles": 52
     }
   ],
   "events": [
@@ -3147,6 +3147,165 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Tue, 10 Nov 2026 16:38:26 GMT",
       "detected_at": "2026-11-13T18:33:44.941942+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "810a8404c26ed70c7aa1",
+      "title": "Tres hombres fueron enviados a prisión por hurto y secuestro de un menor de edad en Barrancabermeja",
+      "url": "https://www.policia.gov.co/noticia/tres-hombres-fueron-enviados-prision-por-hurto-secuestro-un-menor-edad-en-barrancabermeja",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 13 Nov 2026 19:46:29 +0000",
+      "detected_at": "2026-11-14T17:11:11.723136+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c20357e79743ec643550",
+      "title": "La Policía Nacional rescató y liberó una zarigüeya en Ipiales gracias a la colaboración ciudadana",
+      "url": "https://www.policia.gov.co/noticia/policia-nacional-rescato-libero-una-zarigueya-en-ipiales-gracias-colaboracion-ciudadana",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 13 Nov 2026 19:36:10 +0000",
+      "detected_at": "2026-11-14T17:11:11.723192+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "4b6db87966f829e4efa1",
+      "title": "Nuevo golpe al crimen organizado: 33 capturas de “El Mesa” - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZndoWGZXQnRCUEFfdFI5RkZGdnY3b3pMSGVTSHNaRVdSRUM3bzVVeGxmSThrWWF1X19qNFFOUTNyaWFMQ3lub09GalJ3V0UxcFQzM3o1UkFiX0xDQ2VYaXIxMUFXcVFrZVozdV9oTGZ4SlRKNUZScV9QWWdnbmIzWHJodGF1TjV4UEpBYw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 13:00:00 GMT",
+      "detected_at": "2026-11-14T17:11:11.616508+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 33
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "1db83a444fb8b5e042ca",
+      "title": "Operación Kratos desarticula al grupo delincuencial ‘Illimani’, señalado de cuatro homicidios y tráfico de estupefacientes en Bogotá - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ0xnNVJVUVdmbURMdmpYYVVvc3NKd0hNQm9lMU1GZ2g1a2JSOEZSQ1lNM0NBZlJfTVpHblB1eVkyOUs3YnAzRkxPSmpzVGJqU1ZxdW9QdExnQjVScDZhaHJVMFFjNm5Hbmh6VUdEMk1idldBQWQzeHFUT0lBVDFhOFY0cTdnZmM0OGhVSW5hcWpYQjhTcjd2ak1OMmJCSi02V1BEY0wtNmlfOUZyM3hPQkMzcXNNZVBMQlhWMi16QQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 13:00:00 GMT",
+      "detected_at": "2026-11-14T17:11:11.616615+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "9728cce1924168692507",
+      "title": "Operación Ocobos de la Patria desarticula a ‘Los Capullos II’, estructura señalada de participar en 20 homicidios en Ibagué - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWEtzUktodkRFSU1KYmZxamp0dzlWZzU5MmZuQWdpUUNkcHFGVFNiYlVFYTVMYkM2ZEprb2hsNF9vNkFJb1BWTlVVS1lmVDYtd3pHOGRuSmp5N1JEUG9sdXdkeUdNOWxsN0M5SFdxSDRnTDNLNkhHQkVBNHVYUGhDdFpId0NodmZRb3J2U0NrSmNKTEl1MWJnTGFsbnJJaUYtbHpvRThwNkJmTF9XLU9TMmJLb3djYWtPZEYzRkFLOGc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 06:50:50 GMT",
+      "detected_at": "2026-11-14T17:11:11.617009+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "37c705c06b61a2cc0fc3",
+      "title": "Capturado presunto jefe de sicarios del ‘Clan del Golfo’ en zona rural de Cereté, Córdoba - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT2hUU2NfQVloMkRHUE5xRFhzbGF3U1NoQ2RHbktiUndseU5hcEpnZHNVX2VabTNKY3FXclBWX2tzSWE4QV9JaDFmeVhWVGVHT21vUEJLSUFpSkE2anluTTU0MnVQdG1KVFRMbDQ3ZHdrcGN4MDZ3SkFuQWgyTTdKbUxzUm4yaHhKVHF2RjY3U1JoakJTLXVYNzMtSkJLYWQ5R0VucjRyWVFEZVBBaUtKZUo5UUtCUQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 16:23:26 GMT",
+      "detected_at": "2026-11-14T17:11:11.617145+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "8354ce055bed52c96559",
+      "title": "Capturado en flagrancia por presuntas amenazas en un establecimiento comercial de Inírida - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMTBKZmdCejZqZGlUcnRaalVuUDVKejIzRnNkazBSQW9sY2ZuU01haFItbTVoakVTaVdkSTFmT3NCWUVWMS1yRzZpejdYR3RYZk95OWZ4aFlFUmNlN1kzSF9MSlFiLUQxT21zaFNRRW9hbnNCR3NoNXdvTnYzVy1oMEVmMHpLOHR1Y3NzX2ZsQ1N1ZlMxdHhBbDlUaHFKdElScVBaX2R1QWJoa0luTzhoZDJNcGVYUU1oM2VPTXFB?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "detected_at": "2026-11-14T17:11:11.617189+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a5da879faf052c4e20b7",
+      "title": "Seis personas capturadas con armas de fuego y estupefacientes en Mistrató, Risaralda - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMjZaX1g3bWctd2ZmWGhNS0tmZDU4TndJejlGeUNZSHF4NDVobWN3VjBwbmJtckkxWTVxMk1pak5jbnYxaFg4aGYxdnEtcFJsTkhPSUt5VzhQMlYwdWhLamxDNW52S3B6a1U1cTFwRUNDQlZIQlBUNnRXWnJNMjc1aXBjdHZmTEVabjR5Smx5ZDJPYXphbGgwYzFOUWtsZWtwSUZDQmJZZHZrWVFiSkZ2OXZDbw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 16:58:04 GMT",
+      "detected_at": "2026-11-14T17:11:11.617329+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "92d7f8ac30210dc8ddd6",
+      "title": "Controles viales permiten incautar 120 kilos de pólvora en Caldas - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaGZjb0tZYTdVRE40dGlvWmZaV0RuTkRwMXZEOEp5RDE3YkdHU2xpWkp6UmIxRGxNMFp4SXNVRmNpMmc0eThQalpxbEFyQnFMQlp2eGVFWldlSnZCRXdxaVA5MEREd0pZNDY1amx4cHludmNQRUhCWExSQkVHT04wV3pTS0tCX0l5bjlyRDZLMjh1S3kzRmJDSG5fYzM3QQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 11 Nov 2026 14:00:19 GMT",
+      "detected_at": "2026-11-14T17:11:11.617651+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c3dbfadc9554807e5890",
+      "title": "Policía incauta 82 kilogramos de base de coca ocultos en una camioneta en Huila - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU3pKcVFHY3VmNjM2cFdEamN5bDNqSTNLVEF3QU9xOXN2OENJVmJ3SjZiR3RtTldldnZnbUtBb21GNnowdkhFcTlFVHZnS2JQcGdKZEl0Qzl6X2NsVlJBSlJNLXZia3gwWnlzWlNhZUV0bDR0SW8xd2NyUnNkbVI3Mk1UVUdSNWtHQy1ybFd2b1BjTks0TzNsQ3NQY1ExVm52WFIta2w1Z3I4cEdz?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 11 Nov 2026 16:27:56 GMT",
+      "detected_at": "2026-11-14T17:11:11.617696+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "bc9f3e0065b7f746d0df",
+      "title": "Capturado en Bucaramanga con un revólver y tres cartuchos calibre 38 - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWU5hQVRqbTF4Q2RwOTdkVVUzSTh5Ym50RF9VWG5wNEpVWXRZQlplLXpkcW9BS2RfU0VPOE9pR0t1cUNRNVFHRHJsdVZmSmRBRmVaOGoxZ2pZNVdRanc5c1kyeE1zenBOVDV3TlJEZHBVelV3R2pWcnYyMXR1Qm5CV1h5WFFWdTF3V3p4bEJ6MHFlbU1MOHI2dzktT2MxemVwc0hZ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sun, 08 Nov 2026 08:00:00 GMT",
+      "detected_at": "2026-11-14T17:11:11.617841+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "f9dc0da7b9be4b84b553",
+      "title": "Dos personas capturadas por presunto homicidio en San Andrés - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUThLVVBYdHdsVFVTR2UtSlJVR01JQVZJR2Z0RzMyNE1uVzY1WEhoTFU4UWdyTUF2blhVdE5ZV2FiVGRkRWt5REFGWnFXaFVCc3dkdTdkc3g3T1FuWUFHZXRIaVhKbFF6MHlnVzNsYl8yVk96VE0ycG5POVFwakRtTFdLR1dQZmJmd1VWY25KY1Raa01qMmh3YTdkdw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 16:48:09 GMT",
+      "detected_at": "2026-11-14T17:11:11.618048+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "89bd5e233b6c7a1f93c1",
+      "title": "Tres hombres fueron enviados a prisión por hurto y secuestro de un menor de edad en Barrancabermeja - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVGNXejBseVZ1bnJ1aG1SZEdaemd1a0VJNlRVYks0aWRSNzQwTE5zeWM1VGswU24tUmR3cFdIZ0hOcVdWVHRWQTJISWtGblozZzBBZ3ZDeDBVUFI1NGd5elMwNW9RbFZuT1ZiMzRGRWE3V1hTa3BzS2E2aWZWVy03QlFjazczQnQtTnRqODFuYmx0THdjcnlVSVdveDNpcWJvLV9iQVRnLW1Zak9MQzBHeU0zb2o5MFJTeXhxb1VRZDJoQQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 11 Nov 2026 19:41:42 GMT",
+      "detected_at": "2026-11-14T17:11:11.618097+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "210026bd0ffb9dd6ba57",
+      "title": "La Policía Nacional rescató y liberó una zarigüeya en Ipiales gracias a la colaboración ciudadana - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMXBQNWxOR29tanNJeEpYS0UzT3AyTjZEd0F1ZlI5Vi1pQWxBVVBWNVRfTzNEblRVdzBSb3VkMXJsY25YdWRQanJwZFRWSWktdThEVmYxM1B5c2FkNW5QNWhtaXBfdVFxV1I4MnZoY3BvcVZqek5GSUZBZ2NmMEZEQ1h4YmdBUkt2UUV3SFkxTHM2M1JSd0c5VFhUMm5xd0dncXJLQTNybmxiUVFHRWo3WHVsSHdGeFJnckFtQnV2MA?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 19:34:34 GMT",
+      "detected_at": "2026-11-14T17:11:11.618553+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
