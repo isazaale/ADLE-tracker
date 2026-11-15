@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-14T17:11:31.018622+00:00",
-  "last_success": "2026-11-14T17:11:31.018636+00:00",
+  "last_attempt": "2026-11-15T17:46:38.967993+00:00",
+  "last_success": "2026-11-15T17:46:38.968005+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -33,7 +33,7 @@
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 52
+      "articles": 38
     }
   ],
   "events": [
@@ -3306,6 +3306,17 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Fri, 13 Nov 2026 19:34:34 GMT",
       "detected_at": "2026-11-14T17:11:11.618553+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c79d24763f11d298ef07",
+      "title": "Capturados diez presuntos integrantes del grupo delincuencial común organizado Los Cocos - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdEtneHRydjloYm1XbGFzMlY1c2ptTHRndTkzd05ka0xsbDVwSzByZTFuWVV5a3JWc0VIcVl6S2ZXMkl4YXBxbjFxdVJpN1hjSUxQYkk0N05WQ09uTF8yUkJpZ19KeUZhZWJhNXQxY2t3UXpPQTdNazU1U292bTNwOE1NUkVnN3BWNXpuT2syY2tMczVUeTJRWW91My1pWmZtcEEwUk1GdUNnNHM5Y19CanNNWHFQR2c?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Sun, 15 Nov 2026 16:26:17 GMT",
+      "detected_at": "2026-11-15T17:46:19.181760+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
