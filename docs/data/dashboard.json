@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-16T21:04:46.506319+00:00",
-  "last_success": "2026-11-16T21:04:46.506332+00:00",
+  "last_attempt": "2026-11-17T19:53:37.916036+00:00",
+  "last_success": "2026-11-17T19:53:37.916055+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -27,14 +27,13 @@
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 37
+      "articles": 59
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
-      "status": "error",
-      "articles": 0,
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "articles": 26
     }
   ],
   "events": [
@@ -3362,6 +3361,116 @@
       "source": "Noticias oficiales — Fuerzas Militares",
       "published_raw": "Mon, 16 Nov 2026 17:21:53 GMT",
       "detected_at": "2026-11-16T21:04:26.748231+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "6d920b9c813ad23a020b",
+      "title": "Tres capturados y un muerto en desarrollo de operaciones militares contra el Clan del Golfo, en Vegachí, Antioquia - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdGhfRzYtUHM2aGU2dmsyd09JbEVjMVNYQ0k5TlFPN0djRThqb0tjUy1yUzhKWTdwVHpxMmdJSTlCU1VZU3NtSUF5bE5iTGZ6UVl3aWpFODM2TzNKY3B1VDdBdnM0a0o0WXR3aDF6R0V6cUQ5M3VnV2dqaHdpcnBYSWxLOTl6YkduWlY5VjVnWUFBWC1PZ3pHX3hiU1lTRFhqb0RTSzFnSTJiR1FZMXNJSGM4Q2M2cGIyR0VPTnFRQ2JGbHRKS0pIc21WaVY3VHR2TEYxV0ZCOA?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 17 Nov 2026 14:40:20 GMT",
+      "detected_at": "2026-11-17T19:53:18.253995+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "0656500718d5aeed38ea",
+      "title": "Capturados diez presuntos integrantes del grupo delincuencial común organizado Los Cocos - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQTRSQllhRlRCWW9YQk0tUkJpNlFsYk84RGE2SFJKUVhSYndPWUlDWTZzZHdOMy1FR3l2emdDMjhfTFRNUDY3ZEZaOGpwYjY0cWd6enk4RWt2YjF6LS1yTllRcGh5dVdJdV9KVnRNek1TY004cnlpcHRUcjdUQlJtN0REelJhZ3RYZTRIMHQ0dEZUY1JRN0hVZlVhME1fWWpkQVcwckFJcHctNHB2WDNYTENn?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Sun, 15 Nov 2026 16:26:17 GMT",
+      "detected_at": "2026-11-17T19:53:18.254137+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "31d4f1b61db7054cd8be",
+      "title": "Ejército Nacional capturó en Briceño, Antioquia, a alias Primo Gay, cabecilla principal de la subestructura 5 del GAO-r, facción Calarcá y enlace criminal del Clan del Golfo - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPalFzSHBINFQ1NUFYTE5QRWpQMHQyNXFqd0ZUQlFmMmxBVzVtZ1pjb2ZoamlFQlhBaTlVSkRZZkJfLUliTGRWRWQyMFBFYnZ0WUZXdWJfbnpUQ1dqVnpubTlBRUtZUzFZWnVXajE2Wnp6SlVieXotZ2h3UGRWVWZmWFdIZ0pXc0lCMXlxYWp3TkFhTXM3STlucEhsNERJNDRXcU83ZFRBczlsODRkbEF3ZXV4T1ZTMmpmN2Q3UVVGQ1FWQUR0M1pyQnBibElCNzV2UUUwX2VCUEthd3NLSnZHbFpscUNZNUR3UnJEMUFPVm9SSTIxTzhldlVMSlBMd0ctdHpJZmF3WGZVdjNmeXRWRmRjdTJmeUkxSTRoaG5IbHFYaFE?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 17 Nov 2026 15:46:59 GMT",
+      "detected_at": "2026-11-17T19:53:18.254270+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "cf43e3265d306463067c",
+      "title": "En El Líbano, Tolima, Ejército Nacional y Policía capturan a dos presuntos integrantes de la Subestructura Libertadores del Tolima - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcTc4XzdJMVc0MFVVRXBJUGhoUVRlNGZqSWlDUWhFcHFaZ3JHWWZ5b0phbjFPOUl6dURaMnZqZ09jZXJMVU1mU2ZtV1U5cUQ3QkYzbXBVZURIZWZVR1JpbG81eTNWT3ZBM0xCT3dqNWFGWFR2VEpzSHM4cnlpeXFLbHkxVElqM0h1UVhDcTRsdk5tNU9hNW1IN3dvTVZpVnIyaW1NQ1dfRUlMVXRUWHRFR3FNOWxYdlZ4andjb0JESEhJWlhRQ3FDNjhObXdnTndlTE9NcGJ3VEJTWWpQVlRFQ0d6dlIwWTJ4NkRQUA?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 17 Nov 2026 14:14:32 GMT",
+      "detected_at": "2026-11-17T19:53:18.254661+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "34239c4c061b41d8f3bb",
+      "title": "En el Huila, tropas cierran el paso al narcotráfico: incautados 82 kilogramos de una sustancia que se presume sería pasta base de coca - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxON2YtN3ZWRWJjdGNZbU9acU1LNnRiTGJsMHVhTEFvZFJHVkZWdGc3NTFzbWl0RXItT3FuZTZxVjlzUnFpRGZoSU1EMTh3Y0hGX2tCYVdNME1PNGg3aGhSRTFXSW5ObHllQnNXdHlwNVNxN2FxYUhWU0J6NlQtTEwzaWcyZzlEaXlLWXU0eThpYmozajNZX1RlTU1NX1NOcVpwMVdGOE4wX0c3dlB5S0FoTlNKb1otSW5lNEZNNFZ6bFZDX05QNVMzZXA5NWhjWW9SUUNfX0d1NVl5dWF1b3c4M2luOTNzZnVlWm9EVA?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 11 Nov 2026 21:52:11 GMT",
+      "detected_at": "2026-11-17T19:53:18.256051+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "d661328402115ca21cca",
+      "title": "Capturado en Neiva presunto implicado en acceso irregular a información estratégica de entidades del Estado - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNkZUNVNhY1lwalNGN09QRWs3bVo4czRYV1ZBZ1RzMnU2RE4tSm5YTDViMkloS3I3U1ZZYk10Tzg1VllQR19YM3lOY2g3aGZkYlNHNFJ1N3Q1bkEyMnYxUS1JeHJ6cmdnelVjNmRwZjRXWWVVOFVSRTd4YlhYNFhmcG9YNFlVVEhOT05RVkhIUHRiNmFuVnk2M2p4Q2FiczZzRWVIUVVURm9PZDhMZVFoUVNmTTBwLU51SGptanRsN0FDU0piNHFZSTQxc0xPLXN0?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 11 Nov 2026 12:58:12 GMT",
+      "detected_at": "2026-11-17T19:53:18.256317+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c0de60153dfb4de24fba",
+      "title": "Incautada media tonelada de cocaína en San Diego, Cesar - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcURySUtiN0ZYcWpvUWZWYnE0MkgwdkRMMGRoWU1XakZHazgzSGttemlBcDFYS1ZSN1kzRGdMd2k2Yl9NNlRWSmRGcmtzSVJMTmFyNEFlcWRKM1RqcDFqOXJQX19KcU5ubTVwcDlFNHp5ZTB4MVJ4RVBIOF9DYlZ2d2Z5anQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 11 Nov 2026 15:35:23 GMT",
+      "detected_at": "2026-11-17T19:53:18.256449+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "bb518de92e65da5c8fec",
+      "title": "Ejército Nacional, en coordinación con la Policía, rescatan a presidente de Junta de Acción Comunal secuestrado en Lejanías, Meta - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNc1d2M1UyTUNxQ0lzaEdDY3hhMm1jV2d2dGczVnA3MHVGUnBERWVjQ2g3elFNeUhweG5mS3dSMjloa0p4TGFCaThpR1d3VE5HMzFlSnNzZ19Id0FmdXlRTVJoVTNDTDc1dVB5QXV0eE9IdzNXMlVuNmdaX2JxNVV0bldOR01rUnR4V01WaUlENkM2VHpqQk5qaHVkS2RtZmRPb18xOU5GaFJkS1E1NXB6WUs4aHVCZG10bWxMaWRWOFg0V2JGYW5mQmFrZGc4dWhUUUdlUXZSUURfTlg4LVFhak5lLVNwejM5T2c?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 12 Nov 2026 16:45:15 GMT",
+      "detected_at": "2026-11-17T19:53:18.256539+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "1383adc248d1aaebddc5",
+      "title": "Combates en el Suroeste antioqueño dejan como resultado un muerto en desarrollo de operaciones militares y un capturado del Clan del Golfo - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOeVNZQi1jQ2w4MHpzRGpibEdMN0JONXpLVmMwbkdJeGZxNmhKRHBtN1BLbWtfYXFEX1BEeVpoTno2Zk05aDFsQkxKT29kdk5pRUJZTWl3Yl9WR0JYYkxQdTk5YUd3STRiU0UwM3NkRVgwTElFN2lZLWwyamdYdVN3ams5RXc1T3ZoNWhZRkpJYVlOTWlGSjNPWHJSWUpMWDl5NDRBY050UU55d2k4TFZUeEJERy10bnBOcnBMMmZkYUo3WUp6MlViNjI2NXRZZXlJT3ZIdEpUMUpRc25OUHNzQk5WNG42YXRMUV9RYlhFd2JRbU9jMlRaa1JB?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 11 Nov 2026 17:06:46 GMT",
+      "detected_at": "2026-11-17T19:53:18.256628+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "658996838579347e0408",
+      "title": "Ejército Nacional golpeó las finanzas de estructuras criminales con la incautación de más de una tonelada de droga en Cauca - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNM3dEWEdIaU5RUDJxM3dvamEzeDNTLWNuMUdDZHBPWnBpS244dzdXdDN0MXNSRzN2TG5nWU05UWVsYUJuUUtJOGJaVDMzb0Y5eDJTbGNiZDZtUmhVcWFBYVVDeTMyVG9UNkNWdjd1LXJLS202MTl1dDRNT3ZNSlJwOGRUMnljbGdzblN3blFRM21ab1hfOVhJckhPcXEteE43RGZfejczbjlsRTA5cnlSMXk0YkQwUUlhdUlJd3NIcUhTVEVBclNYdTMwU0RGd1ZnWGZ3cEVWWHVVNFZPckZTLU5ZcGlLZw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 17 Nov 2026 16:18:07 GMT",
+      "detected_at": "2026-11-17T19:53:18.256909+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
