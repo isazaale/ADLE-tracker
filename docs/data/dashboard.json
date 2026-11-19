@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-18T19:25:45.077988+00:00",
-  "last_success": "2026-11-18T19:25:45.078001+00:00",
+  "last_attempt": "2026-11-19T19:30:23.311226+00:00",
+  "last_success": "2026-11-19T19:30:23.311239+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -27,13 +27,13 @@
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 26
+      "articles": 24
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 47
+      "articles": 68
     }
   ],
   "events": [
@@ -3603,6 +3603,264 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Thu, 12 Nov 2026 15:59:12 GMT",
       "detected_at": "2026-11-18T19:25:25.451961+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "fb91d8ab8807af6df1ab",
+      "title": "Policía capturó en flagrancia a un hombre por presunta falsedad marcaria en Ciénaga de Oro",
+      "url": "https://www.policia.gov.co/noticia/policia-capturo-en-flagrancia-un-hombre-por-presunta-falsedad-marcaria-en-cienaga-oro",
+      "source": "Policía Nacional",
+      "published_raw": "Thu, 19 Nov 2026 14:20:40 +0000",
+      "detected_at": "2026-11-19T19:30:03.946579+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3b6133ce1fa8f161369d",
+      "title": "Tres capturados y dos motocicletas recuperadas en operativos contra el hurto en el Quindío",
+      "url": "https://www.policia.gov.co/noticia/tres-capturados-dos-motocicletas-recuperadas-en-operativos-contra-hurto-en-quindio",
+      "source": "Policía Nacional",
+      "published_raw": "Wed, 18 Nov 2026 21:28:54 +0000",
+      "detected_at": "2026-11-19T19:30:03.946748+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a95112b2e1866bd483e9",
+      "title": "Alias Chapa y alias Guaco capturados tras la operación militar contra la subestructura de alias Primo Gay, en Yarumal, Antioquia - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSW9EVGZuVkNTMHRXLVV6WENVMUlyaHhWdDBhZ2FYMmNNNk85ZmVPRmhwYlc4N29DajNYY0c5T3RwbXFkTm9jS1NDZUpEUzlHWFlDOUJqaUNRN2MwdDcxeklJdTdMVGhYRWJieTNoZ21WTzAtc1ZlUzRrOTU3d2ZENmM1Z1ZTS3RvRVZuVkZ3OGRFTENXMG4xQ2pPell1NGFIV01FRWJfU0JfXzBlU3BzcUNpUjluYlBtRENVN2VzUHJQUU9mVWtaT0h3dTJzcTZhM0hJWmo3Z0FBbU9qNVJScVlBWi0?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 17 Nov 2026 21:34:18 GMT",
+      "detected_at": "2026-11-19T19:30:03.539959+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "f246fb565b960b81af57",
+      "title": "Ejército Nacional captura a tres presuntos integrantes del Clan del Golfo en El Paso, Cesar - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQzhON2ozYnhXT2FSMlNiQ05vU0s2czNnZTZNSnhpSGJNT3lhQlNWU2NqR2x1c0NPaUJEaXVKdzRma0hWZDhBeklSeVhTaF85T280VDYzclAybU5zUWhnUXFSU1ZfTUlDV2ZqcmdqNXhZcDRfTlpoeXY5bE80bGVMRThtYUlLaUtUcS1ITjJfd3p1Z0FLVmxVWEtzdU93Sm1ORkd5bUlaUWlVMWZ1RTBRTHpjczZsTXF0SXc?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 19 Nov 2026 13:39:15 GMT",
+      "detected_at": "2026-11-19T19:30:03.540036+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "79e203b517dd060abdbc",
+      "title": "Desarticulada estructura criminal dedicada al tráfico de estupefacientes en Montería: 13 capturados - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbGZQUEJNTFRMNlY1NVVGUEZwMFo4Y0NoSmozTmZhVWoyRV9hbl9GMGxKZjJ5Um1iWDBobkdxVjNZeFJmQm5Qbm04czZ2cHdKUG56RGM3dlNBZ1BRWmtBeFczTmdtb0RDd1R5enlvQ1pHcU9ES3V2dUxXS2FLc25ZX0laTUdhb0YyVkU2VkI3MF82NVBzUGo2MmM4YjdZNlVaQk55eEpsbjFoV292TTN2eFNwZFlkeFdlX2VF?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 12 Nov 2026 23:06:53 GMT",
+      "detected_at": "2026-11-19T19:30:03.889691+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 13
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "59463f9042bddbcaa14d",
+      "title": "14 capturas y recuperación de automotores dejan los operativos de seguridad durante el puente festivo en Nariño - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ1BKTk10TnpZZDhzQ2dOaWJKOUVzY0N0TGpnVHdlRTBVUk5BRjJSelRBQ2g4TWZJVkt2Z2VlQ0hoemR3M0dqZEU5LWFjV2J3M2d4ejFwRUI4ckFySGp6dUNTUmdscjJ4QkpfVk1Zc2VpNXdPR1pqbkxMMXpfZktxUlZxYzF6REJjbDdoOGdlMThWT3AySjQweWR5LXdOcms2ekRJMHByMHMzeWhpVV8xNnpVMEtLLXFXRmd6RmdEdDNYWms?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 17 Nov 2026 19:45:16 GMT",
+      "detected_at": "2026-11-19T19:30:03.889743+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Balance acumulado o porcentaje",
+      "status": "pending"
+    },
+    {
+      "id": "79b5a4b32b3ce5ddc8e0",
+      "title": "Tres capturados y dos motocicletas recuperadas en operativos contra el hurto en el Quindío - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMzN4M2M2VmhUaXZhakl1NmhGaVN6N2JQLTRlS2VFS0xmYkd4RmlrQmRRbFNZWTVLeG9HQ2o1aktWTlhJZzJzRWJvN0h0SFhGcV93SEE3bE9jQmlxS211bnhJcmlJdGtPLXd5S29EYms0aXhFMHhHeHJEN2MxWmh5LTRIOUppaDc4eWVTQ3J0UHFfVDl4WTBTSXNtcTJ2Uk9XcU9RZ3FGNVlvcVJuVnJMU3hyMERtcXBj?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 18 Nov 2026 21:22:42 GMT",
+      "detected_at": "2026-11-19T19:30:03.889896+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "4e2a205f79d4952f37e3",
+      "title": "Magdalena. En San Sebastián, en el barrio Cecilia Caballero, capturó por orden judicial a un hombre de 49 años, solicitado por acceso carnal abusivo con menor de 14 años, en El Banco, un hombre de 64 años, fue capturado por acceso carnal abusivo con - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPejdDUEhaSDJMNWhUbjU5UFQ5cDUxVlVrbkVEOGI1dHhySG1JWW5DZkZobFdPbW1la2VGYnlfMXZKenVjX1BfYm5nVl96a0t1b3JDNWpUREFtM1piamhqQWkzTkhHRTA5NjFiTVNrYksta2VjR1FKWWY1TXFIZnVEbHcyT3RsSXoxQWRpQ1NFUjNjb1UzUllMTXM2cklyNlJrZWRHNy1zcmt4NjFTdzdWSmJqV0ViM1ExaG5ySk5SaUhuY1At?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 18 Nov 2026 14:44:50 GMT",
+      "detected_at": "2026-11-19T19:30:03.890057+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "0a176462078bf01a8096",
+      "title": "Policía Nacional captura a dos personas e incauta marihuana durante allanamiento en Montería - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWWViRmtxZmx6dkl3SzNUelEzaGZfSFRjWkJXY0JaRXJRbjhHSmVZdkRZSGhmdnByX1N6aVBJdXY3T1VHQm90NDFPRTcxaGsyLXVmejktZ05aV3E5RS1sR2R3LW5WZXpzY0pHUG5LenQxcXZ5eUVkNkNna1p3SlNMLUQtMmJXWjgxOTdfd3REMTRybGo5Ui1iVmpRdU80dkJJZTVjTEp4Xzc4dmprYS1id2dBeFFQTGZ6bW93VmZpRE9fNHc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 17 Nov 2026 16:00:12 GMT",
+      "detected_at": "2026-11-19T19:30:03.890218+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "1967c144a70d9408f642",
+      "title": "Policía capturó a dos hombres y recuperó cuatro celulares hurtados en Valledupar - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWFVKa2NnY3MzMkR1ZlZ3NHZtcktPMVRadFRLSDJwZjY0MUJhaGZ2ZWZscHFfajRFa0Q4ZDlvYkZTNTBCN2ZQakpqSVpFSGQyTWhEQk8tVloxR0xCeDZEVnRjb192VDhpdUppOHhNMl9IVWhTaVc3TUhKT19yY0xJajVubjhpdGdaNlpWczFZV24zeHZvaGE2Y2V2RW13djE5TmwwcnJGZE1EdVNtNTRUNw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 18 Nov 2026 20:48:30 GMT",
+      "detected_at": "2026-11-19T19:30:03.890248+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "86b34044b5f7735750a7",
+      "title": "Policía capturó a cuatro personas señaladas de participar en un triple homicidio ocurrido en Nariño - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSXhtRldvRGxEUnE3UXB2aVZNM1I2MjE1ZmpuTkJJd2wzaEtqRTA0UlYySmZ6MmlIOS1OR1VpOTdFSUw3R1hJSmduR2x3a3lrQWdJanRjSGhkRXFtbXdaLUNYbHZQSDZ6Q1NHRS1LVl8tOVg2UDJCUUNaMk90QmZqNXIxWFlSUVhwT1BldW5BazNsTERBazcwc2x6ajR2ajYyNlpNeHdrNzI2c2FucF9VdTluZTg0dTRPOXNMdE9SZw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sun, 15 Nov 2026 15:10:50 GMT",
+      "detected_at": "2026-11-19T19:30:03.890381+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "16267a33ea57d432106a",
+      "title": "Policía incauta más de 30 kilogramos de base de cocaína y captura a un hombre en vías del Meta - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOclFTWUZ4cFR4cnZjcmVxZEtra3AtZjhCUjJaOVh0YXh3dWNEMkk0djluRkc0QWFkZC1GVWczZzFrelRyVzR5XzJhLWdDWE9KLTRPWEZGSGZaU1pydXJ6QlY0WVRHN2pwMzNXUDBoT2YtTkdXM1JIbHJSV0ZqWVR3S3BxbUp4N2tWQnZKOWJWSkZlOUlZdlRuaVVlLWdiTDBOcUZUX1ZrelltLUQ3MjNETkZEbGFMaHc?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 17 Nov 2026 22:23:59 GMT",
+      "detected_at": "2026-11-19T19:30:03.890626+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "641fadb89a852657f28b",
+      "title": "Capturado en flagrancia un hombre por presuntos actos sexuales con menor de 14 años - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcGJiQjFjYW9ZVDNCcURRcUI0YjNOMTFVM2MwTHNmQ3M2T3N1R1dKU0lIWWZVallWdTlMU250bUJ5dW1hZW1rS0FMLTI4WXlnOEk3RkpJa1ZjTm5qdVk5TFBKUTJGdlUydERzaXZodm5lVmpRbWtKQ1pmMzczMFI2eFZRWm1xZmhGenR5RjVxcFFydnFDazZfdlRZd3NzX3ZIWlNQUmtZLUp6WUlBSlZ2VDRFZ0JNdw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 17 Nov 2026 08:00:00 GMT",
+      "detected_at": "2026-11-19T19:30:03.890822+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "4827872d5448ab57aacb",
+      "title": "Capturado presunto integrante de la estructura criminal ‘Los Mexicanos’ por tentativa de homicidio y porte ilegal de armas - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRng5eXFTcDZLNGs5bHVYeWoxR183MkRPRm1XZWNpdGtDRUwtLWp5WjBvcjhaYm1vMXB2Xzl2QUdza0N5LTh2b0MtN05GUWNGUkhHUE9uVTlRcjNWMXlzWnFvOUxwZENHSlJPNkF1eUdaYVY2cVoxRld0WkRqODh4M0NYLTJNNVZjM3BFY1ptUFptU0RYQ1FpZ05PalNXek9UQ0RYOC12ZzlJM2hYQVUyRVdrb0d2dVNITEw2a2JkWQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 17 Nov 2026 20:26:31 GMT",
+      "detected_at": "2026-11-19T19:30:03.890989+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "786d95c9890ecf5a40f0",
+      "title": "Policía capturó en flagrancia a un hombre por presunta falsedad marcaria en Ciénaga de Oro - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdEZSVXpZQ3dUc0thUXFuT0RQRnVkc2kxWTM1Ql9Vd3pldGVlblptUl9YQXZFSXVzVWVtd3JwUXoycnZUS0ZYWnRnbEx4YlRlM1VvbVpuU1BmQXlCNmR3S1VEcFVWZXdvWVhnbHFzZ21JbzZvMmt0MnJqNHlvWW5wd3NKQmc0QTctQThBWWZqb2VVaDBFcm9MdzVNbEhDT05ZMGpwcnlwT3pQQXQ2eEZmVFNNMHZ0RnN5V2hBSQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 19 Nov 2026 14:19:59 GMT",
+      "detected_at": "2026-11-19T19:30:03.891097+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "07e96b06b0d7f340fa35",
+      "title": "Policía Nacional captura por orden judicial a hombre señalado por violencia intrafamiliar agravada en Neiva - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObERVT0VmTWtLTGluNkNPSUNxUGpZbml3Mkxkc1ZmUUg1TEdCN1BhZjlwMU15Y1Q3bkJIVVR3S05aTFM5VG9RaUxnQ0NMNWpfUXlxRVNWemwxNHlra1FVMWhnT0xsUDRuRmQtXzBGQkFhcjJaT0hBcmtaN3A2TDFIM3RQN0VYNV9RY2o1VW1PN1pJWHFTZTRtQmtXcGx4SjNwYW5iOUpsWkp0d1ZiTVYyM2Rqdm5fTFZtbGI4Wm9zbw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 16 Nov 2026 14:35:56 GMT",
+      "detected_at": "2026-11-19T19:30:03.891131+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3258490fef312475a425",
+      "title": "Policía Nacional frustra posible acción terrorista y captura a un hombre en Granada, Meta - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRHpac3JzQS1WWVdGQ1lDWnpsd3NVRHBJSGVhX0JtOHdHTjRob0NCTnUwVGVnVGNuY3F2T0pUWUplUkFGWTVQeTU5VndvaW9VOEd4ZkpSR2NpSTlSME0zYV9NOThLdXM0WHZBR1VFeFdMdFc3TGpSLXcwQWltUTZISmVocXdTd3JQV1RVRk1UcE1XR2VpYTZ6RDE4SjhDZ2RoVHhfZUVHWC1zaVZJbDdkVUpMUnlpRnI3V2Y4?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 16 Nov 2026 16:12:52 GMT",
+      "detected_at": "2026-11-19T19:30:03.891162+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a46d8bc9ab9c324e7f7d",
+      "title": "Policía recupera en Manizales vehículo hurtado en Bogotá y captura a un hombre por receptación - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdnF3S0ZGMHZodEt6R2NzOFJuQ2w3a0JiQ3d6MmViWnFCR3NDb3NOOU9WcWt0ZkJ3VTJ0Z2ZqNHlVR2N6SURzR2RHYTN1Slc5OGltZklIU1pBazZkaHR2dUtIQ2d3ZURrS3dDOGNyUWNkRUNLRlFVeHBqUHRkXzRYUG9uSjFXd2dtWXFwdGZxeldmSldzU0s0N3lfMVNVcmRZSDM3R05zT1M3QnRjcGJ6VEhJTWZYWHJ1dTM5MHI0TF9vZFk?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 18 Nov 2026 14:51:21 GMT",
+      "detected_at": "2026-11-19T19:30:03.891291+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c6cdf5ba0417d4f373cf",
+      "title": "Policía Nacional fortalece la prevención del secuestro y la extorsión en Montería - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWExhZDZIWWRGMDhfdWVDUlpaQUpLWFJITUR2LVFmVk9pQXp5T2VERG5yT095QWdJZTNhNHFaN0hwVUw5eWZQVG82Vmd2R09OODJWMUtzelAyYXpsX2pXaUE2SzVfZ3ZZRkRkbVp5MloxdWJ0c1hPTXgta0tqQy1OSFA1TWFJX3dja0p2dWs4MVAyS0N5U0FrSzlRTkhnNi1VQ1JsSEw5UmZud1BL?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 17 Nov 2026 15:49:59 GMT",
+      "detected_at": "2026-11-19T19:30:03.891382+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c1a8fa73b333d4882a4d",
+      "title": "Policía notificó captura por hurto calificado y agravado en Valledupar - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQzlyc0hwbjNIVjlDRFg1c1RHMXVHdUtuSzI5bkh6RTNxYndmZ0dIQkMwV2dXOGU1TW1JTmUzdGRwaVk4QWJOQ0ZtaGpNWC13SEhqNVNxSk1vRzVHay0wOVJlQUs0eG9DMjlQbXZtZ2NTS01IWWFKR0JoUERMSXIxY0VIMzVUX0Z5aWpnV0pRcVNZZmlWamNjcTJ6NkVpY0hiY3V5bjd3?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 18 Nov 2026 21:05:59 GMT",
+      "detected_at": "2026-11-19T19:30:03.891412+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "9241952b7ad65ac57b8d",
+      "title": "Capturado en Montería alias “Pacho Arenas”, señalado cabecilla de una estructura criminal del Clan del Golfo - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX3JvMW4yMThoQUhVZ2FQaU1PWDBHNm1uLWMwOHh0cnhQM0k4MDI3eUM5el9qYUw2ejFiNWc3TWlMNFZUakZpdDUyZDlTLVRQNjA1aVIwaVpjdDFMX05LR2dIczhHOXBJY0RQcEdDbnNMLVFtZVNLUDJ4UHl4ckUxbzlLbE9RZksyRlFpWWJ0dU85X3VZcFRTc2tyc1Y1ZXhNOHoxN0lNSUFLcmtsQ2lUUDF4am5DTlgyMEh5OFBXZw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Tue, 17 Nov 2026 16:12:18 GMT",
+      "detected_at": "2026-11-19T19:30:03.891474+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "f1f0fcef29648517b8b0",
+      "title": "Capturado en flagrancia un hombre por porte ilegal de armas de fuego en Villavicencio - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ0hQaHVPTG5LVW5pSGRLMUtVVThWNFAxbU1KWGFhYUIxb2ozblVvTUFvc2RuT2pucDBMNVRLdXp5dGI0RlhxanZ2Vi1ZLWhGNGRBTjdINlAwdmdQWkVyc2NORkxKTnRfQTR5aGh0Z0tOeGdpLWhiamI4aEY5TXE4YmUwMUR2WjlQd3FwTWx6akF6RnlzYm9WT3N2aWI0ajA0Z3ZzX09VMy0tbFgxLXNBRFRfWVA?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sat, 14 Nov 2026 22:22:07 GMT",
+      "detected_at": "2026-11-19T19:30:03.891562+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "c2c4119d323a8717072c",
+      "title": "Policía incautó mercancía por cerca de $5,9 millones durante controles en Tame, Arauca - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUGROa2ZDTm90Q01yaGxheVB4VnJtalpSbUNySHBDRlZORVJBQ2w2M0hvWk9PRkh3bmJPaEFlYkdsQUp6U2xEX0tRN2plWDJycWE0ZkpQVTg0aWNmT0IyRUtjaWZyRnlKTVNwQlNDWnppWlFXRldnZmVoLWZTeFlYeEp2OEttdXIwejlWN3dZZDNQVVNoRjVYNENwbVlVaXBCX29IY0YyZGpIbVQzc1pWVXpqTTNvZw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 13 Nov 2026 13:22:31 GMT",
+      "detected_at": "2026-11-19T19:30:03.891593+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
