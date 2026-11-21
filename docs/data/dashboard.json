@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-20T19:08:16.293619+00:00",
-  "last_success": "2026-11-20T19:08:16.293634+00:00",
+  "last_attempt": "2026-11-21T18:01:38.042872+00:00",
+  "last_success": "2026-11-21T18:01:38.042885+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -20,21 +20,22 @@
     {
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
+      "status": "ok",
+      "articles": 1
+    },
+    {
+      "name": "Noticias oficiales — Fuerzas Militares",
+      "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "error",
       "articles": 0,
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "name": "Noticias oficiales — Fuerzas Militares",
-      "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
-      "status": "ok",
-      "articles": 24
-    },
-    {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
-      "status": "ok",
-      "articles": 63
+      "status": "error",
+      "articles": 0,
+      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "events": [
@@ -4054,6 +4055,50 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Fri, 13 Nov 2026 23:18:40 GMT",
       "detected_at": "2026-11-20T19:07:56.881949+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "86097a9a058c4770d665",
+      "title": "Policía captura en flagrancia a un hombre por homicidio en Medellín",
+      "url": "https://www.policia.gov.co/noticia/policia-captura-en-flagrancia-un-hombre-por-homicidio-en-medellin",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 20 Nov 2026 01:41:03 +0000",
+      "detected_at": "2026-11-21T18:01:18.734689+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "7205d0ee787d677b93f6",
+      "title": "Policía frustra extorsión y captura a un hombre en flagrancia en Medellín",
+      "url": "https://www.policia.gov.co/noticia/policia-frustra-extorsion-captura-un-hombre-en-flagrancia-en-medellin",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 20 Nov 2026 01:21:06 +0000",
+      "detected_at": "2026-11-21T18:01:18.734784+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "5a1ec0bd3a670788d7f3",
+      "title": "Policía captura a cinco personas durante intervención en la comuna 1 de Medellín",
+      "url": "https://www.policia.gov.co/noticia/policia-captura-cinco-personas-durante-intervencion-en-comuna-1-medellin",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 20 Nov 2026 01:16:57 +0000",
+      "detected_at": "2026-11-21T18:01:18.734820+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "fdf4ce36a1147f0cc2c6",
+      "title": "Policía captura a tres hombres tras persecución relacionada con un homicidio en Medellín",
+      "url": "https://www.policia.gov.co/noticia/policia-captura-tres-hombres-tras-persecucion-relacionada-con-un-homicidio-en-medellin",
+      "source": "Policía Nacional",
+      "published_raw": "Fri, 20 Nov 2026 01:11:40 +0000",
+      "detected_at": "2026-11-21T18:01:18.734857+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
