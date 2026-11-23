@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-22T18:33:45.140546+00:00",
-  "last_success": "2026-11-22T18:33:45.140562+00:00",
+  "last_attempt": "2026-11-23T22:42:33.533304+00:00",
+  "last_success": "2026-11-23T22:42:33.533317+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -21,19 +21,19 @@
       "name": "Noticias oficiales — Presidencia",
       "url": "https://news.google.com/rss/search?q=site%3Apresidencia.gov.co%20capturas%20OR%20abatidos%20OR%20extradiciones%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 1
+      "articles": 0
     },
     {
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 79
+      "articles": 72
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 62
+      "articles": 47
     }
   ],
   "events": [
@@ -4493,6 +4493,181 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Fri, 20 Nov 2026 20:10:35 GMT",
       "detected_at": "2026-11-22T18:33:25.708104+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "b8f6c149f00cf9c49d1b",
+      "title": "Capturado por tráfico de estupefacientes en el barrio Arazá de San José del Guaviare",
+      "url": "https://www.policia.gov.co/noticia/capturado-por-trafico-estupefacientes-en-barrio-araza-san-jose-del-guaviare",
+      "source": "Policía Nacional",
+      "published_raw": "Mon, 23 Nov 2026 14:51:07 +0000",
+      "detected_at": "2026-11-23T22:42:14.305374+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "69712c9250aff3de438b",
+      "title": "Policía Nacional en Neiva reporta 11 capturas durante operativos de seguridad el fin de semana",
+      "url": "https://www.policia.gov.co/noticia/policia-nacional-en-neiva-reporta-11-capturas-durante-operativos-seguridad-fin-semana",
+      "source": "Policía Nacional",
+      "published_raw": "Mon, 23 Nov 2026 13:17:02 +0000",
+      "detected_at": "2026-11-23T22:42:14.305512+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 11
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a68afd0d88c86a9767f5",
+      "title": "Cuatro presuntos expendedores fueron capturados en diferentes sectores de Cartagena",
+      "url": "https://www.policia.gov.co/noticia/cuatro-presuntos-expendedores-fueron-capturados-en-diferentes-sectores-cartagena",
+      "source": "Policía Nacional",
+      "published_raw": "Mon, 23 Nov 2026 00:42:52 +0000",
+      "detected_at": "2026-11-23T22:42:14.305644+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "835c450c8611195b8b49",
+      "title": "Tres capturados y un muerto en desarrollo de operaciones militares contra el Clan del Golfo, en Vegachí, Antioquia - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzdnYWlNd29jcy1pMXJRZEpaY1JSckx3YW9sMkliNzRSOEdkVVU1Y3hwUmI1MGhmalQtanpYNFhLTzBwY0Z4RnAwbUlfaDhHWlJVMGk2aTJaX3dpY2F0TE9WRl9XSlVhUGxvanBvZVljVDdVVHoxUTVRS2FpSDBjZWZzcWJMR0xIenoxTk1nLXZiaGhqN0s5LXJING1LVlZfdmtlN1RkRFhmTWtoY2ZDdHBkM2djLU9sLUpzcko5ZG8yeVNHYnNiQUF2X2lzMW80RWc?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Tue, 17 Nov 2026 14:40:20 GMT",
+      "detected_at": "2026-11-23T22:42:13.782623+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "89475456813fa002fbef",
+      "title": "Capturado en Santander alias Cosa Mala, presunto tercer cabecilla de la comisión Martha Cecilia Pabón, del GAO ELN - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRnZHTlA5MUpjMFZMLVgxTlRBNXBQUXFjY19VVzNNWnhUZDZ5clM2OWxHcnAxSThlenpMTGplN0xoNjlWZXVvRzJGVTV0RWdLTTNrOWpqNVE4OEMyZ2V4U2tQUHhBSjRKaXFIYl9PbzNVRWVkbjJGWEhHSGtMY09aUDVmWnotaVZ4S3phT2l0MTJEelJiZ3NYam9tcHl3bFlqSDkxdTBIMTZfZ0F4UmktSmh2cFpBa0FKVjdCZHYtMWh2M1o2bnhZa3RTZ1B5VHVwUkVGMlhxTQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 23 Nov 2026 16:54:15 GMT",
+      "detected_at": "2026-11-23T22:42:13.782983+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3bc0aac96f6e4e167fb9",
+      "title": "Ejército Nacional captura a tres presuntos integrantes del Clan del Golfo en El Paso, Cesar - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTzA4REdfaVo4cXBVVENfUEZvOE95Q2lhdElxZDFWRjJpYl92b3Q4OXQwYWxlVlVmS2xtUGx3Z1cwU2tLQllVNVVyQk5BRjRBWW1BWmItbmtVYndZMklpcGJDRmNNOEtKRm9qcWwyRDVYTllENjBadG1YLWJTZUpucTZxTkVncFVoQTRDQlBocDNzUlZBc19QaXBzQW9yVWh5VlVRS1I4Y3Z5LWFRT2E0Ti1kMTk?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Thu, 19 Nov 2026 13:39:15 GMT",
+      "detected_at": "2026-11-23T22:42:13.783477+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "e910289917acfbb374b6",
+      "title": "Novena Brigada golpea las economías ilícitas, con incautación de marihuana en Pitalito, Huila - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjFnZGpVSWhGLTZrV1RpckRWUHN5YzR5YmhYN2Q0aDE5bXpyR0tsQ2FBenpDaXhKZ0JDbTl5U05BbEoxc1hvOEFvV2o5MURGTldtTnZqOWxJUWV3VlpVNjVGNDZyY2lMSHZKWmpaWjZtemxmT0hwWDFHeU8wQnZXV25Hb2FicXdOVFNDR015SU5ZZGROU0R4c2dBaTJiNkJGaW9WYjY5YmNBNjUxc2c2ek5MZHNITVQ2cGxB?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Wed, 18 Nov 2026 19:45:22 GMT",
+      "detected_at": "2026-11-23T22:42:13.789353+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "6eee08261161410a07cc",
+      "title": "Un muerto en desarrollo de operaciones militares y tres armas largas incautadas en combate contra los Comandos de Frontera en Putumayo - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVUtMc2hnVHJXbGZIeGVST2xCMFdsd0lhSVppVGVZSjUxMWpLSUZvTVEwZHM1SVhxbFhLRHFIa3BURTkwd0wzQWZ6eWFCcUpKWmU1SDN0YkJGRzRIdWxncnZ0R2pPejV3Y3lqd1JDbzhEVTJKdlNScEJjZVlEMWJtLUNCcnVGakZTQzF4ZUN6U1F5ZGNnei1paUZWbjNJaGViMUxxM05fVlFtRTU2UjJ6dDlYQ0hjaUFUTzAxZHZPc01KWmczbERiY2FfNkxUY1lFZzVIRENDblZLYWRpVElFSXhPTmFZaGNocWlpU01maVRCVmpGTlA3SThhSFpUQQ?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 23 Nov 2026 01:22:21 GMT",
+      "detected_at": "2026-11-23T22:42:13.789823+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "795d7108470ac4bdb5dd",
+      "title": "Capturados dos presuntos atracadores armados en Montería - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNejhTUmF0RWFTNzhoZGtqcVlKRDMwMDBRa3AzS25EZ2YwQVNOSmtneWdtcGw4c2hCRmt5TmpxbHdKZHVaajBXcEF2Y1pxbWpoOFJUdk14RktuV3hVQS0ybExOR1ZIaW9Ya0p5NFRNNzFpbDFwamVoVmdsNnl2OGN5Z20wWFZsQ1ViTVZaM2I3RVBheHJscFE?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Mon, 23 Nov 2026 11:52:51 GMT",
+      "detected_at": "2026-11-23T22:42:14.015421+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "a2cbb1092fdefae2be8e",
+      "title": "Cuatro presuntos expendedores fueron capturados en diferentes sectores de Cartagena - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS1BlSWFtVVJVVTVlRWlkV3J3VjZDZlhJazFqT1BlWHZWbWlNd2RaT2VNcXNsNVppVTFFOXZpbnVERWVHQ3R5WXlMWWpqWlRKa0dJQWlzMko5OGxsWmEwaW15ZV9oOTBqc1RXdnAweWRubXN0V3pnM3A5TFR0aWxEcUhjUDRRaHFRd0hfTFUtQjFOVFoyUi1VejVBMG9lMXBVZDdfSHU0N1pTN05MTlNoRmp5UGtmdw?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sat, 21 Nov 2026 08:00:00 GMT",
+      "detected_at": "2026-11-23T22:42:14.015711+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "6d4725086864b3edc756",
+      "title": "Policía Nacional en Neiva reporta 11 capturas durante operativos de seguridad el fin de semana - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOEJFRnhHcVJHYlBVOHg0YVliLV9nbDBOcWRXOFpnUG9XU2RBalZ3SUtUQnZCNUVzb3lub0VQSGg0MldybTcwbl9IQ01Jcm5FNlVTdjE4eUE5LVRhZEFEb3VBNzRGVllfWFI5UklHT1NmZEJ2MmtjZnRzQXNONnVlNVFTMWZLcmhpclRYbnZ1ZHhDYnhWZHVKQzhJeGJLSmh6d3ZsLXMtaTVFR3hLR0MxNVVNRG13TnFNR1lBWA?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sun, 22 Nov 2026 13:16:36 GMT",
+      "detected_at": "2026-11-23T22:42:14.015783+00:00",
+      "suggested_metrics": [
+        {
+          "metric": "capturas",
+          "quantity": 11
+        }
+      ],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "91edc627cf5ad353aa10",
+      "title": "Policía captura a dos personas por invadir zona de especial protección ambiental en Cartagena - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSXNwVlZ3SUw3STk3NmdYUWJoV3U0SWthRWtPbERjUTRqeDRSUk00U0JydTkwc0d0WkxrS1c4elhtTUgzeDk0NVVwNmE2Z281c1dGS3ZZYlpWa1JudENxS2hJeVE2bVM1VGJCSWlUc1FxNWxhdUFaUDZDb1BjeGxYbTROM2pId3Ztd1JDOUJHYUs2eEE5MzRLUFNaWDJrY05hWnR1UU85cl93UHFTWC1uUEZtRS1Bd1l1ZUxoZG12MHU?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Fri, 20 Nov 2026 08:00:00 GMT",
+      "detected_at": "2026-11-23T22:42:14.016143+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "45dd4a3c9e175c79b08d",
+      "title": "Policía captura a presunto responsable de hurto mediante la modalidad de fleteo en Villavicencio - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOHhjQVRNYkdvMWh6aXhmVzE5YUkzSEdxZnd2Vnh1cWhuLXNsd01fNFpRR1llQzc2Zy1Sby1ncEpHbkg2OTZtTmRlcmpwbndPM0ZPUjF0Z0FUWkNCUVlpbUMyYkVxbzAxRWp4M3pOUEQ0TTVJRE9Kb2xvZWtpRUpLZTJPZjlhYVpKUHRNUWlaU3dZTk9xRjNxWThpUG5oWTFTVV9adkpMckNhS3NCaDlQWjJNYmF5MEVva0RLdA?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 19 Nov 2026 15:57:26 GMT",
+      "detected_at": "2026-11-23T22:42:14.017193+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "e0808e5aafe150885d0d",
+      "title": "Policía incauta más de 310 kilogramos de marihuana en El Tambo, Nariño - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkhaOE1fX01IRGZxUjI1bTJXWEw1MDlWQjFsNzRucmQ0YnhCVkVwaWpmT0tUeVhzRmtOMnBReDBpTUs2RU12TUdDU0VQZVpOOUJMdmtVLUkzWTZtSEVnTXJEWVFDSGVwSER2LWVneDh4bVJBM0drbkE3V3QydGltYS1rZ0xDMkN5M0c4ajFoZ2VwckpDZ09vWXQwRQ?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Wed, 18 Nov 2026 22:11:59 GMT",
+      "detected_at": "2026-11-23T22:42:14.018065+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "282c36de33eb8de1f72a",
+      "title": "dos personas capturadas y hallazgo de más de 9 kilogramos de marihuana - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXZwdGtySmFfaU0zZlJXZFQ2YjlEY1RNOGRSenhNNHZhUEhtZDNRVTg1OUw2b1Q0VWR0OWJPZ3NvUzBCbC11YlN6ZzNOZHc4QTZDc1p0ekxCNk9vekdodjU5T2FseklrWEtBc0FhY1VydFRyNVNWRjBtbWNfQkVoUm9nNDF3dWhtNXFzYUxERl9SWDlwTDl5bkhR?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Sun, 22 Nov 2026 20:26:51 GMT",
+      "detected_at": "2026-11-23T22:42:14.018190+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
