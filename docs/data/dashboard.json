@@ -1,7 +1,7 @@
 {
   "period_start": "2026-08-07",
-  "last_attempt": "2026-11-26T20:13:44.340161+00:00",
-  "last_success": "2026-11-26T20:13:44.340175+00:00",
+  "last_attempt": "2026-11-27T20:00:06.335386+00:00",
+  "last_success": "2026-11-27T20:00:06.335399+00:00",
   "collection_status": "partial",
   "sources": [
     {
@@ -27,13 +27,13 @@
       "name": "Noticias oficiales — Fuerzas Militares",
       "url": "https://news.google.com/rss/search?q=site%3Aejercito.mil.co%20OR%20site%3Acgfm.mil.co%20capturados%20OR%20muertos%20OR%20abatidos%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 18
+      "articles": 14
     },
     {
       "name": "Noticias oficiales — Policía",
       "url": "https://news.google.com/rss/search?q=site%3Apolicia.gov.co%20capturados%20OR%20capturas%20OR%20extraditados%20when%3A7d&hl=es-419&gl=CO&ceid=CO:es-419",
       "status": "ok",
-      "articles": 46
+      "articles": 36
     }
   ],
   "events": [
@@ -5107,6 +5107,83 @@
       "source": "Noticias oficiales — Policía",
       "published_raw": "Tue, 24 Nov 2026 13:16:01 GMT",
       "detected_at": "2026-11-26T20:13:24.890643+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "5ade6e6e085e8dba14a7",
+      "title": "Policía captura a tres adultos y aprehende a una adolescente con marihuana en terminal de Neiva",
+      "url": "https://www.policia.gov.co/noticia/policia-captura-tres-adultos-aprehende-una-adolescente-con-marihuana-en-terminal-neiva",
+      "source": "Policía Nacional",
+      "published_raw": "Thu, 26 Nov 2026 23:14:12 +0000",
+      "detected_at": "2026-11-27T19:59:46.992806+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "35eca6e3b7b929f5218d",
+      "title": "Ejército Nacional captura a presunto cabecilla del grupo delincuencial organizado Los Mesa, en Caldas - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPS2lfS3kzU0JEOHBPOWZUUXJkLU0zZVBzUW5hZ2FVWm5vbzRYcFR5RVJfcXBGa2FCNGgxOTF0d0d4VjFwNXZsck9QYXktaUZUeUtBeWhob0xWTmlGczV2RjBUeXpCV0FfSlZUUExFeFhYSzM2WXVkNHRRVnNoako3N19YdWVta1NYQndsZThCR2xycTZYUXpFeWNobkJmbGxoZkRQSm92R2x1cUZGRDZsWlNLMElGM1o2R1o4eWJXTUlPMG1TcF80?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Fri, 27 Nov 2026 16:13:12 GMT",
+      "detected_at": "2026-11-27T19:59:46.536136+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "53ba5ad0d8c44783d0fa",
+      "title": "Ejército Nacional captura a dos presuntos integrantes de estructura residual en La Macarena - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnkzZ3k5a2dOSjNCUjgwejBuenNORTFtYmZxNFNvTkFxUjhTVnJKczlFTmV3ZE9fM09kLW13V0JQVWVMUTZPNUd2T1VsajF4elpGdEJXY3A3YWRUTkYyTnV5WW9XNGktVGROOGtlaUVTa3pDOHR2RXdfOUJwTkJWb0dwUU1ERWtnc0NOeFRyWlV3NUdoUVJSaE5mb1hTNjEtNTZGczJLa19tenVJRUlvVlRhX1RaenNRYXd3ZkJWXzU5LUdi?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Fri, 27 Nov 2026 14:41:42 GMT",
+      "detected_at": "2026-11-27T19:59:46.536351+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "cc42a9c2b0a1dc6159c8",
+      "title": "Un muerto en desarrollo de operaciones militares y tres armas largas incautadas en combate contra los Comandos de Frontera en Putumayo - Ejército Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMlhyTU40ZmVzVUVIVlBJYTlOMkYyUFAxcVZ2Z2VXWUhFS1Axd2tWai05RG5Zd0hYWGItN0NocDJTTkdtYlBzUmgza2lGRHFzY19vNnk2cVZIZVdKYTNzZ19ZbXVKcmQtekktY1plYkZQUEo3WU5aMzd5ZEVIRGpKdFZ1cmZpZHhVelRRWUlfQzRUaGFHYXhhek1McnIwX2VwNGkxOUFWMG9XcGttVEd0OVdmNVdnTURpMUwyZE50a21xaVZHTzRxdnh1djFSa3NRekdTc1BWTlJxSWYtT2tOMDhRb1FGVExjdldLUzUtYzdZZEdqM2Ewaw?oc=5",
+      "source": "Noticias oficiales — Fuerzas Militares",
+      "published_raw": "Mon, 23 Nov 2026 01:22:21 GMT",
+      "detected_at": "2026-11-27T19:59:46.537076+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "3727da4355a0d4a71577",
+      "title": "Operación Perseo: dos capturados, siete motocicletas recuperadas y 25 hechos delictivos esclarecidos en Pereira y Dosquebradas - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTFJVUFB4UHVYbThYakNzZGJPbUhKN2E3ZUNNcmNZdUtBNUtjRVp2UVVZc0JwZ21yMnhVS1RUMDRpN1UtNk96OGYtbHhkX2U5NklKdTh2SVRwOVR5THhlMVhkaTdDdWlMeXZrZ1FlT2dDVmMzaUJxdGcxaTZQRENZMkxuT0NEZlM1ZnNTLWJqUzBQRUNKVE1DaWQwc1RzblplYkFBbkxrZEd4OG8yZFVKaVYxM1BGSGdFSkE?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 26 Nov 2026 21:55:03 GMT",
+      "detected_at": "2026-11-27T19:59:46.859752+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "05b0d67570964ea03726",
+      "title": "Policía captura a tres adultos y aprehende a una adolescente con marihuana en terminal de Neiva - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcllyRWRFdU4xQU55NHJCREJ6bk1zdGxPcVFWNFdqSHotckpBWmpreDJUVEpJS1lCOG9WUjhDVVlzUEF3OVE3bUh5eUpVVUpYR1BMOTBpeVV0ZTRvOG1mcGt3LXhNdHdNM2hUWDRDdHQ0ZGNab2ZZTmN5d010bXNJR1VockF4QUR4MGdCUVJvMlh3XzRCYkhHNUV6RDhuUG13U0lGWFlCV3l4cXlUZUs4c245T2pmNmRUclI0YXdB?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 26 Nov 2026 23:13:37 GMT",
+      "detected_at": "2026-11-27T19:59:46.861457+00:00",
+      "suggested_metrics": [],
+      "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
+      "status": "pending"
+    },
+    {
+      "id": "5cd7cad8300d0dbb8028",
+      "title": "Capturado alias “Terry” por presuntas amenazas contra defensores de derechos humanos en Barrancabermeja - Policía Nacional de Colombia",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU3BxUW4wS245Mi1wV25TQTZxZEgxNEdKRG9sVVJzRUhmNTlwYWZwQ1hNajFYM2xjY0pBZjBTMGxIQnZCMDlxRFhnV3ktQ3hUZHlNQ1VpOWJGdmN4cFBySGZtRVdiY0g0VHgxSEdVSG5UZ05sNWl6Xy1weWJGN1gyWFZYc0hsVVBxX1ZXZk1hWEtVcFM0ekNEOTNxdDROWk50c2d0Ymt1N1JzajBrNWN0WlJCcy1SQWdL?oc=5",
+      "source": "Noticias oficiales — Policía",
+      "published_raw": "Thu, 26 Nov 2026 22:07:28 GMT",
+      "detected_at": "2026-11-27T19:59:46.861651+00:00",
       "suggested_metrics": [],
       "review_reason": "Requiere fecha del hecho, alcance y revisión de duplicados",
       "status": "pending"
